@@ -1,2 +1,2 @@
-# vk-music-player
-Beautiful music player fro VK
+# Meridius
+Красивый музыкальный плеер для сайта VK.com
