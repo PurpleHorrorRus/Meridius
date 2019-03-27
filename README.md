@@ -6,7 +6,6 @@
 
 # Ссылки
 [Скачать](https://github.com/PurpleHorrorRus/Meridius/releases)\
-[Группа ВК](https://vk.com/horrorofcthulhu) - там вы можете узнать последние новости о Meridius и о начале наших игровых трансляций
 
 # Особенности
 * Слушайте свои аудиозаписи
