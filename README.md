@@ -5,7 +5,7 @@
 [EasyVK (Kirill Novak)](https://ciricc.github.io/) за модуль и за то, что не отказал в помощи и пофиксил баги!
 
 # Ссылки
-[Скачать](https://github.com/PurpleHorrorRus/Meridius/releases)\
+[Скачать](https://github.com/PurpleHorrorRus/Meridius/releases)
 
 # Особенности
 * Слушайте свои аудиозаписи
