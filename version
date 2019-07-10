@@ -1,5 +1,5 @@
 {
-  "version": "0.5",
-  "description": "Список изменений: https://vk.com/horrorofcthulhu?w=wall-24903961_106",
+  "version": "0.7.5",
+  "description": "Почитать об обновлениях можно <a click=\"openLink('https://vk.com/horrorofcthulhu')\">здесь</a>",
   "download": "https://github.com/PurpleHorrorRus/Meridius/releases/download/beta/Meridius.zip"
 }
