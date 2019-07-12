@@ -8,7 +8,7 @@ Meridius - это абсолютно бесплатная программа д�
 [EasyVK (Kirill Novak)](https://ciricc.github.io/) за модуль и за то, что не отказал в помощи и пофиксил баги!
 
 # Ссылки
-[Сайт Meridius](https://purplehorrorrus.github.io/Meridius/)
+[Сайт Meridius](https://purplehorrorrus.github.io/Meridius/)<br/>
 [Скачать](https://github.com/PurpleHorrorRus/Meridius/releases)
 
 # Связь с разработчиком
