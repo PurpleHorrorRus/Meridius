@@ -4,7 +4,7 @@
         {
             "type": "text",
             "label": "Lorem Ipsum",
-            "description:": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid mollitia necessitatibus aliquam quis nihil omnis? Laudantium sequi iure quibusdam iste id quasi cum aspernatur suscipit expedita, natus exercitationem doloremque asperiores in cumque laborum temporibus ducimus accusantium amet culpa! Necessitatibus, tempora."
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid mollitia necessitatibus aliquam quis nihil omnis? Laudantium sequi iure quibusdam iste id quasi cum aspernatur suscipit expedita, natus exercitationem doloremque asperiores in cumque laborum temporibus ducimus accusantium amet culpa! Necessitatibus, tempora."
         },
         {
             "type": "image",
