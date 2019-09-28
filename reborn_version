@@ -1,16 +1,11 @@
 {
-    "version": "Reborn",
+    "version": "Reborn API patch",
     "updates": [
         {
             "type": "text",
-            "label": "Lorem Ipsum",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid mollitia necessitatibus aliquam quis nihil omnis? Laudantium sequi iure quibusdam iste id quasi cum aspernatur suscipit expedita, natus exercitationem doloremque asperiores in cumque laborum temporibus ducimus accusantium amet culpa! Necessitatibus, tempora."
-        },
-        {
-            "type": "image",
-            "label": "Test Image",
-            "src": "https://sun9-54.userapi.com/c854424/v854424304/c7b9a/NNj22-nwbUY.jpg"
+            "label": "Большие изменения в Audio API",
+            "description": "Наверняка вы заметили, что Meridius крашится. Всё дело в том, что ВКонтакте сильно изменили ответы, приходящие с их сервера, модуль EasyVK не был готов к этому, поэтому его нужно было сильно изменить и восстановить весь функционал, на что потребовалось время."
         }
     ],
-    "download": "https://github.com"
+    "download": "https://github.com/PurpleHorrorRus/Meridius/releases/tag/Reborn"
 }
