@@ -1,0 +1,155 @@
+{
+    "NAVIGATION": {
+        "MAIN": "Home",
+        "MY": "My music",
+        "DISCOVER": "Discover",
+        "PLAYLISTS": "Playlists",
+        "FRIENDS": "Friends"
+    },
+    "GENERAL": {
+        "YOUR": "Your playlists",
+        "FAVS": {
+            "USERS": "Favorites users",
+            "GROUPS": "Favorites groups"
+        },
+        "RELEASES": {
+            "NEW": "New releases",
+            "CHARTS": "Charts",
+            "COLLECTION": "Your collection",
+            "RECOMS": "Recommendations"
+        },
+        "PLAYLISTS": {
+            "RAP": "Rap",
+            "POP": "Pop",
+            "ROCK": "Rock",
+            "MOOD": "Mood music",
+            "EDITORS": "Editor's choice",
+            "COLLECTIONS": "Music collections",
+            "ANYCASE": "For any occasion",
+            "NEW": "New artists",
+            "NEW_ALBUMS": "New albums"
+        }
+    },
+    "DISCOVER": {
+        "SEARCH": "Search",
+        "NAVIGATION": {
+            "UPDATES": "Updates",
+            "FRIENDS": "Friends",
+            "COMMUNITIES": "Communities"
+        },
+        "FEED": {
+            "ADD": "added {{ number }} audio"
+        }
+    },
+    "PLAYLIST": {
+        "UPDATED": "Updated {{ date }}",
+        "MONTHS": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    },
+    "SETTINGS": {
+        "NAVIGATION": {
+            "GENERAL": "General",
+            "EQUALIZER": "Equalizer",
+            "ABOUT": "About"
+        },
+        "GENERAL": {
+            "TITLE": "Main settings",
+            "LANGUAGE": "language Selection",
+            "HARDWARE_ACCELERATION": "Hardware acceleration",
+            "DOWNLOAD": "Download music",
+            "CHOOSE_FOLDER": "Select folder",
+            "DISCORD": "Display in Discord",
+            "STREAMER": {
+                "TITLE": "Streamer Mode",
+                "TIP": "Hint: saves the cover art and song title to separate files in a folder `./streamer`"
+            },
+            "MINIWINDOW": "Mini window",
+            "SEARCH": {
+                "TITLE": "Search",
+                "TIP": "Hint: disabling these options will significantly speed up the search",
+                "USERS": "Search for users",
+                "GROUPS": "Search for groups"
+            }
+        },
+        "EQUALIZER": {
+            "TITLE": "Equalizer Settings"
+        }
+    },
+    "SEARCH": {
+        "TITLE": "Search",
+        "USERS": "Users",
+        "GROUPS": "Communities",
+        "PLAYLISTS": "Playlists"
+    },
+    "MODAL": {
+        "ADD_PLAYLIST": {
+            "TITLE": "Title",
+            "DESCRIPTION": "Description",
+            "CREATE": "Create"
+        },
+        "CAPTCHA": {
+            "PLEASE": "Please solve the captcha",
+            "SOLVE": "Solve"
+        },
+        "EDIT_PLAYLIST": {
+            "TITLE": "Title",
+            "DESCRIPTION": "Description",
+            "SAVE": "Save"
+        },
+        "EDIT_TRACK": {
+            "PERFORMER": "Performer",
+            "TITLE": "Title",
+            "GENRE": "Genre:"
+        },
+        "SHARE": {
+            "MESSAGE": "Your message",
+            "BUTTON": "Share"
+        },
+        "SHARE_PLAYLIST": {
+            "WALL_TITLE": "Post on the wall",
+            "FRIEND_TITLE": "Send to a friend",
+            "ATTACH_IMAGE": "Attach your image",
+            "CHOOSE_IMAGE": "Select image",
+            "ATTACH_AUDIO": "Attach the first {{ number }} audios",
+            "MESSAGE": "Your message",
+            "POST": "Publish",
+            "SEND": "Send"
+        }
+    },
+    "LOGIN": {
+        "DESCRIPTION": "Listen to music in VK absolutely for free and without restrictions.",
+        "LOGIN_FIELD": "Login",
+        "PASSWORD_FIELD": "Password",
+        "ENTER": "ENTER",
+        "ERRORS": {
+            "CYRILLIC": "Cyrillic is not allowed in the password",
+            "EMPTY_FIELD": "You must enter your username and password",
+            "TFA_ENABLED": "You must disable two-factor authentication in VK security settings",
+            "INVALID_CREDENTIALS": "Invalid username or password"
+        }
+    },
+    "NOTIFICATIONS": {
+        "SHARE_PLAYLIST": {
+            "WALL": "Playlists {{ title }} was successfully published on the wall",
+            "FRIEND": "Playlist {{ title }} was sent successfully",
+            "NO_SELECT_FRIEND": "Select a friend"
+        },
+        "HIDDEN_AUDIOS": {
+            "USER": "User hidden",
+            "COMMUNITY": "Community hidden",
+            "LABEL": "{{ string }} your audio recordings"
+        }
+    },
+    "SONGS": "Audios",
+    "PLAYLISTS": "Playlists",
+    "FRIENDS": "Friends",
+    "ENABLE": "Enable",
+    "FILTER": "Filter",
+    "BACK": "Back",
+    "LOAD_MORE": "Load more",
+    "LOADING": "Loading...",
+    "NO_DESCRIPTION": "No description available",
+    "NOT_SPECIFIED": "Not set",
+    "NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
+    "QUEUE_EMPTY": "The play queue is empty",
+    "NO_SIMILAR": "Unfortunately, we didn't find anything..."
+}
