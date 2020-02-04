@@ -53,7 +53,7 @@
         },
         "GENERAL": {
             "TITLE": "Main settings",
-            "LANGUAGE": "language Selection",
+            "LANGUAGE": "Language selection",
             "HARDWARE_ACCELERATION": "Hardware acceleration",
             "DOWNLOAD": "Download music",
             "CHOOSE_FOLDER": "Select folder",
