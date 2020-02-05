@@ -129,17 +129,16 @@
     },
     "NOTIFICATIONS": {
         "SHARE_PLAYLIST": {
-            "WALL": "Playlists {{ title }} was successfully published on the wall",
+            "WALL": "Playlist {{ title }} was successfully published on the wall",
             "FRIEND": "Playlist {{ title }} was sent successfully",
             "NO_SELECT_FRIEND": "Select a friend"
         },
         "HIDDEN_AUDIOS": {
-            "USER": "User hidden",
-            "COMMUNITY": "Community hidden",
-            "LABEL": "{{ string }} your audio recordings"
+            "USER": "User",
+            "COMMUNITY": "Community",
+            "LABEL": "{{ string }} has hidden the audio"
         }
     },
-    "SONGS": "Audios",
     "PLAYLISTS": "Playlists",
     "FRIENDS": "Friends",
     "ENABLE": "Enable",
