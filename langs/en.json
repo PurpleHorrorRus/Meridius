@@ -56,7 +56,12 @@
             "Oct",
             "Nov",
             "Dec"
-        ]
+        ],
+        "FILTER": {
+            "RESULTS": "Search",
+            "RESULTS_COUNT": "Search ({{ count }})",
+            "FILTER": "Filter"
+        }
     },
     "SETTINGS": {
         "NAVIGATION": {
