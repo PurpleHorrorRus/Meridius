@@ -72,100 +72,100 @@
             "CHOOSE_FOLDER": "Select folder",
             "DISCORD": "Display in Discord",
             "STREAMER": {
-                "TITLE": "Streamer Mode",
+                "TITLE": "Streamer mode",
                 "TIP": "Hint: saves the cover art and song title to separate files in a folder `./streamer`"
             },
             "MINIWINDOW": "Mini window",
             "SEARCH": {
                 "TITLE": "Search",
                 "TIP": "Hint: disabling these options will significantly speed up the search",
-                "USERS": "Search for users",
-                "GROUPS": "Search for groups"
+                "USERS": "Искать пользователей",
+                "GROUPS": "Искать группы"
             }
         },
         "EQUALIZER": {
-            "TITLE": "Equalizer Settings"
+            "TITLE": "Настройки эквалайзера"
         }
     },
     "SEARCH": {
-        "TITLE": "Search",
-        "USERS": "Users",
-        "GROUPS": "Communities",
-        "PLAYLISTS": "Playlists"
+        "TITLE": "Поиск",
+        "USERS": "Пользователи",
+        "GROUPS": "Сообщества",
+        "PLAYLISTS": "Плейлисты"
     },
     "MODAL": {
         "ADD_PLAYLIST": {
-            "TITLE": "Title",
-            "DESCRIPTION": "Description",
-            "CREATE": "Create"
+            "TITLE": "Название",
+            "DESCRIPTION": "Описание",
+            "CREATE": "Создать"
         },
         "CAPTCHA": {
-            "PLEASE": "Please solve the captcha",
-            "SOLVE": "Solve"
+            "PLEASE": "Пожалуйста, решите капчу",
+            "SOLVE": "Решить"
         },
         "EDIT_PLAYLIST": {
-            "TITLE": "Title",
-            "DESCRIPTION": "Description",
-            "SAVE": "Save"
+            "TITLE": "Название",
+            "DESCRIPTION": "Описание",
+            "SAVE": "Сохранить"
         },
         "EDIT_TRACK": {
-            "PERFORMER": "Performer",
-            "TITLE": "Title",
-            "GENRE": "Genre:"
+            "PERFORMER": "Исполнитель",
+            "TITLE": "Название",
+            "GENRE": "Жанр:"
         },
         "SHARE": {
-            "MESSAGE": "Your message",
-            "BUTTON": "Share"
+            "MESSAGE": "Ваше сообщение",
+            "BUTTON": "Поделиться"
         },
         "SHARE_PLAYLIST": {
-            "WALL_TITLE": "Post on the wall",
-            "FRIEND_TITLE": "Send to a friend",
-            "ATTACH_IMAGE": "Attach your image",
-            "CHOOSE_IMAGE": "Select image",
-            "ATTACH_AUDIO": "Attach the first {{ number }} audios",
-            "MESSAGE": "Your message",
-            "POST": "Publish",
-            "SEND": "Send"
+            "WALL_TITLE": "Опубликовать на стене",
+            "FRIEND_TITLE": "Отправить другу",
+            "ATTACH_IMAGE": "Прикрепить своё изображение",
+            "CHOOSE_IMAGE": "Выбрать изображение",
+            "ATTACH_AUDIO": "Прикрепить первые {{ number }} аудиозаписей",
+            "MESSAGE": "Ваше сообщение",
+            "POST": "Опубликовать",
+            "SEND": "Отправить"
         }
     },
     "LOGIN": {
-        "DESCRIPTION": "Listen to music in VK absolutely for free and without restrictions.",
-        "LOGIN_FIELD": "Login",
-        "PASSWORD_FIELD": "Password",
-        "ENTER": "ENTER",
+        "DESCRIPTION": "Слушайте музыку в VK абсолютно бесплатно и без ограничений.",
+        "LOGIN_FIELD": "Логин",
+        "PASSWORD_FIELD": "Пароль",
+        "ENTER": "ВОЙТИ",
         "ERRORS": {
-            "CYRILLIC": "Cyrillic is not allowed in the password",
-            "EMPTY_FIELD": "You must enter your username and password",
-            "TFA_ENABLED": "You must disable two-factor authentication in VK security settings",
-            "INVALID_CREDENTIALS": "Invalid username or password"
+            "CYRILLIC": "Кириллица в пароле недопустима",
+            "EMPTY_FIELD": "Вы должны ввести логин и пароль",
+            "TFA_ENABLED": "Необходимо отключить двухфакторную аутентификацию в настройках безопасности VK",
+            "INVALID_CREDENTIALS": "Неправильный логин или пароль"
         }
     },
     "NOTIFICATIONS": {
         "SHARE_PLAYLIST": {
-            "WALL": "Playlist {{ title }} was successfully published on the wall",
-            "FRIEND": "Playlist {{ title }} was sent successfully",
-            "NO_SELECT_FRIEND": "Select a friend"
+            "WALL": "Плейлисты {{ title }} был успешно опубликован на стене",
+            "FRIEND": "Плейлист {{ title }} был успешно отправлен",
+            "NO_SELECT_FRIEND": "Необходимо выбрать друга"
         },
         "HIDDEN_AUDIOS": {
-            "USER": "User",
-            "COMMUNITY": "Community",
-            "LABEL": "{{ string }} has hidden the audio"
+            "USER": "Пользователь скрыл",
+            "COMMUNITY": "Сообщество скрыло",
+            "LABEL": "{{ string }} свои аудиозаписи"
         }
     },
     "ERROR": {
-        "APOLOGIZE": "We're a deeply sorry. We sorry.",
-        "CONTACT": "An error occurred. You can also contact the developer to report it!",
-        "LOG": "Error Log:"
+        "APOLOGIZE": "Нам очень жаль. Нам жаль.",
+        "CONTACT": "Произошла ошибка. Вы можете связаться с разработчиком, чтобы сообщить об ошибке!",
+        "LOG": "Журнал ошибок:"
     },
-    "PLAYLISTS": "Playlists",
-    "FRIENDS": "Friends",
-    "ENABLE": "Enable",
+    "PLAYLISTS": "Плейлисты",
+    "FRIENDS": "Друзья",
+    "ENABLE": "Mini window",
     "FILTER": "Filter",
     "BACK": "Back",
     "LOAD_MORE": "Load more",
     "LOADING": "Loading...",
     "NO_DESCRIPTION": "No description available",
-    "NOT_SPECIFIED": "Not set",
+    "NOT_SPECIFIED": "Not specified",
     "NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
     "QUEUE_EMPTY": "The play queue is empty",
     "NO_SIMILAR": "Unfortunately, we didn't find anything...",
