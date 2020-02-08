@@ -58,9 +58,9 @@
             "Dec"
         ],
         "FILTER": {
-            "RESULTS": "Результаты поиска",
-            "RESULTS_COUNT": "Результаты поиска ({{ count }})",
-            "FILTER": "Результаты фильтра"
+            "RESULTS": "Search",
+            "RESULTS_COUNT": "Search ({{ count }})",
+            "FILTER": "Filter"
         }
     },
     "SETTINGS": {
