@@ -139,6 +139,11 @@
             "LABEL": "{{ string }} has hidden the audio"
         }
     },
+    "ERROR": {
+        "APOLOGIZE": "We're a deeply sorry. We sorry.",
+        "CONTACT": "An error occurred. You can also contact the developer to report it!",
+        "LOG": "Error Log:"
+    },
     "PLAYLISTS": "Playlists",
     "FRIENDS": "Friends",
     "ENABLE": "Enable",
