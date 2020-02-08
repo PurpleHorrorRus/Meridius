@@ -72,7 +72,7 @@
             "CHOOSE_FOLDER": "Select folder",
             "DISCORD": "Display in Discord",
             "STREAMER": {
-                "TITLE": "Streamer Mode",
+                "TITLE": "Streamer mode",
                 "TIP": "Hint: saves the cover art and song title to separate files in a folder `./streamer`"
             },
             "MINIWINDOW": "Mini window",
@@ -84,7 +84,7 @@
             }
         },
         "EQUALIZER": {
-            "TITLE": "Equalizer Settings"
+            "TITLE": "Equalizer settings"
         }
     },
     "SEARCH": {
@@ -144,7 +144,7 @@
         "SHARE_PLAYLIST": {
             "WALL": "Playlist {{ title }} was successfully published on the wall",
             "FRIEND": "Playlist {{ title }} was sent successfully",
-            "NO_SELECT_FRIEND": "Select a friend"
+            "NO_SELECT_FRIEND": "You must select a friend"
         },
         "HIDDEN_AUDIOS": {
             "USER": "User",
@@ -155,17 +155,17 @@
     "ERROR": {
         "APOLOGIZE": "We're a deeply sorry. We sorry.",
         "CONTACT": "An error occurred. You can also contact the developer to report it!",
-        "LOG": "Error Log:"
+        "LOG": "Error log:"
     },
     "PLAYLISTS": "Playlists",
     "FRIENDS": "Friends",
-    "ENABLE": "Enable",
+    "ENABLE": "Mini window",
     "FILTER": "Filter",
     "BACK": "Back",
     "LOAD_MORE": "Load more",
     "LOADING": "Loading...",
     "NO_DESCRIPTION": "No description available",
-    "NOT_SPECIFIED": "Not set",
+    "NOT_SPECIFIED": "Not specified",
     "NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
     "QUEUE_EMPTY": "The play queue is empty",
     "NO_SIMILAR": "Unfortunately, we didn't find anything...",
