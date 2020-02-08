@@ -56,7 +56,12 @@
             "Oct",
             "Nov",
             "Dec"
-        ]
+        ],
+        "FILTER": {
+            "RESULTS": "Результаты поиска",
+            "RESULTS_COUNT": "Результаты поиска ({{ count }})",
+            "FILTER": "Результаты фильтра"
+        }
     },
     "SETTINGS": {
         "NAVIGATION": {
