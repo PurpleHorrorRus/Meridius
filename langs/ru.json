@@ -1,165 +1,178 @@
 {
     "NAVIGATION": {
-        "MAIN": "Главная",
-        "MY": "Моя музыка",
-        "DISCOVER": "Обзор",
-        "PLAYLISTS": "Плейлисты",
-        "FRIENDS": "Друзья"
+        "MAIN": "Home",
+        "MY": "My music",
+        "DISCOVER": "Discover",
+        "PLAYLISTS": "Playlists",
+        "FRIENDS": "Friends"
     },
     "GENERAL": {
-        "YOUR": "Ваши плейлисты",
+        "YOUR": "Your playlists",
         "FAVS": {
-            "USERS": "Избранные пользователи",
-            "GROUPS": "Избранные группы"
+            "USERS": "Favorites users",
+            "GROUPS": "Favorites groups"
         },
         "RELEASES": {
-            "NEW": "Новые релизы",
-            "CHARTS": "Чарты",
-            "COLLECTION": "Из вашей коллекции",
-            "RECOMS": "Рекомендации"
+            "NEW": "New releases",
+            "CHARTS": "Charts",
+            "COLLECTION": "Your collection",
+            "RECOMS": "Recommendations"
         },
         "PLAYLISTS": {
-            "RAP": "Рэп",
-            "POP": "Поп",
-            "ROCK": "Рок",
-            "MOOD": "Музыка под настроение",
-            "EDITORS": "Выбор редакции",
-            "COLLECTIONS": "Музыкальные подборки",
-            "ANYCASE": "На любой случай",
-            "NEW": "Новые исполнители",
-            "NEW_ALBUMS": "Новые альбомы"
+            "RAP": "Rap",
+            "POP": "Pop",
+            "ROCK": "Rock",
+            "MOOD": "Mood music",
+            "EDITORS": "Editor's choice",
+            "COLLECTIONS": "Music collections",
+            "ANYCASE": "For any occasion",
+            "NEW": "New artists",
+            "NEW_ALBUMS": "New albums"
         }
     },
     "DISCOVER": {
-        "SEARCH": "Поиск",
+        "SEARCH": "Search",
         "NAVIGATION": {
-            "UPDATES": "Обновления",
-            "FRIENDS": "Друзья",
-            "COMMUNITIES": "Сообщества"
+            "UPDATES": "Updates",
+            "FRIENDS": "Friends",
+            "COMMUNITIES": "Communities"
         },
         "FEED": {
-            "ADD": "добавил {{ number }} аудио"
+            "ADD": "added {{ number }} audio"
         }
     },
     "PLAYLIST": {
-        "UPDATED": "Обновлено {{ date }}",
-        "MONTHS": ["янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"],
+        "UPDATED": "Updated {{ date }}",
+        "MONTHS": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ],
         "FILTER": {
-            "RESULTS": "Результаты поиска",
-            "RESULTS_COUNT": "Результаты поиска ({{ count }})",
-            "FILTER": "Результаты фильтра"
+            "RESULTS": "Search",
+            "RESULTS_COUNT": "Search ({{ count }})",
+            "FILTER": "Filter"
         }
     },
     "SETTINGS": {
         "NAVIGATION": {
-            "GENERAL": "Основные",
-            "EQUALIZER": "Эквалайзер",
-            "ABOUT": "Справка"
+            "GENERAL": "General",
+            "EQUALIZER": "Equalizer",
+            "ABOUT": "About"
         },
         "GENERAL": {
-            "TITLE": "Основные настройки",
-            "LANGUAGE": "Выбор языка",
-            "HARDWARE_ACCELERATION": "Аппаратное ускорение",
-            "DOWNLOAD": "Скачивание музыки",
-            "CHOOSE_FOLDER": "Выбрать папку",
-            "DISCORD": "Отображение в Discord",
+            "TITLE": "Main settings",
+            "LANGUAGE": "Language selection",
+            "HARDWARE_ACCELERATION": "Hardware acceleration",
+            "DOWNLOAD": "Download music",
+            "CHOOSE_FOLDER": "Select folder",
+            "DISCORD": "Display in Discord",
             "STREAMER": {
-                "TITLE": "Режим стримера",
-                "TIP": "Подсказка: сохраняет обложку и название песни в отдельные файлы в папке `./streamer`"
+                "TITLE": "Streamer mode",
+                "TIP": "Hint: saves the cover art and song title to separate files in a folder `./streamer`"
             },
-            "MINIWINDOW": "Мини-окно",
+            "MINIWINDOW": "Mini window",
             "SEARCH": {
-                "TITLE": "Поиск",
-                "TIP": "Подсказка: отключение этих опций позволит существенно ускорить поиск",
-                "USERS": "Искать пользователей",
-                "GROUPS": "Искать группы"
+                "TITLE": "Search",
+                "TIP": "Hint: disabling these options will significantly speed up the search",
+                "USERS": "Search for users",
+                "GROUPS": "Search for groups"
             }
         },
         "EQUALIZER": {
-            "TITLE": "Настройки эквалайзера"
+            "TITLE": "Equalizer settings"
         }
     },
     "SEARCH": {
-        "TITLE": "Поиск",
-        "USERS": "Пользователи",
-        "GROUPS": "Сообщества",
-        "PLAYLISTS": "Плейлисты"
+        "TITLE": "Search",
+        "USERS": "Users",
+        "GROUPS": "Communities",
+        "PLAYLISTS": "Playlists"
     },
     "MODAL": {
         "ADD_PLAYLIST": {
-            "TITLE": "Название",
-            "DESCRIPTION": "Описание",
-            "CREATE": "Создать"
+            "TITLE": "Title",
+            "DESCRIPTION": "Description",
+            "CREATE": "Create"
         },
         "CAPTCHA": {
-            "PLEASE": "Пожалуйста, решите капчу",
-            "SOLVE": "Решить"
+            "PLEASE": "Please solve the captcha",
+            "SOLVE": "Solve"
         },
         "EDIT_PLAYLIST": {
-            "TITLE": "Название",
-            "DESCRIPTION": "Описание",
-            "SAVE": "Сохранить"
+            "TITLE": "Title",
+            "DESCRIPTION": "Description",
+            "SAVE": "Save"
         },
         "EDIT_TRACK": {
-            "PERFORMER": "Исполнитель",
-            "TITLE": "Название",
-            "GENRE": "Жанр:"
+            "PERFORMER": "Performer",
+            "TITLE": "Title",
+            "GENRE": "Genre:"
         },
         "SHARE": {
-            "MESSAGE": "Ваше сообщение",
-            "BUTTON": "Поделиться"
+            "MESSAGE": "Your message",
+            "BUTTON": "Share"
         },
         "SHARE_PLAYLIST": {
-            "WALL_TITLE": "Опубликовать на стене",
-            "FRIEND_TITLE": "Отправить другу",
-            "ATTACH_IMAGE": "Прикрепить своё изображение",
-            "CHOOSE_IMAGE": "Выбрать изображение",
-            "ATTACH_AUDIO": "Прикрепить первые {{ number }} аудиозаписей",
-            "MESSAGE": "Ваше сообщение",
-            "POST": "Опубликовать",
-            "SEND": "Отправить"
+            "WALL_TITLE": "Post on the wall",
+            "FRIEND_TITLE": "Send to a friend",
+            "ATTACH_IMAGE": "Attach your image",
+            "CHOOSE_IMAGE": "Select image",
+            "ATTACH_AUDIO": "Attach the first {{ number }} audios",
+            "MESSAGE": "Your message",
+            "POST": "Publish",
+            "SEND": "Send"
         }
     },
     "LOGIN": {
-        "DESCRIPTION": "Слушайте музыку в VK абсолютно бесплатно и без ограничений.",
-        "LOGIN_FIELD": "Логин",
-        "PASSWORD_FIELD": "Пароль",
-        "ENTER": "ВОЙТИ",
+        "DESCRIPTION": "Listen to music in VK absolutely for free and without restrictions.",
+        "LOGIN_FIELD": "Login",
+        "PASSWORD_FIELD": "Password",
+        "ENTER": "ENTER",
         "ERRORS": {
-            "CYRILLIC": "Кириллица в пароле недопустима",
-            "EMPTY_FIELD": "Вы должны ввести логин и пароль",
-            "TFA_ENABLED": "Необходимо отключить двухфакторную аутентификацию в настройках безопасности VK",
-            "INVALID_CREDENTIALS": "Неправильный логин или пароль"
+            "CYRILLIC": "Cyrillic is not allowed in the password",
+            "EMPTY_FIELD": "You must enter your username and password",
+            "TFA_ENABLED": "You must disable two-factor authentication in VK security settings",
+            "INVALID_CREDENTIALS": "Invalid username or password"
         }
     },
     "NOTIFICATIONS": {
         "SHARE_PLAYLIST": {
-            "WALL": "Плейлисты {{ title }} был успешно опубликован на стене",
-            "FRIEND": "Плейлист {{ title }} был успешно отправлен",
-            "NO_SELECT_FRIEND": "Необходимо выбрать друга"
+            "WALL": "Playlist {{ title }} was successfully published on the wall",
+            "FRIEND": "Playlist {{ title }} was sent successfully",
+            "NO_SELECT_FRIEND": "You must select a friend"
         },
         "HIDDEN_AUDIOS": {
-            "USER": "Пользователь скрыл",
-            "COMMUNITY": "Сообщество скрыло",
-            "LABEL": "{{ string }} свои аудиозаписи"
+            "USER": "User",
+            "COMMUNITY": "Community",
+            "LABEL": "{{ string }} has hidden the audio"
         }
     },
     "ERROR": {
-        "APOLOGIZE": "Нам очень жаль. Нам жаль.",
-        "CONTACT": "Произошла ошибка. Вы можете связаться с разработчиком, чтобы сообщить об ошибке!",
-        "LOG": "Журнал ошибок:"
+        "APOLOGIZE": "We're a deeply sorry. We sorry.",
+        "CONTACT": "An error occurred. You can also contact the developer to report it!",
+        "LOG": "Error log:"
     },
-    "PLAYLISTS": "Плейлисты",
-    "FRIENDS": "Друзья",
-    "ENABLE": "Включить",
-    "FILTER": "Фильтр",
-    "BACK": "Назад",
-    "LOAD_MORE": "Загрузить ещё",
-    "LOADING": "Загрузка...",
-    "NO_DESCRIPTION": "Описание отсутствует",
-    "NOT_SPECIFIED": "Не задано",
-    "NO_LISTENING_FRIENDS": "Сейчас никто из друзей не слушает музыку",
-    "QUEUE_EMPTY": "Очередь воспроизведения пуста",
-    "NO_SIMILAR": "К сожалению, мы ничего не нашли...",
-    "REAUTH": "Срок действия сессии истёк. Переавторизация..."
+    "PLAYLISTS": "Playlists",
+    "FRIENDS": "Friends",
+    "ENABLE": "Mini window",
+    "FILTER": "Filter",
+    "BACK": "Back",
+    "LOAD_MORE": "Load more",
+    "LOADING": "Loading...",
+    "NO_DESCRIPTION": "No description available",
+    "NOT_SPECIFIED": "Not specified",
+    "NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
+    "QUEUE_EMPTY": "The play queue is empty",
+    "NO_SIMILAR": "Unfortunately, we didn't find anything...",
+    "REAUTH": "The session has expired. Reauthorization..."
 }
