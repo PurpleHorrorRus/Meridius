@@ -72,6 +72,7 @@
         "GENERAL": {
             "TITLE": "Основные настройки",
             "LANGUAGE": "Выбор языка",
+            "CROWDIN": "You can help us with translation to other languages",
             "HARDWARE_ACCELERATION": "Аппаратное ускорение",
             "DOWNLOAD": "Скачивание музыки",
             "CHOOSE_FOLDER": "Выбрать папку",
