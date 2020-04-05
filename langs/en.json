@@ -63,6 +63,7 @@
       "LANGUAGE": "Language selection",
       "CROWDIN": "You can help us with translation to other languages",
       "HARDWARE_ACCELERATION": "Hardware acceleration",
+      "HARDWARE_ACCELERATION_TIP": "You need to restart the app",
       "DOWNLOAD": "Download music",
       "CHOOSE_FOLDER": "Select folder",
       "DISCORD": "Display in Discord",
@@ -73,7 +74,6 @@
       "MINIWINDOW": "Mini window",
       "SEARCH": {
         "TITLE": "Search",
-        "TIP": "Hint: disabling these options will significantly speed up the search",
         "USERS": "Search for users",
         "GROUPS": "Search for groups"
       }
