@@ -156,6 +156,7 @@
     },
     "SUCCESS": {
         "PLAYLIST_CREATED": "Playlist {{ title }} created",
+        "SONG_ADDED": "Track {{ performer }} - {{ title }} has been successfully added to the playlist \"{{ playlist }}\"",
         "SONG_SHARED": "Track {{ performer }} - {{ title }} has been sent successfully"
     },
     "ERRORS": {
