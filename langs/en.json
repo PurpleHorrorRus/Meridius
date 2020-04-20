@@ -50,7 +50,8 @@
       "RESULTS": "Search",
       "RESULTS_COUNT": "Search ({{ count }})",
       "FILTER": "Filter"
-    }
+    },
+    "PREPARING": "Preparing..."
   },
   "SETTINGS": {
     "NAVIGATION": {
@@ -152,7 +153,8 @@
     "CONTACT": "An error occurred. You can also contact the developer to report it!",
     "LOG": "Error log:"
   },
-  "QUICKACTIONS": "Quick actions",
+  "QUICKACTIONS": "Actions",
+  "QUICKUPLOAD": "Upload",
   "QUICKPLAY": "Play",
   "PLAYLISTS": "Playlists",
   "FRIENDS": "Friends",
