@@ -52,7 +52,7 @@
       "FILTER": "Filter"
     },
     "PREPARING": "Preparing...",
-    "DOWNLOAD_SUCCESS": "Playlist {{ title }} was downloaded successfully"
+    "DOWNLOAD_SUCCESS": "Playlist {{ title }} has been downloaded successfully"
   },
   "SETTINGS": {
     "NAVIGATION": {
