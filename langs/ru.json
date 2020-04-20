@@ -51,7 +51,8 @@
       "RESULTS_COUNT": "Результаты поиска ({{ count }})",
       "FILTER": "Результаты фильтра"
     },
-    "PREPARING": "Подготовка..."
+    "PREPARING": "Подготовка...",
+    "DOWNLOAD_SUCCESS": "Плейлист {{ title }} был успешно скачан"
   },
   "SETTINGS": {
     "NAVIGATION": {

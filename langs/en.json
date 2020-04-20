@@ -51,7 +51,8 @@
       "RESULTS_COUNT": "Search ({{ count }})",
       "FILTER": "Filter"
     },
-    "PREPARING": "Preparing..."
+    "PREPARING": "Preparing...",
+    "DOWNLOAD_SUCCESS": "Playlist {{ title }} was downloaded successfully"
   },
   "SETTINGS": {
     "NAVIGATION": {
