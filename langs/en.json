@@ -4,7 +4,8 @@
         "MY": "My music",
         "DISCOVER": "Discover",
         "PLAYLISTS": "Playlists",
-        "FRIENDS": "Friends"
+        "FRIENDS": "Friends",
+        "DOWNLOADS": "Downloads"
     },
     "GENERAL": {
         "YOUR": "Your playlists",
@@ -52,7 +53,7 @@
             "FILTER": "Filter"
         },
         "PREPARING": "Preparing...",
-        "DOWNLOAD_SUCCESS": "Playlist {{ title }} has been downloaded successfully"
+        "DOWNLOAD_SUCCESS": "Playlist \"{{ title }}\" has been downloaded successfully"
     },
     "SETTINGS": {
         "NAVIGATION": {
@@ -139,8 +140,8 @@
     },
     "NOTIFICATIONS": {
         "SHARE_PLAYLIST": {
-            "WALL": "Playlist {{ title }} was successfully published on the wall",
-            "FRIEND": "Playlist {{ title }} was sent successfully",
+            "WALL": "Playlist \"{{ title }}\" was successfully published on the wall",
+            "FRIEND": "Playlist \"{{ title }}\" was sent successfully",
             "NO_SELECT_FRIEND": "You must select a friend"
         },
         "HIDDEN_AUDIOS": {
@@ -155,13 +156,13 @@
         "LOG": "Error log:"
     },
     "SUCCESS": {
-        "PLAYLIST_CREATED": "Playlist {{ title }} created",
-        "SONG_ADDED": "Track {{ performer }} - {{ title }} has been successfully added to the playlist \"{{ playlist }}\"",
-        "SONG_SHARED": "Track {{ performer }} - {{ title }} has been sent successfully"
+        "PLAYLIST_CREATED": "Playlist \"{{ title }}\" created",
+        "SONG_ADDED": "Track \"{{ performer }} - {{ title }}\" has been successfully added to the playlist \"{{ playlist }}\"",
+        "SONG_SHARED": "Track \"{{ performer }} - {{ title }}\" has been sent successfully"
     },
     "ERRORS": {
         "DOWNLOAD_NOT_SPECIFIED": "Set the path to save audio in settings",
-        "SORT_PLAYLISTS_FAIL": "Failed to sort playlist {{ title }}"
+        "SORT_PLAYLISTS_FAIL": "Failed to sort playlist \"{{ title }}\""
     },
     "QUICKACTIONS": "Actions",
     "QUICKUPLOAD": "Upload",

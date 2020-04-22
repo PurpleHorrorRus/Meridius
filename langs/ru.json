@@ -4,7 +4,8 @@
         "MY": "Моя музыка",
         "DISCOVER": "Обзор",
         "PLAYLISTS": "Плейлисты",
-        "FRIENDS": "Друзья"
+        "FRIENDS": "Друзья",
+        "DOWNLOADS": "Загрузки"
     },
     "GENERAL": {
         "YOUR": "Ваши плейлисты",
@@ -52,7 +53,7 @@
             "FILTER": "Результаты фильтра"
         },
         "PREPARING": "Подготовка...",
-        "DOWNLOAD_SUCCESS": "Плейлист {{ title }} был успешно скачан"
+        "DOWNLOAD_SUCCESS": "Плейлист \"{{ title }}\" был успешно скачан"
     },
     "SETTINGS": {
         "NAVIGATION": {
@@ -139,8 +140,8 @@
     },
     "NOTIFICATIONS": {
         "SHARE_PLAYLIST": {
-            "WALL": "Плейлисты {{ title }} был успешно опубликован на стене",
-            "FRIEND": "Плейлист {{ title }} был успешно отправлен",
+            "WALL": "Плейлисты \"{{ title }}\" был успешно опубликован на стене",
+            "FRIEND": "Плейлист \"{{ title }}\" был успешно отправлен",
             "NO_SELECT_FRIEND": "Необходимо выбрать друга"
         },
         "HIDDEN_AUDIOS": {
@@ -155,13 +156,13 @@
         "LOG": "Журнал ошибок:"
     },
     "SUCCESS": {
-        "PLAYLIST_CREATED": "Плейлист {{ title }} создан",
-        "SONG_ADDED": "Трек {{ performer }} - {{ title }} был успешно добавлен в плейлист \"{{ playlist }}\"",
-        "SONG_SHARED": "Трек {{ performer }} - {{ title }} был успешно отправлен"
+        "PLAYLIST_CREATED": "Плейлист \"{{ title }}\" создан",
+        "SONG_ADDED": "Трек \"{{ performer }} - {{ title }}\" был успешно добавлен в плейлист \"{{ playlist }}\"",
+        "SONG_SHARED": "Трек \"{{ performer }} - {{ title }}\" был успешно отправлен"
     },
     "ERRORS": {
         "DOWNLOAD_NOT_SPECIFIED": "Задайте путь сохранения аудио в настройках",
-        "SORT_PLAYLISTS_FAIL": "Не удалось отсортировать плейлист {{ title }}"
+        "SORT_PLAYLISTS_FAIL": "Не удалось отсортировать плейлист \"{{ title }}\""
     },
     "QUICKACTIONS": "Действия",
     "QUICKUPLOAD": "Загрузить",
