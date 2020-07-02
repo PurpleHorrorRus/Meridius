@@ -75,6 +75,8 @@
                 "TIP": "Hint: saves the cover art and song title to separate files in a folder `./streamer`"
             },
             "MINIWINDOW": "Mini window",
+            "MINIMODE": "Mini mode for mini window",
+            "MINIMODE_TIP": "This mode removes the control buttons, background, the ability to move the window. Locks the window at the position that you set. Alt+T keyboard shortcut also works for mini mode",
             "SEARCH": {
                 "TITLE": "Search",
                 "USERS": "Search for users",
@@ -87,8 +89,13 @@
     },
     "SEARCH": {
         "TITLE": "Search",
+        "ARTISTS": "Artists",
         "USERS": "Users",
         "GROUPS": "Communities",
+        "PLAYLISTS": "Playlists"
+    },
+    "ARTIST_PAGE": {
+        "POPULAR": "Popular",
         "PLAYLISTS": "Playlists"
     },
     "MODAL": {
