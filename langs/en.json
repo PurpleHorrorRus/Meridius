@@ -64,7 +64,8 @@
         "GENERAL": {
             "TITLE": "Main settings",
             "LANGUAGE": "Language selection",
-            "CROWDIN": "You can help us with translation to other languages",
+            "STARTUP": "Open Meridius on startup",
+            "HIDE_ON_STARTUP": "Start minimized",
             "HARDWARE_ACCELERATION": "Hardware acceleration",
             "HARDWARE_ACCELERATION_TIP": "You need to restart the app",
             "DOWNLOAD": "Download music",
