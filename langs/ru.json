@@ -65,7 +65,6 @@
             "TITLE": "Основные настройки",
             "LANGUAGE": "Выбор языка",
             "STARTUP": "Открывать Meridius при запуске системы",
-            "HIDE_ON_STARTUP": "Запускать свёрнутым",
             "HARDWARE_ACCELERATION": "Аппаратное ускорение",
             "HARDWARE_ACCELERATION_TIP": "Необходим перезапуск приложения",
             "DOWNLOAD": "Скачивание музыки",

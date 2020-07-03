@@ -65,7 +65,6 @@
             "TITLE": "Main settings",
             "LANGUAGE": "Language selection",
             "STARTUP": "Open Meridius on startup",
-            "HIDE_ON_STARTUP": "Start minimized",
             "HARDWARE_ACCELERATION": "Hardware acceleration",
             "HARDWARE_ACCELERATION_TIP": "You need to restart the app",
             "DOWNLOAD": "Download music",
