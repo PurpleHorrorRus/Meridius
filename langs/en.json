@@ -47,6 +47,10 @@
             "Nov",
             "Dec"
         ],
+        "TABS": {
+            "AUDIO": "Audio ({{ count }})",
+            "PLAYLISTS": "Playlists ({{ count }})"
+        },
         "FILTER": {
             "RESULTS": "Search",
             "RESULTS_COUNT": "Search ({{ count }})",
@@ -58,6 +62,7 @@
     "SETTINGS": {
         "NAVIGATION": {
             "GENERAL": "General",
+            "HOTKEYS": "Hotkeys",
             "EQUALIZER": "Equalizer",
             "ABOUT": "About"
         },
@@ -85,6 +90,15 @@
         },
         "EQUALIZER": {
             "TITLE": "Equalizer settings"
+        },
+        "HOTKEYS": {
+            "TITLE": "Hotkeys",
+            "PLAYPAUSE": "Play / pause",
+            "PLAYNEXT": "Next track",
+            "PLAYPREV": "Previous track",
+            "VOLUP": "Volume up",
+            "VOLDOWN": "Volume down",
+            "VOLMUTE": "Mute / unmute"
         }
     },
     "SEARCH": {
