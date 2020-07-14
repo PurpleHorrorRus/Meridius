@@ -204,5 +204,6 @@
     "NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
     "QUEUE_EMPTY": "The play queue is empty",
     "NO_SIMILAR": "Unfortunately, we didn't find anything...",
-    "REAUTH": "The session has expired. Reauthorization..."
+    "REAUTH": "The session has expired. Reauthorization...",
+    "LOGOFF": "Logoff"
 }
