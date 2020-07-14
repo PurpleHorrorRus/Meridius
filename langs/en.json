@@ -205,5 +205,5 @@
     "QUEUE_EMPTY": "The play queue is empty",
     "NO_SIMILAR": "Unfortunately, we didn't find anything...",
     "REAUTH": "The session has expired. Reauthorization...",
-    "LOGOFF": "Logoff"
+    "LOGOFF": "Logout"
 }
