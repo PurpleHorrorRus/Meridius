@@ -75,6 +75,7 @@
             "HARDWARE_ACCELERATION_TIP": "You need to restart the app",
             "DOWNLOAD": "Download music",
             "CHOOSE_FOLDER": "Select folder",
+            "EXPAND_LEFT": "Expand left menu",
             "DISCORD": "Display in Discord",
             "STREAMER": {
                 "TITLE": "Streamer mode",

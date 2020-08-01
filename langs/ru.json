@@ -75,6 +75,7 @@
             "HARDWARE_ACCELERATION_TIP": "Необходим перезапуск приложения",
             "DOWNLOAD": "Скачивание музыки",
             "CHOOSE_FOLDER": "Выбрать папку",
+            "EXPAND_LEFT": "Расширить левое меню",
             "DISCORD": "Отображение в Discord",
             "STREAMER": {
                 "TITLE": "Режим стримера",
