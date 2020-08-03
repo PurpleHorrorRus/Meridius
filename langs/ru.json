@@ -185,12 +185,14 @@
     },
     "ERRORS": {
         "DOWNLOAD_NOT_SPECIFIED": "Задайте путь сохранения аудио в настройках",
-        "SORT_PLAYLISTS_FAIL": "Не удалось отсортировать плейлист \"{{ title }}\""
+        "SORT_PLAYLISTS_FAIL": "Не удалось отсортировать плейлист \"{{ title }}\"",
+        "NO_CONNECTION": "Нет соединения с VK. Попытка переподключения..."
     },
     "QUICKACTIONS": "Действия",
     "QUICKUPLOAD": "Загрузить",
     "QUICKPLAY": "Воспроизведение",
     "LISTEN": "Слушать",
+    "DOWNLOAD_SINGLE": "Скачать",
     "DOWNLOAD": "Скачать всё",
     "PLAYLISTS": "Плейлисты",
     "FRIENDS": "Друзья",

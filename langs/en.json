@@ -185,12 +185,14 @@
     },
     "ERRORS": {
         "DOWNLOAD_NOT_SPECIFIED": "Set the path to save audio in settings",
-        "SORT_PLAYLISTS_FAIL": "Failed to sort playlist \"{{ title }}\""
+        "SORT_PLAYLISTS_FAIL": "Failed to sort playlist \"{{ title }}\"",
+        "NO_CONNECTION": "No connection to VK. Attempting to reconnect..."
     },
     "QUICKACTIONS": "Actions",
     "QUICKUPLOAD": "Upload",
     "QUICKPLAY": "Play",
     "LISTEN": "Play",
+    "DOWNLOAD_SINGLE": "Download",
     "DOWNLOAD": "Download all",
     "PLAYLISTS": "Playlists",
     "FRIENDS": "Friends",
