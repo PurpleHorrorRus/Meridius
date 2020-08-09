@@ -91,7 +91,8 @@
             }
         },
         "EQUALIZER": {
-            "TITLE": "Equalizer settings"
+            "TITLE": "Equalizer settings",
+            "PRESETS": "Presets"
         },
         "HOTKEYS": {
             "TITLE": "Hotkeys",
@@ -100,7 +101,9 @@
             "PLAYPREV": "Previous track",
             "VOLUP": "Volume up",
             "VOLDOWN": "Volume down",
-            "VOLMUTE": "Mute / unmute"
+            "VOLMUTE": "Mute / unmute",
+            "NEXTPLAYLIST": "Next playlist",
+            "PREVPLAYLIST": "Previous playlist"
         }
     },
     "SEARCH": {
