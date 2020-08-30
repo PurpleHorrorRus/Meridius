@@ -5,7 +5,10 @@
         "DISCOVER": "Discover",
         "PLAYLISTS": "Playlists",
         "FRIENDS": "Friends",
-        "DOWNLOADS": "Downloads"
+        "DOWNLOADS": "Downloads",
+        "NOTIFICATIONS": "Notifications",
+        "QUEUE": "Playing queue",
+        "SETTINGS": "Settings"
     },
     "GENERAL": {
         "COLLECTIONS": "Music collections",
@@ -65,6 +68,7 @@
             "GENERAL": "General",
             "HOTKEYS": "Hotkeys",
             "EQUALIZER": "Equalizer",
+            "SERVER": "Server",
             "ABOUT": "About"
         },
         "GENERAL": {
@@ -84,10 +88,13 @@
             "MINIWINDOW": "Mini window",
             "MINIMODE": "Mini mode for mini window",
             "MINIMODE_TIP": "This mode removes the control buttons, background, the ability to move the window. Locks the window at the position that you set. Alt+T keyboard shortcut also works for mini mode",
-            "SEARCH": {
-                "TITLE": "Search",
-                "USERS": "Search for users",
-                "GROUPS": "Search for groups"
+            "DEVTOOLS": "Developer tools",
+            "FFMPEG": {
+                "TITLE": "Converting and caching",
+                "NOT_INSTALLED": "Install FFmpeg",
+                "NOT_INSTALLED_TIP": "FFmpeg is an open source utility that processes media files (in our case, audio files). In our case, it is necessary for one-time merging of several .ts files into a single .mp3 file.",
+                "INSTALLED": "FFmpeg installed",
+                "CLEAR_CACHE": "Clear cache"
             }
         },
         "EQUALIZER": {
@@ -104,6 +111,12 @@
             "VOLMUTE": "Mute / unmute",
             "NEXTPLAYLIST": "Next playlist",
             "PREVPLAYLIST": "Previous playlist"
+        },
+        "SERVER": {
+            "TITLE": "Server",
+            "PORT": "Port",
+            "START": "Start server",
+            "STOP": "Stop server"
         }
     },
     "SEARCH": {
@@ -189,7 +202,18 @@
     "ERRORS": {
         "DOWNLOAD_NOT_SPECIFIED": "Set the path to save audio in settings",
         "SORT_PLAYLISTS_FAIL": "Failed to sort playlist \"{{ title }}\"",
-        "NO_CONNECTION": "No connection to VK. Attempting to reconnect..."
+        "NO_CONNECTION": "No connection to VK. Attempting to reconnect...",
+        "NO_FFMPEG_AUDIO": "You need to install FFmpeg to download this audio",
+        "NO_FFMPEG_PLAYLISTS": "You need to install FFmpeg to download this playlist",
+        "SOLID": {
+            "FFMPEG": {
+                "TEXT": "This audio has a special kind of link that cannot be deciphered without direct conversion. To do this, you need to install FFmpeg. Would you like install?",
+                "INSTALL": "Install"
+            }
+        }
+    },
+    "QUEUE": {
+        "NOW_PLAYING": "Now playing"
     },
     "QUICKACTIONS": "Actions",
     "QUICKUPLOAD": "Upload",
@@ -207,7 +231,6 @@
     "NO_DESCRIPTION": "No description available",
     "NOT_SPECIFIED": "Not specified",
     "NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
-    "QUEUE_EMPTY": "The play queue is empty",
     "NO_SIMILAR": "Unfortunately, we didn't find anything...",
     "REAUTH": "The session has expired. Reauthorization...",
     "LOGOFF": "Logout"
