@@ -89,6 +89,15 @@
             "MINIMODE": "Mini mode for mini window",
             "MINIMODE_TIP": "This mode removes the control buttons, background, the ability to move the window. Locks the window at the position that you set. Alt+T keyboard shortcut also works for mini mode",
             "DEVTOOLS": "Developer tools",
+            "PLAYER": {
+                "NAME": "Player",
+                "ITEMS": {
+                    "STEPS": {
+                        "WHEEL": "Volume change step (mouse wheel)",
+                        "HOTKEY": "Volume change step (hotkey)"
+                    }
+                }
+            },
             "FFMPEG": {
                 "TITLE": "Converting and caching",
                 "NOT_INSTALLED": "Install FFmpeg",
@@ -213,7 +222,37 @@
         }
     },
     "QUEUE": {
-        "NOW_PLAYING": "Now playing"
+        "NOW_PLAYING": "Now playing",
+        "SECTIONS": {
+            "SEARCH": "Search results: {{ query }}",
+            "ARTIST": "{{ name }}: artist",
+            "ARTIST_TOP": "{{ name }}: collection",
+            "COLLECTION": "Collection",
+            "FRIENDS_UPDATES": "Friends updates"
+        }
+    },
+    "TOOLTIP": {
+        "CONTROLS": {
+            "RANDOM": "Random",
+            "REPEAT": "Repeat",
+            "BROADCAST": "Broadcast to status"
+        },
+        "SONG": {
+            "ADD": "Add",
+            "ADDED": "Added",
+            "EDIT": "Edit",
+            "SIMILAR": "Similar",
+            "SHARE": "Share",
+            "QUEUE": "Add to queue",
+            "DELETE": "Delete"
+        },
+        "PLAYLIST": {
+            "FOLLOW": "Follow",
+            "UNFOLLOW": "Unfollow",
+            "SHARE": "Share",
+            "EDIT": "Edit",
+            "DELETE": "Delete playlist"
+        }
     },
     "QUICKACTIONS": "Actions",
     "QUICKUPLOAD": "Upload",
