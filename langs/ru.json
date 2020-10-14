@@ -52,8 +52,14 @@
             "дек"
         ],
         "TABS": {
-            "AUDIO": "Аудио ({{ count }})",
-            "PLAYLISTS": "Плейлисты ({{ count }})"
+            "AUDIO": "Аудио",
+            "PLAYLISTS": "Плейлисты",
+            "WALL": "Стена",
+            "PROPS": {
+                "WALL": {
+                    "PINNED": "Закреплённая запись"
+                }
+            }
         },
         "FILTER": {
             "RESULTS": "Результаты поиска",

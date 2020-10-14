@@ -52,8 +52,14 @@
             "Dec"
         ],
         "TABS": {
-            "AUDIO": "Audio ({{ count }})",
-            "PLAYLISTS": "Playlists ({{ count }})"
+            "AUDIO": "Audio",
+            "PLAYLISTS": "Playlists",
+            "WALL": "Wall",
+            "PROPS": {
+                "WALL": {
+                    "PINNED": "Pinned post"
+                }
+            }
         },
         "FILTER": {
             "RESULTS": "Search",
