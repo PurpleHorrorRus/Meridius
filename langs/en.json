@@ -90,7 +90,7 @@
             "MINIMODE_TIP": "This mode removes the control buttons, background, the ability to move the window. Locks the window at the position that you set. Alt+T keyboard shortcut also works for mini mode",
             "DEVTOOLS": "Developer tools",
             "PLAYER": {
-                "NAME": "Player",
+                "TITLE": "Player",
                 "ITEMS": {
                     "STEPS": {
                         "WHEEL": "Volume change step (mouse wheel)",
