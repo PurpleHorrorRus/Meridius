@@ -244,14 +244,16 @@
             "SIMILAR": "Similar",
             "SHARE": "Share",
             "QUEUE": "Add to queue",
-            "DELETE": "Delete"
+            "DELETE": "Delete",
+            "DOWNLOAD": "Download"
         },
         "PLAYLIST": {
             "FOLLOW": "Follow",
             "UNFOLLOW": "Unfollow",
             "SHARE": "Share",
             "EDIT": "Edit",
-            "DELETE": "Delete playlist"
+            "DELETE": "Delete playlist",
+            "DOWNLOAD": "Download playlist"
         }
     },
     "QUICKACTIONS": "Actions",
