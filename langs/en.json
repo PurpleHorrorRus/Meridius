@@ -57,7 +57,8 @@
             "WALL": "Wall",
             "PROPS": {
                 "WALL": {
-                    "PINNED": "Pinned post"
+                    "PINNED": "Pinned post",
+                    "REMAINS": "... and {{ count }} more audio"
                 }
             }
         },
