@@ -1,16 +1,19 @@
 {
     "NAVIGATION": {
         "MAIN": "Home",
-        "MY": "My music",
+        "MY": "Music",
         "DISCOVER": "Discover",
         "PLAYLISTS": "Playlists",
+        "FEED": "Feed",
         "FRIENDS": "Friends",
+        "COMMUNITIES": "Communities",
         "DOWNLOADS": "Downloads",
         "NOTIFICATIONS": "Notifications",
         "QUEUE": "Queue",
         "SETTINGS": "Settings"
     },
     "GENERAL": {
+        "ARTISTS": "Artists for You",
         "COLLECTIONS": "Music collections",
         "YOUR": "Your playlists",
         "FAVS": {
@@ -27,6 +30,7 @@
     "DISCOVER": {
         "SEARCH": "Search",
         "NAVIGATION": {
+            "FEED": "Feed",
             "UPDATES": "Updates",
             "FRIENDS": "Friends",
             "COMMUNITIES": "Communities"
@@ -72,53 +76,90 @@
     },
     "SETTINGS": {
         "NAVIGATION": {
+            "TITLE": "Settings",
             "GENERAL": "General",
-            "HOTKEYS": "Hotkeys",
+            "APPEARANCE": "Appearance",
+            "PLAYER": "Player",
+            "HOMEPAGE": "Home page",
+            "DOWNLOADS": "Downloads",
             "EQUALIZER": "Equalizer",
+            "HOTKEYS": "Hotkeys",
             "SERVER": "Server",
-            "ABOUT": "About"
+            "LOGOUT": "Logout"
         },
         "GENERAL": {
-            "TITLE": "Main settings",
+            "TITLE": "General settings",
             "LANGUAGE": "Language selection",
-            "STARTUP": "Open Meridius on startup",
-            "HARDWARE_ACCELERATION": "Hardware acceleration",
-            "HARDWARE_ACCELERATION_TIP": "You need to restart the app",
-            "DOWNLOAD": "Download music",
-            "CHOOSE_FOLDER": "Select folder",
-            "EXPAND_LEFT": "Expand left menu",
-            "DISCORD": "Display in Discord",
+            "STARTUP": "Open on startup",
+            "HARDWARE_ACCELERATION": {
+                "TITLE": "Hardware acceleration",
+                "TIP": "Requires application restart"
+            },
+            "DISCORD": "Discord integration",
             "STREAMER": {
                 "TITLE": "Streamer mode",
-                "TIP": "Hint: saves the cover art and song title to separate files in a folder `./streamer`"
+                "TIP": "Writes out current song info into \"./streamer\" folder to display via OBS or other apps"
             },
-            "MINIWINDOW": "Mini window",
-            "MINIMODE": "Mini mode for mini window",
-            "MINIMODE_TIP": "This mode removes the control buttons, background, the ability to move the window. Locks the window at the position that you set. Alt+T keyboard shortcut also works for mini mode",
             "DEVTOOLS": "Developer tools",
-            "PLAYER": {
-                "TITLE": "Player",
-                "ITEMS": {
-                    "STEPS": {
-                        "WHEEL": "Volume change step (mouse wheel)",
-                        "HOTKEY": "Volume change step (hotkey)"
-                    }
-                }
-            },
             "FFMPEG": {
                 "TITLE": "Converting and caching",
-                "NOT_INSTALLED": "Install FFmpeg",
-                "NOT_INSTALLED_TIP": "FFmpeg is an open source utility that processes media files (in our case, audio files). In our case, it is necessary for one-time merging of several .ts files into a single .mp3 file.",
+                "TIP": "FFmpeg - it's free open-source tool to processing media files. Required to converting and caching audios that links cannot be fetching directly from VK servers",
+                "NOT_INSTALLED": {
+                    "TITLE": "FFmpeg not installed",
+                    "INSTALL": "Install FFmpeg"
+                },
                 "INSTALLED": "FFmpeg installed",
-                "CLEAR_CACHE": "Clear cache"
+                "CLEAR_CACHE": "Clear cache",
+                "SPACE": "Disk space used: {{ count }}"
             }
+        },
+        "APPEARANCE": {
+            "TITLE": "Appearance settings",
+            "EXPAND":"Expand left menu",
+            "ROUND_TOP": "Top border rounding",
+            "ROUND_BOTTOM": "Bottom border rounding",
+            "THEMES": "Themes"
+        },
+        "PLAYER": {
+            "TITLE": "Player settings",
+            "MINIWINDOW": "Mini window",
+            "MINIMODE": {
+                "TITLE": "Mini mode for miniwindow",
+                "TIP": "Disables mini window controls and styles keeping only current track information"
+            },
+            "STEPS": {
+                "TITLE": "Volume changing step",
+                "HOTKEY": "By hotkey",
+                "WHEEL": "By mouse wheel"
+            }
+        },
+        "HOME": {
+            "TITLE": "Home page",
+            "ENABLE": "Enable home page",
+            "ARTISTS": "Artists",
+            "COLLECTIONS": "Collections",
+            "PLAYLISTS": "Playlists",
+            "FAVORITES": "Favorites",
+            "RECOMMENDATIONS": {
+                "TITLE": "Recommendations",
+                "ENABLE": "Enable recommendations",
+                "BANNERS": "New albums",
+                "SONGS": "New releases and charts",
+                "PLAYLISTS": "Playlists"
+            }
+        },
+        "DOWNLOADS": {
+            "TITLE": "Downloads settings",
+            "ENABLE": "Music downloading",
+            "FOLDER": "Folder for downloading"
         },
         "EQUALIZER": {
             "TITLE": "Equalizer settings",
+            "ENABLE": "Enable equalizer",
             "PRESETS": "Presets"
         },
         "HOTKEYS": {
-            "TITLE": "Hotkeys",
+            "TITLE": "Hotkeys settings",
             "PLAYPAUSE": "Play / pause",
             "PLAYNEXT": "Next track",
             "PLAYPREV": "Previous track",
@@ -129,7 +170,7 @@
             "PREVPLAYLIST": "Previous playlist"
         },
         "SERVER": {
-            "TITLE": "Server",
+            "TITLE": "Server settings",
             "PORT": "Port",
             "START": "Start server",
             "STOP": "Stop server"
@@ -152,10 +193,6 @@
             "DESCRIPTION": "Description",
             "CREATE": "Create"
         },
-        "CAPTCHA": {
-            "PLEASE": "Please solve the captcha",
-            "SOLVE": "Solve"
-        },
         "EDIT_PLAYLIST": {
             "TITLE": "Title",
             "DESCRIPTION": "Description",
@@ -167,18 +204,40 @@
             "GENRE": "Genre:"
         },
         "SHARE": {
-            "MESSAGE": "Your message",
+            "TITLE": "Share audio",
+            "WALL": "Post to wall",
+            "MESSAGE": "Enter your message...",
             "BUTTON": "Share"
         },
         "SHARE_PLAYLIST": {
-            "WALL_TITLE": "Post on the wall",
-            "FRIEND_TITLE": "Send to a friend",
-            "ATTACH_IMAGE": "Attach your image",
-            "CHOOSE_IMAGE": "Select image",
-            "ATTACH_AUDIO": "Attach the first {{ number }} audios",
-            "MESSAGE": "Your message",
-            "POST": "Publish",
-            "SEND": "Send"
+            "TITLE": "Share playlist",
+            "WALL": "Post to wall",
+            "MESSAGE": "Enter your message...",
+            "BUTTON": "Share"
+        },
+        "UPLOAD": {
+            "NAVIGATION": {
+                "PC": "From PC",
+                "YOUTUBE": "From YouTube"
+            },
+            "PC": {
+                "CHOOSE": "Click to select files to upload",
+                "SKIP": "Skip"
+            },
+            "YOUTUBE": {
+                "LINK": "Link",
+                "REMOVE": "Remove",
+                "UPLOAD": "Upload",
+                "NOFFMPEG": "You need to have FFmpeg installed to use this feature"
+            },
+            "STATUS": {
+                "DOWNLOAD": "Downloading...",
+                "FAILURE": "Failure",
+                "READY": "Ready to download",
+                "SKIPPED": "Skipped",
+                "SUCCESS": "Success",
+                "UPLOADING": "Uploading"
+            }
         }
     },
     "LOGIN": {
@@ -240,9 +299,9 @@
     },
     "TOOLTIP": {
         "CONTROLS": {
-            "RANDOM": "Random",
-            "REPEAT": "Repeat",
-            "BROADCAST": "Broadcast to status"
+            "BROADCAST": "Broadcast in status",
+            "DOWNLOAD": "Download",
+            "SHARE": "Share"
         },
         "SONG": {
             "ADD": "Add",
@@ -260,8 +319,60 @@
             "SHARE": "Share",
             "EDIT": "Edit",
             "DELETE": "Delete playlist",
-            "DOWNLOAD": "Download playlist"
+            "DOWNLOAD": "Download playlist",
+            "CREATE": "Create playlist",
+            "CHOOSE_COVER": "Choose cover image"
         }
+    },
+    "TITLEBAR": {
+        "MENU": {
+            "SETTINGS": "Settings",
+            "HELP": "Help",
+            "ABOUT": "About"
+        }
+    },
+    "HELP": {
+        "TITLE": "Help",
+        "LABEL": "Let's see the answer for you're questions.",
+        "CONTACT": {
+            "VK": "VK Page",
+            "VK_GROUP": "VK Group",
+            "GITHUB": "GitHub Page",
+            "TWITCH": "Twitch",
+            "DONATE": "Donate"
+        },
+        "FAQ": [{
+            "question": "Why?",
+            "answer": "The first reason - consuming of PC resources. Meridius consumes PC resources less than any desktop browser"
+        }, {
+            "question": "Why VK if Spotify / Apple Music more easy and has more music?",
+            "answer": "Yes, it has, many other services has more information about songs, artists and playlists, but from personal experience I could say that this services has no so much music cause VK users can upload any music in any time."
+        }, {
+            "question": "I found a bug / I have an offer to improve Meridius",
+            "answer": "Contact me with any way."
+        }, {
+            "question": "Why I receive two emails about authorization?",
+            "answer": "At the very first login, EasyVK and the HTTP client are authorized, which is responsible for working with music and playlists (which is why two notifications come at the first login). But nevertheless, be careful, check your activity history, match IP addresses. And besides, if someone uninvited enters your profile, then you are notified of messages from the VK administration in the PM and a message comes to the header of the site."
+        }, {
+            "question": "How to add song to playlist?",
+            "answer": "Press RMB to the song."
+        }, {
+            "question": "Can you upload source code?",
+            "answer": "I promise that source code will be upload if I tired of developing. In the meantime, I have the right not to do it."
+        }, {
+            "question": "Linux build?",
+            "answer": "Sooner or later, I hope that I get my hands on it and start testing builds on Linux. In theory, this can be automated in the cloud, but so far there is no need for me to spend money on it."
+        }, {
+            "question": "MacOS build?",
+            "answer": "... sorry"
+        }, {
+            "question": "Do you steal passwords?",
+            "answer": "No I don't!"
+        }]
+    },
+    "ABOUT": {
+        "TITLE": "About",
+        "DESCRIPTION": "Meridius is an absolutely free program for listening to music on the VK social network for Windows. It's no secret that Meridius is the ideological successor to Meridian, which, unfortunately, is no longer supported by the developer. Meridius offers a wide range of functionality similar to the functionality of the social network itself. No dirty tricks - the program is absolutely free and without ads or any commercial purpose! The program was made by a music lover just like you."
     },
     "QUICKACTIONS": "Actions",
     "QUICKUPLOAD": "Upload",
@@ -269,6 +380,7 @@
     "LISTEN": "Play",
     "DOWNLOAD_SINGLE": "Download",
     "DOWNLOAD": "Download all",
+    "PREPARINGS": "Preparings...",
     "PLAYLISTS": "Playlists",
     "FRIENDS": "Friends",
     "ENABLE": "Enable",
