@@ -292,7 +292,7 @@
         "SECTIONS": {
             "SEARCH": "Search results: {{ query }}",
             "ARTIST": "{{ name }}: artist",
-            "ARTIST_TOP": "{{ name }}: collection",
+            "ARTIST_AUDIOS": "{{ name }}: collection",
             "COLLECTION": "Collection",
             "FRIENDS_UPDATES": "Friends updates"
         }
