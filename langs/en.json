@@ -122,6 +122,7 @@
         },
         "PLAYER": {
             "TITLE": "Player settings",
+            "AUDIO_OUTPUT": "Output device",
             "MINIWINDOW": "Mini window",
             "MINIMODE": {
                 "TITLE": "Mini mode for miniwindow",
