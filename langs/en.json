@@ -102,8 +102,8 @@
             },
             "DEVTOOLS": "Developer tools",
             "FFMPEG": {
-                "TITLE": "Converting and caching",
-                "TIP": "FFmpeg - it's free open-source tool to processing media files. Required to converting and caching audios that links cannot be fetching directly from VK servers",
+                "TITLE": "Audio converting",
+                "TIP": "FFmpeg - it's free open-source tool to processing media files. Required to converting audios that links cannot be fetching directly from VK servers",
                 "NOT_INSTALLED": {
                     "TITLE": "FFmpeg not installed",
                     "INSTALL": "Install FFmpeg"
@@ -166,7 +166,6 @@
             "PLAYPREV": "Previous track",
             "VOLUP": "Volume up",
             "VOLDOWN": "Volume down",
-            "VOLMUTE": "Mute / unmute",
             "NEXTPLAYLIST": "Next playlist",
             "PREVPLAYLIST": "Previous playlist"
         },
