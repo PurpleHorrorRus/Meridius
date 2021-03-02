@@ -91,6 +91,7 @@
             "TITLE": "General settings",
             "LANGUAGE": "Language selection",
             "STARTUP": "Open on startup",
+            "HIDEONCLOSE": "Minimize to tray",
             "HARDWARE_ACCELERATION": {
                 "TITLE": "Hardware acceleration",
                 "TIP": "Requires application restart"
@@ -115,7 +116,7 @@
         },
         "APPEARANCE": {
             "TITLE": "Appearance settings",
-            "EXPAND":"Expand left menu",
+            "EXPAND": "Expand left menu",
             "ROUND_TOP": "Top border rounding",
             "ROUND_BOTTOM": "Bottom border rounding",
             "THEMES": "Themes"
@@ -248,8 +249,13 @@
         "ERRORS": {
             "CYRILLIC": "Cyrillic is not allowed in the password",
             "EMPTY_FIELD": "You must enter your username and password",
-            "TFA_ENABLED": "You must disable two-factor authentication in VK security settings",
-            "INVALID_CREDENTIALS": "Invalid username or password"
+            "INVALID_CREDENTIALS": "Invalid username or password",
+            "MANY_ATTEMPTS": "You have too many login attempts. Retry again in a few hours",
+            "TFA_REQUIRED": "You must to enter two-factor auth code",
+            "TFA_HTTP_REQUIRED": "Autofetching failed. You must to enter two-factor code (HTTP Client)",
+            "TFA_HTTP_AUTO": "Try to autofetch TFA code for HTTP Client...",
+            "CAPTCHA_REQUIRED": "You must to solve the captcha",
+            "CAPTCHA_INVALID": "Invalid captcha solution"
         }
     },
     "NOTIFICATIONS": {
