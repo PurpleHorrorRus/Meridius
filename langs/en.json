@@ -232,12 +232,13 @@
                 "NOFFMPEG": "You need to have FFmpeg installed to use this feature"
             },
             "STATUS": {
-                "DOWNLOAD": "Downloading...",
-                "FAILURE": "Failure",
+                "PREPARE": "Preparings...",
                 "READY": "Ready to download",
-                "SKIPPED": "Skipped",
+                "DOWNLOAD": "Downloading...",
+                "UPLOADING": "Uploading...",
                 "SUCCESS": "Success",
-                "UPLOADING": "Uploading"
+                "FAILURE": "Failure",
+                "SKIPPED": "Skipped"
             }
         }
     },
