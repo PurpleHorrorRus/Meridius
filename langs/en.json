@@ -190,19 +190,23 @@
     },
     "MODAL": {
         "ADD_PLAYLIST": {
+            "NAME": "Create playlist",
             "TITLE": "Title",
             "DESCRIPTION": "Description",
             "CREATE": "Create"
         },
         "EDIT_PLAYLIST": {
+            "NAME": "Edit playlist",
             "TITLE": "Title",
             "DESCRIPTION": "Description",
             "SAVE": "Save"
         },
         "EDIT_TRACK": {
+            "NAME": "Edit audio",
             "PERFORMER": "Performer",
             "TITLE": "Title",
-            "GENRE": "Genre:"
+            "GENRE": "Genre:",
+            "EDIT": "Edit"
         },
         "SHARE": {
             "TITLE": "Share audio",
