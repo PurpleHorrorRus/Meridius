@@ -404,5 +404,6 @@
     "NOT_SPECIFIED": "Not specified",
     "NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
     "NO_SIMILAR": "Unfortunately, we didn't find anything...",
+    "DISCORD": "Listening music",
     "LOGOFF": "Logout"
 }
