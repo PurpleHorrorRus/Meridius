@@ -130,6 +130,10 @@
                 "TITLE": "Mini mode for miniwindow",
                 "TIP": "Disables mini window controls and styles keeping only current track information"
             },
+            "REWIND": {
+                "TITLE": "Rewind to the start",
+                "TIP": "By enabling this option, the player will rewind the track to the beginning instead of the previous player, if listened to 10% or more"
+            },
             "STEPS": {
                 "TITLE": "Volume changing step",
                 "HOTKEY": "By hotkey",
