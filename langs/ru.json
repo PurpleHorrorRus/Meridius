@@ -306,10 +306,12 @@
     "QUEUE": {
         "NOW_PLAYING": "Сейчас играет",
         "SECTIONS": {
+            "HOME": "Главная",
             "SEARCH": "Результаты поиска: {{ query }}",
             "ARTIST": "{{ name }}: исполнитель",
             "ARTIST_AUDIOS": "{{ name }}: коллекция",
             "COLLECTION": "Коллекция",
+            "FEED": "Новости",
             "FRIENDS_UPDATES": "Обновления друзей"
         }
     },

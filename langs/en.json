@@ -306,10 +306,12 @@
     "QUEUE": {
         "NOW_PLAYING": "Now playing",
         "SECTIONS": {
+            "HOME": "Home",
             "SEARCH": "Search results: {{ query }}",
             "ARTIST": "{{ name }}: artist",
             "ARTIST_AUDIOS": "{{ name }}: collection",
             "COLLECTION": "Collection",
+            "FEED": "Feed",
             "FRIENDS_UPDATES": "Friends updates"
         }
     },
