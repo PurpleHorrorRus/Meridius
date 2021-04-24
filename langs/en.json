@@ -134,9 +134,13 @@
                 "TITLE": "Rewind to the start",
                 "TIP": "By enabling this option, the player will rewind the track to the beginning instead of the previous player, if listened to 10% or more"
             },
-            "NORMALIZE": {
+            "NORMALIZER": {
                 "TITLE": "Normalize audio volume",
-                "TIP": "Makes quiet audios louder and loud audios quieter on low volume values"
+                "TIP": "Makes quiet audios louder and loud audios quieter on low volume values",
+                "MAX": {
+                    "TITLE": "Maximum volume increase",
+                    "TIP": "The volume of music is a subjective concept. Choose for yourself the maximum percentage of music volume increase"
+                }
             },
             "STEPS": {
                 "TITLE": "Volume changing step",
