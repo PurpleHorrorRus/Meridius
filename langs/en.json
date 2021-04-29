@@ -65,6 +65,10 @@
                     "PINNED": "Pinned post",
                     "REMAINS": "... and {{ count }} more audio"
                 }
+            },
+            "PLACEHOLDERS": {
+                "TITLE": "Title",
+                "ALBUM": "Album"
             }
         },
         "FILTER": {
@@ -414,7 +418,6 @@
     "FILTER": "Filter",
     "POSTS_SEARCHING": "Posts searching",
     "BACK": "Back",
-    "TITLE": "Title",
     "LOAD_MORE": "Load more",
     "LOADING": "Loading...",
     "NO_DESCRIPTION": "No description available",
