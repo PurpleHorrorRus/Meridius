@@ -19,7 +19,8 @@
         "PLAYLISTS": "Recommended playlists",
         "FAVS": {
             "USERS": "Favorites users",
-            "GROUPS": "Favorites groups"
+            "GROUPS": "Favorites groups",
+            "ARTISTS": "Favorites artists"
         },
         "RELEASES": {
             "NEW": "New releases",
