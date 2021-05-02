@@ -204,7 +204,8 @@
     },
     "ARTIST_PAGE": {
         "POPULAR": "Популярное",
-        "PLAYLISTS": "Плейлисты"
+        "PLAYLISTS": "Плейлисты",
+        "SIMILAR_ARTISTS": "Похожие исполнители"
     },
     "MODAL": {
         "ADD_PLAYLIST": {

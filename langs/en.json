@@ -204,7 +204,8 @@
     },
     "ARTIST_PAGE": {
         "POPULAR": "Popular",
-        "PLAYLISTS": "Playlists"
+        "PLAYLISTS": "Playlists",
+        "SIMILAR_ARTISTS": "Similar artists"
     },
     "MODAL": {
         "ADD_PLAYLIST": {
