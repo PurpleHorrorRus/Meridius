@@ -68,8 +68,7 @@
                 }
             },
             "PLACEHOLDERS": {
-                "TITLE": "Title",
-                "ALBUM": "Album"
+                "TITLE": "Title"
             }
         },
         "FILTER": {
@@ -338,6 +337,7 @@
         "SONG": {
             "ADD": "Add",
             "ADDED": "Added",
+            "ALBUM": "Album",
             "EDIT": "Edit",
             "SIMILAR": "Similar",
             "SHARE": "Share",
