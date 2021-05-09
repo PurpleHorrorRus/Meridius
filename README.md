@@ -12,19 +12,6 @@ Meridius предлагает широкий функционал, схожий 
 Никаких подвохов - программа абсолютно бесплатная и без рекламы и какой-либо коммерческой цели!  
 Программа была сделана таким же любителем музыки, как и Вы. 
 
-
-# Ссылки
-
-[Официальный сайт](https://purplehorrorrus.github.io/meridius/)  
-[Страница VK](https://vk.com/id529592613)  
-[Группа VK](https://vk.com/meridius_player)  
-[Twitch](https://twitch.tv/infinitehorror)  
-
-## Огромное спасибо
-
-[EasyVK (Kirill Novak)](https://ciricc.github.io/) за модуль EasyVK!
-
-
 # Особенности
 
 * Слушайте музыку совершенно бесплатно и без рекламы  
@@ -50,6 +37,17 @@ Meridius предлагает широкий функционал, схожий 
 
 Найти ответы на интересующие вас вопросы касаемо плеера или задать свои можно [здесь](https://vk.com/topic-189978708_41319320)
 
+# Ссылки
+
+[Официальный сайт](https://purplehorrorrus.github.io/meridius/)  
+[Страница VK](https://vk.com/id529592613)  
+[Группа VK](https://vk.com/meridius_player)  
+[Twitch](https://twitch.tv/infinitehorror)  
+
+## Огромное спасибо
+
+[EasyVK (Kirill Novak)](https://ciricc.github.io/) за модуль EasyVK!
+
 # Поддержка
 
-Если есть желание, Вы можете [поддержать](https://donatepay.ru/don/InfiniteHorror) разработку.  
+Если есть желание, Вы можете [поддержать](https://donatepay.ru/don/InfiniteHorror) разработку  
