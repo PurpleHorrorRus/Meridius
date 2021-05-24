@@ -170,7 +170,13 @@
         "DOWNLOADS": {
             "TITLE": "Downloads settings",
             "ENABLE": "Music downloading",
-            "FOLDER": "Folder for downloading"
+            "FOLDER": "Folder for downloading",
+            "TEMPLATE": {
+                "TITLE": "File name template",
+                "TIP": "Set a template for the file name when downloading using headers",
+                "HEADERS": "Available headers",
+                "FILENAME": "File name"
+            }
         },
         "EQUALIZER": {
             "TITLE": "Equalizer settings",
@@ -419,7 +425,6 @@
     "ENABLE": "Enable",
     "FILTER": "Filter",
     "POSTS_SEARCHING": "Posts searching",
-    "BACK": "Back",
     "LOAD_MORE": "Load more",
     "LOADING": "Loading...",
     "NO_DESCRIPTION": "No description available",
