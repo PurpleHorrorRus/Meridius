@@ -315,6 +315,7 @@
         "NO_CONNECTION": "No connection to VK. Attempting to reconnect...",
         "NO_FFMPEG_AUDIO": "You need to install FFmpeg to download this audio",
         "NO_FFMPEG_PLAYLISTS": "You need to install FFmpeg to download this playlist",
+        "NO_UNIQUE_HEADERS": "No unique titles found, template not saved",
         "SOLID": {
             "FFMPEG": {
                 "TEXT": "This audio has a special kind of link that cannot be deciphered without direct conversion. To do this, you need to install FFmpeg. Would you like install?",
