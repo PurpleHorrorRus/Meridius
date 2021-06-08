@@ -403,11 +403,8 @@
             "question": "Stucks on the logo. Can't load!",
             "answer": "This happens if the signal does not reach VK. In this case, check which country you live in, and make sure that you have a VPN enabled in the system (that is, not an extension in the browser). Next, if you do not have VK blocked in your country, make sure that you have the original Windows installed, and not the Windows build, where everything unnecessary is supposedly disabled."
         }, {
-            "question": "Linux build?",
-            "answer": "Sooner or later, I hope that I get my hands on it and start testing builds on Linux. In theory, this can be automated in the cloud, but so far there is no need for me to spend money on it."
-        }, {
             "question": "MacOS build?",
-            "answer": "... sorry"
+            "answer": "No way, sorry."
         }, {
             "question": "Do you steal passwords?",
             "answer": "No I don't!"
@@ -415,7 +412,7 @@
     },
     "ABOUT": {
         "TITLE": "About",
-        "DESCRIPTION": "Meridius is an absolutely free program for listening to music on the VK social network for Windows. It's no secret that Meridius is the ideological successor to Meridian, which, unfortunately, is no longer supported by the developer. Meridius offers a wide range of functionality similar to the functionality of the social network itself. No dirty tricks - the program is absolutely free and without ads or any commercial purpose! The program was made by a music lover just like you."
+        "DESCRIPTION": "Meridius is an absolutely free program for listening to music on the VKontakte social network for Windows. Meridius offers a wide range of functionality, similar to the functionality of the social network itself. No dirty tricks - the program is absolutely free and without ads or any commercial purpose! The program was made by a music lover like you."
     },
     "QUICKACTIONS": "Actions",
     "QUICKUPLOAD": "Upload",
