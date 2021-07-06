@@ -137,7 +137,7 @@
             "SAVE_LATEST": "Save current track on exit",
             "REWIND": {
                 "TITLE": "Rewind to the start",
-                "TIP": "By enabling this option, the player will rewind the track to the beginning instead of the previous player, if listened to 10% or more"
+                "TIP": "By enabling this option, when you press the \"previous track\" button, the player will start playing the track again instead of playing the previous track if the listening progress has reached 10% or more "
             },
             "NORMALIZER": {
                 "TITLE": "Normalize audio volume",
