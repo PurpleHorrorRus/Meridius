@@ -124,6 +124,7 @@
             "EXPAND": "Expand left menu",
             "ROUND_TOP": "Top border rounding",
             "ROUND_BOTTOM": "Bottom border rounding",
+            "ACRYLIC": "Enable Windows 11 Acrylic",
             "THEMES": "Themes"
         },
         "PLAYER": {
