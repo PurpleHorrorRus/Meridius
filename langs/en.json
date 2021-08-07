@@ -125,6 +125,7 @@
             "ROUND_TOP": "Top border rounding",
             "ROUND_BOTTOM": "Bottom border rounding",
             "ACRYLIC": "Enable Windows 11 Acrylic",
+            "ACRYLIC_OPACITY": "Acrylic opacity",
             "THEMES": "Themes"
         },
         "PLAYER": {
@@ -142,7 +143,7 @@
             },
             "NORMALIZER": {
                 "TITLE": "Normalize audio volume",
-                "TIP": "[βeta] Averages the volume of the audio",
+                "TIP": "Averages the volume of the audio",
                 "MAX": {
                     "TITLE": "Maximum volume increase",
                     "TIP": "The volume of music is a subjective concept. Choose for yourself the maximum percentage of music volume increase"
