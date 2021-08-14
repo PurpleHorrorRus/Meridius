@@ -194,7 +194,8 @@
             "VOLUP": "Volume up",
             "VOLDOWN": "Volume down",
             "NEXTPLAYLIST": "Next playlist",
-            "PREVPLAYLIST": "Previous playlist"
+            "PREVPLAYLIST": "Previous playlist",
+            "MINIWINDOW_POSITION": "Change miniwindow position"
         },
         "SERVER": {
             "TITLE": "Server settings",
