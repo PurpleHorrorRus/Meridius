@@ -383,34 +383,44 @@
             "TWITCH": "Twitch",
             "DONATE": "Donate"
         },
-        "FAQ": [{
-            "question": "Why?",
-            "answer": "The first reason - consuming of PC resources. Meridius consumes PC resources less than any desktop browser"
-        }, {
-            "question": "Why VK if Spotify / Apple Music more easy and has more music?",
-            "answer": "Yes, it has, many other services has more information about songs, artists and playlists, but from personal experience I could say that this services has no so much music cause VK users can upload any music in any time."
-        }, {
-            "question": "I found a bug / I have an offer to improve Meridius",
-            "answer": "Contact me with any way."
-        }, {
-            "question": "How to add song to playlist?",
-            "answer": "Press RMB to the song."
-        }, {
-            "question": "Can you upload source code?",
-            "answer": "I promise that source code will be upload if I tired of developing. In the meantime, I have the right not to do it."
-        }, {
-            "question": "Very low FPS",
-            "answer": "This problem occurs on monitors with G-Sync support. Disable hardware acceleration in the settings and restart the app."
-        }, {
-            "question": "Stucks on the logo. Can't load!",
-            "answer": "This happens if the signal does not reach VK. In this case, check which country you live in, and make sure that you have a VPN enabled in the system (that is, not an extension in the browser). Next, if you do not have VK blocked in your country, make sure that you have the original Windows installed, and not the Windows build, where everything unnecessary is supposedly disabled."
-        }, {
-            "question": "MacOS build?",
-            "answer": "No way, sorry."
-        }, {
-            "question": "Do you steal passwords?",
-            "answer": "No I don't!"
-        }]
+        "FAQ": [
+            {
+                "question": "Why?",
+                "answer": "The first reason - consuming of PC resources. Meridius consumes PC resources less than any desktop browser"
+            },
+            {
+                "question": "Why VK if Spotify / Apple Music more easy and has more music?",
+                "answer": "Yes, it has, many other services has more information about songs, artists and playlists, but from personal experience I could say that this services has no so much music cause VK users can upload any music in any time."
+            },
+            {
+                "question": "I found a bug / I have an offer to improve Meridius",
+                "answer": "Contact me with any way."
+            },
+            {
+                "question": "How to add song to playlist?",
+                "answer": "Press RMB to the song."
+            },
+            {
+                "question": "Can you upload source code?",
+                "answer": "I promise that source code will be upload if I tired of developing. In the meantime, I have the right not to do it."
+            },
+            {
+                "question": "Very low FPS",
+                "answer": "This problem occurs on monitors with G-Sync support. Disable hardware acceleration in the settings and restart the app."
+            },
+            {
+                "question": "Stucks on the logo. Can't load!",
+                "answer": "This happens if the signal does not reach VK. In this case, check which country you live in, and make sure that you have a VPN enabled in the system (that is, not an extension in the browser). Next, if you do not have VK blocked in your country, make sure that you have the original Windows installed, and not the Windows build, where everything unnecessary is supposedly disabled."
+            },
+            {
+                "question": "MacOS build?",
+                "answer": "No way, sorry."
+            },
+            {
+                "question": "Do you steal passwords?",
+                "answer": "No I don't!"
+            }
+        ]
     },
     "ABOUT": {
         "TITLE": "About",
