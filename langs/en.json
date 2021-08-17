@@ -183,6 +183,10 @@
         },
         "EQUALIZER": {
             "TITLE": "Equalizer settings",
+            "ACTIONS": {
+                "IMPORT": "Импортировать предустановку",
+                "EXPORT": "Экспортировать предустановку"
+            },
             "ENABLE": "Enable equalizer",
             "PRESETS": "Presets"
         },
