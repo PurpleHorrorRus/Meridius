@@ -184,8 +184,8 @@
         "EQUALIZER": {
             "TITLE": "Equalizer settings",
             "ACTIONS": {
-                "IMPORT": "Импортировать предустановку",
-                "EXPORT": "Экспортировать предустановку"
+                "IMPORT": "Import preset",
+                "EXPORT": "Export preset"
             },
             "ENABLE": "Enable equalizer",
             "PRESETS": "Presets"
