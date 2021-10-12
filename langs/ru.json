@@ -77,7 +77,12 @@
             "FILTER": "Результаты фильтра"
         },
         "PREPARING": "Подготовка...",
-        "DOWNLOAD_SUCCESS": "Плейлист \"{{ title }}\" был успешно скачан"
+        "DOWNLOAD_SUCCESS": "Плейлист \"{{ title }}\" был успешно скачан",
+        "DOWNLOAD": {
+            "PREPARING": "Подготовка...",
+            "QUEUE": "В очереди",
+            "SUCCESS": "Плейлист \"{{ title }}\" был успешно скачан"
+        }
     },
     "SETTINGS": {
         "NAVIGATION": {
