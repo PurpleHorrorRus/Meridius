@@ -2,15 +2,10 @@
     "NAVIGATION": {
         "MAIN": "Главная",
         "MY": "Музыка",
-        "DISCOVER": "Обзор",
-        "PLAYLISTS": "Плейлисты",
         "FEED": "Новости",
         "FRIENDS": "Друзья",
         "COMMUNITIES": "Сообщества",
-        "DOWNLOADS": "Загрузки",
-        "NOTIFICATIONS": "Оповещения",
-        "QUEUE": "Очередь",
-        "SETTINGS": "Настройки"
+        "QUEUE": "Список воспроизведения"
     },
     "GENERAL": {
         "ARTISTS": "Исполнители для Вас",

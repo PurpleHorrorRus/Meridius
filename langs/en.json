@@ -2,15 +2,10 @@
     "NAVIGATION": {
         "MAIN": "Home",
         "MY": "Music",
-        "DISCOVER": "Discover",
-        "PLAYLISTS": "Playlists",
         "FEED": "Feed",
         "FRIENDS": "Friends",
         "COMMUNITIES": "Communities",
-        "DOWNLOADS": "Downloads",
-        "NOTIFICATIONS": "Notifications",
-        "QUEUE": "Queue",
-        "SETTINGS": "Settings"
+        "QUEUE": "Playlist"
     },
     "GENERAL": {
         "ARTISTS": "Artists for You",
