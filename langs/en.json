@@ -2,7 +2,8 @@
     "NAVIGATION": {
         "MAIN": "Home",
         "MY": "Music",
-        "FEED": "Feed",
+        "PLAYLISTS": "Playlists",
+        "FEED": "Discover",
         "FRIENDS": "Friends",
         "COMMUNITIES": "Communities",
         "QUEUE": "Playlist"
@@ -71,8 +72,6 @@
             "RESULTS_COUNT": "Search ({{ count }})",
             "FILTER": "Filter"
         },
-        "PREPARING": "Preparing...",
-        "DOWNLOAD_SUCCESS": "Playlist \"{{ title }}\" has been downloaded successfully",
         "DOWNLOAD": {
             "PREPARING": "Preparing...",
             "QUEUE": "In queue",
@@ -85,7 +84,6 @@
             "GENERAL": "General",
             "APPEARANCE": "Appearance",
             "PLAYER": "Player",
-            "HOMEPAGE": "Home page",
             "DOWNLOADS": "Downloads",
             "EQUALIZER": "Equalizer",
             "HOTKEYS": "Hotkeys",
@@ -124,8 +122,11 @@
             "EXPAND": "Expand left menu",
             "ROUND_TOP": "Top border rounding",
             "ROUND_BOTTOM": "Bottom border rounding",
-            "ACRYLIC": "Enable Windows 11 Acrylic",
-            "ACRYLIC_OPACITY": "Acrylic opacity",
+            "ACRYLIC": {
+                "TITLE": "Enable Windows 11 Acrylic",
+                "OPACITY": "Acrylic opacity",
+                "TIP": "You need to enable transparency effects in Windows settings"
+            },
             "THEMES": "Themes"
         },
         "PLAYER": {
@@ -282,6 +283,7 @@
         "DESCRIPTION": "Listen to music in VK absolutely for free and without restrictions.",
         "LOGIN_FIELD": "Login",
         "PASSWORD_FIELD": "Password",
+        "CONFIRMATION_CODE": "Confirmation code",
         "ENTER": "ENTER",
         "ERRORS": {
             "CYRILLIC": "Cyrillic is not allowed in the password",
@@ -329,13 +331,7 @@
         "NO_CONNECTION": "No connection to VK. Attempting to reconnect...",
         "NO_FFMPEG_AUDIO": "You need to install FFmpeg to download this audio",
         "NO_FFMPEG_PLAYLISTS": "You need to install FFmpeg to download this playlist",
-        "NO_UNIQUE_HEADERS": "No unique headers found, template not saved",
-        "SOLID": {
-            "FFMPEG": {
-                "TEXT": "This audio has a special kind of link that cannot be deciphered without direct conversion. To do this, you need to install FFmpeg. Would you like install?",
-                "INSTALL": "Install"
-            }
-        }
+        "NO_UNIQUE_HEADERS": "No unique headers found, template not saved"
     },
     "QUEUE": {
         "NOW_PLAYING": "Now playing",
@@ -357,12 +353,12 @@
         },
         "SONG": {
             "ADD": "Add",
-            "ADDED": "Added",
             "ALBUM": "Album",
             "EDIT": "Edit",
             "SIMILAR": "Similar",
             "SHARE": "Share",
             "QUEUE": "Add to queue",
+            "PLAY_NEXT": "Play next",
             "DELETE": "Delete",
             "DOWNLOAD": "Download"
         },
