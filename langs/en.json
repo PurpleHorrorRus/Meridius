@@ -198,6 +198,7 @@
             "PLAYPREV": "Previous track",
             "VOLUP": "Volume up",
             "VOLDOWN": "Volume down",
+            "VOLMUTE": "Mute / unmute",
             "NEXTPLAYLIST": "Next playlist",
             "PREVPLAYLIST": "Previous playlist",
             "MINIWINDOW_POSITION": "Change miniwindow position"
