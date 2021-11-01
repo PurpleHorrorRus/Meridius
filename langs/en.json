@@ -120,7 +120,6 @@
         },
         "APPEARANCE": {
             "TITLE": "Appearance settings",
-            "EXPAND": "Expand left menu",
             "ROUND_TOP": "Top border rounding",
             "ROUND_BOTTOM": "Bottom border rounding",
             "ACRYLIC": {
