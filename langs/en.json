@@ -428,6 +428,14 @@
             }
         ]
     },
+    "TRAY": {
+        "SHOW": "Show",
+        "PLAYLISTS": {
+            "TITLE": "Playback",
+            "MY_MUSIC": "My music"
+        },
+        "EXIT": "Exit"
+    },
     "ABOUT": {
         "TITLE": "About",
         "DESCRIPTION": "Meridius is an absolutely free program for listening to music on the VK social network. Meridius offers a wide range of functionality, similar to the functionality of the social network itself. No dirty tricks - the program is absolutely free and without ads or any commercial purpose! The program was made by a music lover like you."
@@ -452,5 +460,6 @@
     "NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
     "NO_SIMILAR": "Unfortunately, we didn't find anything...",
     "DISCORD": "Listening music",
+    "DEVTOOLS": "Open developer tools",
     "LOGOFF": "Logout"
 }
