@@ -132,6 +132,10 @@
         "PLAYER": {
             "TITLE": "Player settings",
             "AUDIO_OUTPUT": "Output device",
+            "VOLUME_DIVIDER": {
+                "TITLE": "Volume divider",
+                "TIP": "If it seems to you that the volume of the tracks does not correspond to the specified percentage of the volume in the player, then change the volume divider"
+            },
             "MINIWINDOW": "Mini window",
             "MINIMODE": {
                 "TITLE": "Mini mode for miniwindow",
