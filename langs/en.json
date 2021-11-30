@@ -20,9 +20,8 @@
         },
         "RELEASES": {
             "NEW": "New releases",
-            "CHARTS": "Charts",
-            "COLLECTION": "Your collection",
-            "RECOMS": "Recommendations"
+            "NEW_ARTISTS": "New artists",
+            "CHARTS": "Charts"
         }
     },
     "DISCOVER": {

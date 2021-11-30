@@ -20,9 +20,8 @@
         },
         "RELEASES": {
             "NEW": "Новые релизы",
-            "CHARTS": "Чарты",
-            "COLLECTION": "Из вашей коллекции",
-            "RECOMS": "Рекомендации"
+            "NEW_ARTISTS": "Новые исполнители",
+            "CHARTS": "Чарт"
         }
     },
     "DISCOVER": {
