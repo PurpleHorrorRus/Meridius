@@ -384,7 +384,8 @@
         "MENU": {
             "SETTINGS": "Settings",
             "HELP": "Help",
-            "ABOUT": "About"
+            "ABOUT": "About",
+            "LOGGER": "Logger"
         }
     },
     "HELP": {
@@ -436,6 +437,17 @@
             }
         ]
     },
+    "ABOUT": {
+        "TITLE": "About",
+        "DESCRIPTION": "Meridius is an absolutely free program for listening to music on the VK social network. Meridius offers a wide range of functionality, similar to the functionality of the social network itself. No dirty tricks - the program is absolutely free and without ads or any commercial purpose! The program was made by a music lover like you."
+    },
+    "LOGGER": {
+        "TITLE": "Logger",
+        "TURN": "Enable logger",
+        "TIP": "You need to restart the application to enable or disable the logger",
+        "DISABLED": "Logger disabled",
+        "OPEN_FOLDER": "Open log files directory"
+    },
     "TRAY": {
         "SHOW": "Show",
         "PLAYLISTS": {
@@ -443,10 +455,6 @@
             "MY_MUSIC": "My music"
         },
         "EXIT": "Exit"
-    },
-    "ABOUT": {
-        "TITLE": "About",
-        "DESCRIPTION": "Meridius is an absolutely free program for listening to music on the VK social network. Meridius offers a wide range of functionality, similar to the functionality of the social network itself. No dirty tricks - the program is absolutely free and without ads or any commercial purpose! The program was made by a music lover like you."
     },
     "QUICKACTIONS": "Actions",
     "QUICKUPLOAD": "Upload",
