@@ -113,8 +113,7 @@
                     "INSTALL": "Install FFmpeg"
                 },
                 "INSTALLED": "FFmpeg installed",
-                "CLEAR_CACHE": "Clear cache",
-                "SPACE": "Disk space used: {{ count }}"
+                "REINSTALL": "Reinstall"
             }
         },
         "APPEARANCE": {

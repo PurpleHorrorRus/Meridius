@@ -113,8 +113,7 @@
                     "INSTALL": "Установить FFmpeg"
                 },
                 "INSTALLED": "FFmpeg установлен",
-                "CLEAR_CACHE": "Очистить кэш",
-                "SPACE": "Занятое место на диске: {{ count }}"
+                "REINSTALL": "Переустановить"
             }
         },
         "APPEARANCE": {
