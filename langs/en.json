@@ -294,8 +294,7 @@
             "INVALID_CREDENTIALS": "Invalid username or password",
             "MANY_ATTEMPTS": "You have too many login attempts. Retry again in a few hours",
             "TFA_REQUIRED": "You must to enter two-factor auth code",
-            "TFA_HTTP_REQUIRED": "Autofetching failed. You must to enter two-factor code (HTTP Client)",
-            "TFA_HTTP_AUTO": "Try to autofetch TFA code for HTTP Client...",
+            "TFA_HTTP_REQUIRED": "Now you must to enter two-factor code for HTTP Client",
             "CAPTCHA_REQUIRED": "You must to solve the captcha",
             "CAPTCHA_INVALID": "Invalid captcha solution"
         },
