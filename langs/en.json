@@ -37,6 +37,8 @@
         }
     },
     "PLAYLIST": {
+        "LISTENS": "{{ listens }} listens",
+        "SONGS": "{{ songs }} songs",
         "UPDATED": "Updated {{ date }}",
         "MONTHS": [
             "Jan",

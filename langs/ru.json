@@ -37,6 +37,8 @@
         }
     },
     "PLAYLIST": {
+        "LISTENS": "{{ listens }} прослушиваний",
+        "SONGS": "{{ songs }} треков",
         "UPDATED": "Обновлено {{ date }}",
         "MONTHS": [
             "янв",
