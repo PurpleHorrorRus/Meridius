@@ -85,6 +85,7 @@
             "GENERAL": "General",
             "APPEARANCE": "Appearance",
             "PLAYER": "Player",
+            "OPTIMIZATION": "Optimization",
             "DOWNLOADS": "Downloads",
             "EQUALIZER": "Equalizer",
             "HOTKEYS": "Hotkeys",
@@ -160,6 +161,11 @@
                 "WHEEL": "By mouse wheel"
             }
         },
+        "OPTIMIZATION": {
+            "TITLE": "Optimization settings",
+            "LOADING_RESTRICTION": {
+                "TITLE": "Restriction on loading audios",
+                "TIP": "By default, maximum count of loaded tracks is 2000. By disabling, all tracks of users and communities will be loaded. It is not recommended to disable, this will cause long loadings, freezes, crashes and high consumption of system resources with a large amount of audio."
             }
         },
         "DOWNLOADS": {
