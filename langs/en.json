@@ -160,19 +160,6 @@
                 "WHEEL": "By mouse wheel"
             }
         },
-        "HOME": {
-            "TITLE": "Home page",
-            "ENABLE": "Enable home page",
-            "ARTISTS": "Artists",
-            "COLLECTIONS": "Collections",
-            "PLAYLISTS": "Playlists",
-            "FAVORITES": "Favorites",
-            "RECOMMENDATIONS": {
-                "TITLE": "Recommendations",
-                "ENABLE": "Enable recommendations",
-                "BANNERS": "New albums",
-                "SONGS": "New releases and charts",
-                "PLAYLISTS": "Playlists"
             }
         },
         "DOWNLOADS": {
