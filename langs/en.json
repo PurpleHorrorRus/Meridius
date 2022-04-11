@@ -110,7 +110,7 @@
             "DEVTOOLS": "Developer tools",
             "FFMPEG": {
                 "TITLE": "Audio converting",
-                "TIP": "FFmpeg - it's free open-source tool to processing media files. Required to converting audios that links cannot be fetching directly from VK servers",
+                "TIP": "FFmpeg - it's free open-source tool to processing media files. Requires for combining streaming files into one",
                 "NOT_INSTALLED": {
                     "TITLE": "FFmpeg not installed",
                     "INSTALL": "Install FFmpeg"
@@ -165,7 +165,7 @@
             "TITLE": "Optimization settings",
             "LOADING_RESTRICTION": {
                 "TITLE": "Restriction on loading audios",
-                "TIP": "By default, maximum count of loaded tracks is 2000. By disabling, all tracks of users and communities will be loaded. It is not recommended to disable, this will cause long loadings, freezes, crashes and high consumption of system resources with a large amount of audio."
+                "TIP": "Here you can set the desired maximum number of tracks that will be loaded when playing playlists. By default, the number of downloaded tracks is 1000, the minimum is 100, the maximum is 10000. It is not recommended to set a value higher than 2000, this cause long downloads, freezes, crashes and high consumption of system resources with a large amount of audio"
             }
         },
         "DOWNLOADS": {
