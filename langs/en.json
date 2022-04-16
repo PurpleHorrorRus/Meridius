@@ -389,6 +389,10 @@
             "VK_GROUP": "VK Group",
             "GITHUB": "GitHub Page",
             "TWITCH": "Twitch",
+            "TROVO": {
+                "LABEL": "Trovo",
+                "TIP": "Follow to livestreams"
+            },
             "DONATE": "Donate"
         },
         "FAQ": [
