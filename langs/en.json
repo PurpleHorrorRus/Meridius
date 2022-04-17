@@ -40,6 +40,16 @@
         "LISTENS": "{{ listens }} listens",
         "SONGS": "{{ songs }} songs",
         "UPDATED": "Updated {{ date }}",
+        "DURATION": {
+            "ZERO_H": {
+                "ZERO_M": "{{ seconds }} sec",
+                "DEFAULT": "{{ mins }} min {{ seconds }} sec"
+            },
+
+            "LESS_H": "{{ hours }} hr {{ mins }} min",
+            "ABOUT_H": "about {{ hours }} hr",
+            "DEFAULT": "over 24 hr"
+        },
         "MONTHS": [
             "Jan",
             "Feb",

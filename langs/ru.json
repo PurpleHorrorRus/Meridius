@@ -40,6 +40,16 @@
         "LISTENS": "{{ listens }} прослушиваний",
         "SONGS": "{{ songs }} треков",
         "UPDATED": "Обновлено {{ date }}",
+        "DURATION": {
+            "ZERO_H": {
+                "ZERO_M": "{{ seconds }} сек.",
+                "DEFAULT": "{{ mins }} мин. {{ seconds }} сек."
+            },
+
+            "LESS_H": "{{ hours }} ч. {{ mins }} мин.",
+            "ABOUT_H": "около {{ hours }} ч.",
+            "DEFAULT": "больше 24 часов"
+        },
         "MONTHS": [
             "янв",
             "фев",
