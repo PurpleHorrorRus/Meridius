@@ -161,7 +161,7 @@
                 "TITLE": "Normalize audio volume",
                 "TIP": "Averages the volume of the audio",
                 "MAX": {
-                    "TITLE": "Maximum volume increase",
+                    "TITLE": "Maximum volume increase (dB)",
                     "TIP": "The volume of music is a subjective concept. Choose for yourself the maximum percentage of music volume increase"
                 }
             },
