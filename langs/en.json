@@ -451,7 +451,6 @@
     "LOGGER": {
         "TITLE": "Logger",
         "TURN": "Enable logger",
-        "TIP": "You need to restart the application to enable or disable the logger",
         "DISABLED": "Logger disabled",
         "OPEN_FOLDER": "Open log files directory"
     },
