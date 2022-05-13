@@ -126,7 +126,8 @@
                     "INSTALL": "Install FFmpeg"
                 },
                 "INSTALLED": "FFmpeg installed",
-                "REINSTALL": "Reinstall"
+                "REINSTALL": "Reinstall",
+                "LINUX": "Install FFmpeg with following command and restart the application"
             }
         },
         "APPEARANCE": {
