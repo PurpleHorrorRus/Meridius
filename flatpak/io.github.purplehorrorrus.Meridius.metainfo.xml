@@ -50,23 +50,25 @@
     <url type="contact">https://vk.com/id529592613</url>
 
     <releases>
-        <release version="12.4.13" urgency="medium" date="2022-05-11">
+        <release version="12.4.14" urgency="medium" date="2022-05-13">
             <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.13</url>
             <description>
                 <p>Added</p>
                 <ul>
-                    <li>Added the ability to maximize the application window.</li>
+                    <li>Linux: you must to install FFmpeg manually to download music</li>
                 </ul>
 
                 <p>Changes</p>
                 <ul>
-                    <li>UI: Changed the style of the app buttons.</li>
+                    <li>Improve logic of hotkeys in settings page</li>
+                    <li>UI: Some components changes</li>
+                    <li>UI: Improving color schemes</li>
                 </ul>
 
                 <p>Fixes</p>
                 <ul>
-                    <li>Disabled the ability to expand the application to full screen.</li>
-                    <li>Fixed incorrect position of the playlist context menu.</li>
+                    <li>Fixed a bug that caused deleting a track from a playlist to delete a track from the playback queue from another playlist</li>
+                    <li>Fixed a visual bug that caused the edges to round off when the application window was maximized, if you switch the appropriate setting</li>
                 </ul>
             </description>
         </release>
