@@ -46,25 +46,19 @@
     <url type="contact">https://vk.com/id529592613</url>
 
     <releases>
-        <release version="12.4.14" urgency="medium" date="2022-05-13">
-            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.13</url>
+        <release version="2.4.15" urgency="medium" date="2022-05-14">
+            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.15</url>
             <description>
-                <p>Added</p>
-                <ul>
-                    <li>Linux: you must to install FFmpeg manually to download music</li>
-                </ul>
-
                 <p>Changes</p>
                 <ul>
-                    <li>Improve logic of hotkeys in settings page</li>
-                    <li>UI: Some components changes</li>
-                    <li>UI: Improving color schemes</li>
+                    <li>UI: Changed the icons of the left menu</li>
+                    <li>UI: Changed the font of the application to Nunito</li>
                 </ul>
 
                 <p>Fixes</p>
                 <ul>
-                    <li>Fixed a bug that caused deleting a track from a playlist to delete a track from the playback queue from another playlist</li>
-                    <li>Fixed a visual bug that caused the edges to round off when the application window was maximized, if you switch the appropriate setting</li>
+                    <li>Fixed a bug that made it possible to import the same video or playlist from YouTube with different links</li>
+                    <li>Some visual fixes</li>
                 </ul>
             </description>
         </release>
