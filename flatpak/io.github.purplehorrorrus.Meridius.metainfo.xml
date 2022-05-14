@@ -6,10 +6,6 @@
     <project_license>LicenseRef-proprietary</project_license>
     <developer_name>PurpleHorrorRus</developer_name>
     <summary>Music Player for vk.com</summary>
-    <languages>
-        <lang>ru_RU</lang>
-        <lang>en_US</lang>
-    </languages>
     <description>
         <p>Meridius is an absolutely free application for listening to music on VK. Meridius offers a wide range of functionality similar to the functionality of the social network.</p>
 
