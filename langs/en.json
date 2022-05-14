@@ -272,7 +272,7 @@
                 "SKIP": "Skip"
             },
             "YOUTUBE": {
-                "LINK": "Link",
+                "LINK": "Link on video or playlist",
                 "REMOVE": "Remove",
                 "UPLOAD": "Upload",
                 "NOFFMPEG": "You need to have FFmpeg installed to use this feature"

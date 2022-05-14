@@ -46,13 +46,12 @@
     <url type="contact">https://vk.com/id529592613</url>
 
     <releases>
-        <release version="2.4.15" urgency="medium" date="2022-05-14">
-            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.15</url>
+        <release version="2.4.16" urgency="medium" date="2022-05-14">
+            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.16</url>
             <description>
                 <p>Changes</p>
                 <ul>
                     <li>UI: Changed the icons of the left menu</li>
-                    <li>UI: Changed the font of the application to Nunito</li>
                 </ul>
 
                 <p>Fixes</p>
