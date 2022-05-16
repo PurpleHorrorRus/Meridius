@@ -46,18 +46,14 @@
     <url type="contact">https://vk.com/id529592613</url>
 
     <releases>
-        <release version="2.4.16" urgency="medium" date="2022-05-14">
-            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.16</url>
+        <release version="2.4.17" urgency="medium" date="2022-05-16">
+            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.17</url>
             <description>
-                <p>Changes</p>
-                <ul>
-                    <li>UI: Changed the icons of the left menu</li>
-                </ul>
-
                 <p>Fixes</p>
                 <ul>
-                    <li>Fixed a bug that made it possible to import the same video or playlist from YouTube with different links</li>
-                    <li>Some visual fixes</li>
+                    <li>Fixed loading playlist covers, artists, and recommendations on the home page</li>
+                    <li>Now it is impossible to play playlists in which all tracks are removed from access</li>
+                    <li>Fixed a bug that made it possible to play a restricted track while quick playing a playlist, if it was first in the list</li>
                 </ul>
             </description>
         </release>
