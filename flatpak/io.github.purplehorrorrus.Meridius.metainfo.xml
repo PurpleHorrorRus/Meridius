@@ -46,14 +46,19 @@
     <url type="contact">https://vk.com/id529592613</url>
 
     <releases>
-        <release version="2.4.17" urgency="medium" date="2022-05-16">
-            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.17</url>
+        <release version="2.4.18" urgency="medium" date="2022-05-18">
+            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.18</url>
             <description>
+                <p>Changes</p>
+                <ul>
+                    <li>UI: Visual modification of some components on the playlist page.</li>
+                </ul>
+
                 <p>Fixes</p>
                 <ul>
-                    <li>Fixed loading playlist covers, artists, and recommendations on the home page</li>
-                    <li>Now it is impossible to play playlists in which all tracks are removed from access</li>
-                    <li>Fixed a bug that made it possible to play a restricted track while quick playing a playlist, if it was first in the list</li>
+                    <li>Audio loading and volume calculating code has been corrected</li>
+                    <li>Some color scheme fixes</li>
+                    <li>Fixed a visual bug that caused the audio playback button to be displayed on the playlist page if access to the user's or community's audio denied</li>
                 </ul>
             </description>
         </release>
