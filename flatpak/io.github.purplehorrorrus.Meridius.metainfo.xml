@@ -51,15 +51,16 @@
             <description>
                 <p>Changes</p>
                 <ul>
-                    <li>UI: Some visual changes</li>
-                    <li>Updated dependencies</li>
+                    <li>Electron version has been downgraded to 18.3.1.</li>
+                    <li>When you turn on an audio from a recommended users playlist, playlist audios will be loaded instead of general page audios</li>
+                    <li>UI: Some changes in color themes and components</li>
                 </ul>
 
                 <p>Fixes</p>
                 <ul>
-                    <li>Fixed a visual bug that caused the size of the audio area to not adapt when resizing the left menu</li>
-                    <li>Fixed a visual bug that caused too long names of performers not fit the collection on the general page</li>
-                    <li>Linux: application now uses the system tray</li>
+                    <li>Fixed the order of tracks on the main page when playing</li>
+                    <li>Fixed the order of deleting playlist navigation tabs if access to the audio of a user or community is denied</li>
+                    <li>UI: Some visual fixes</li>
                 </ul>
             </description>
         </release>
