@@ -46,19 +46,20 @@
     <url type="contact">https://vk.com/id529592613</url>
 
     <releases>
-        <release version="2.4.19" urgency="medium" date="2022-05-19">
-            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.19</url>
+        <release version="2.4.20" urgency="medium" date="2022-05-26">
+            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.20</url>
             <description>
                 <p>Changes</p>
                 <ul>
-                    <li>The scrolling logic and the visual part on the playlist page have been improved</li>
+                    <li>UI: Some visual changes</li>
+                    <li>Updated dependencies</li>
                 </ul>
 
                 <p>Fixes</p>
                 <ul>
-                    <li>Fixed a bug that caused the captcha to not appear on the authorization page</li>
-                    <li>Fixed a missing language switch button on the authorization page</li>
-                    <li>Fixed a bug that caused localization files to be loaded with stable connection from a local repository instead of remote repository</li>
+                    <li>Fixed a visual bug that caused the size of the audio area to not adapt when resizing the left menu</li>
+                    <li>Fixed a visual bug that caused too long names of performers not fit the collection on the general page</li>
+                    <li>Linux: application now uses the system tray</li>
                 </ul>
             </description>
         </release>
