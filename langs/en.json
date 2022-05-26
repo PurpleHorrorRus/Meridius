@@ -160,7 +160,7 @@
             },
             "NORMALIZER": {
                 "TITLE": "Normalize audio volume",
-                "TIP": "Averages the volume of the audio",
+                "TIP": "Averages the volume of the audio. Do not enable this option if you are listening to music at a medium or high volume level (from 20% and above)",
                 "MAX": {
                     "TITLE": "Maximum volume increase (dB)",
                     "TIP": "The volume of music is a subjective concept. Choose for yourself the maximum percentage of music volume increase"
@@ -297,8 +297,6 @@
         "ERRORS": {
             "CYRILLIC": "Cyrillic is not allowed in the password",
             "EMPTY_FIELD": "You must enter your username and password",
-            "INVALID_CREDENTIALS": "Invalid username or password",
-            "MANY_ATTEMPTS": "You have too many login attempts. Retry again in a few hours",
             "TFA_REQUIRED": "You must to enter two-factor authentication code. If you don't receive code from VK administration, then use Code Generator (E.g. Google Authenticator)",
             "TFA_HTTP_REQUIRED": "Now you must to enter two-factor code for HTTP Client",
             "CAPTCHA_REQUIRED": "You must to solve the captcha",
@@ -339,6 +337,7 @@
         "SONG_SHARED": "Track \"{{ performer }} - {{ title }}\" has been sent successfully"
     },
     "ERRORS": {
+        "NO_FFMPEG": "You must to install FFmpeg in settings before audio downloading",
         "DOWNLOAD_NOT_SPECIFIED": "Set the path to save audio in settings",
         "NO_CONNECTION": "No connection to VK. Attempting to reconnect...",
         "NO_UNIQUE_HEADERS": "No unique headers found, template not saved",
