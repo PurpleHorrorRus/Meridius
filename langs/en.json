@@ -462,6 +462,14 @@
         },
         "EXIT": "Exit"
     },
+    "TIPS": [
+        "Tip: Right-click on the playlist in the drop-down menu for quick playback",
+        "Tip: Right-click on \"My music\" to quickly play your music",
+        "Tip: Before asking for a feature from a developer, be ready to cooperate and help",
+        "Tip: Join our VK group to keep up to date with news about player development and updates",
+        "Tip: Before asking a question, read the FAQ",
+        "You can support the development of the project. The link is in the help window"
+    ],
     "QUICKACTIONS": "Actions",
     "QUICKUPLOAD": "Upload",
     "QUICKPLAY": "Play",
