@@ -57,12 +57,15 @@
                 <p>Changes</p>
                 <ul>
                     <li>Search for all audio recordings from playlists is disabled</li>
+                    <li>UI: Microwindow style has been updated: a shadow has been added to the cover, and the labels now have an outline instead of shadows</li>
                     <li>UI: Some changes in color themes and components</li>
                 </ul>
 
                 <p>Fixes</p>
                 <ul>
                     <li>Now when you exit the app from index page, the latest playing track will not be reset</li>
+                    <li>Music download buttons will now be hidden if FFmpeg is not installed</li>
+                    <li>Fixed error display when trying to download music without FFmpeg</li>
                     <li>Fixed a bug that made it impossible to delete a restricted audio</li>
                     <li>UI: Some visual fixes</li>
                 </ul>
