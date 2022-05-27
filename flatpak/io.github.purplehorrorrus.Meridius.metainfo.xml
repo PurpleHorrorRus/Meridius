@@ -46,20 +46,24 @@
     <url type="contact">https://vk.com/id529592613</url>
 
     <releases>
-        <release version="2.4.20" urgency="medium" date="2022-05-26">
-            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.20</url>
+        <release version="2.4.22" urgency="medium" date="2022-05-27">
+            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.22</url>
             <description>
                 <p>Changes</p>
                 <ul>
-                    <li>Electron version has been downgraded to 18.3.1.</li>
-                    <li>When you turn on an audio from a recommended users playlist, playlist audios will be loaded instead of general page audios</li>
+                    <li>Added tips to index page</li>
+                </ul>
+
+                <p>Changes</p>
+                <ul>
+                    <li>Search for all audio recordings from playlists is disabled</li>
                     <li>UI: Some changes in color themes and components</li>
                 </ul>
 
                 <p>Fixes</p>
                 <ul>
-                    <li>Fixed the order of tracks on the main page when playing</li>
-                    <li>Fixed the order of deleting playlist navigation tabs if access to the audio of a user or community is denied</li>
+                    <li>Now when you exit the app from index page, the latest playing track will not be reset</li>
+                    <li>Fixed a bug that made it impossible to delete a restricted audio</li>
                     <li>UI: Some visual fixes</li>
                 </ul>
             </description>
