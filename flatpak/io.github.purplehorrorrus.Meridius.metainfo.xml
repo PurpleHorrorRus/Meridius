@@ -46,28 +46,17 @@
     <url type="contact">https://vk.com/id529592613</url>
 
     <releases>
-        <release version="2.4.22" urgency="medium" date="2022-05-27">
-            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.22</url>
+        <release version="2.4.23" urgency="medium" date="2022-05-27">
+            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.23</url>
             <description>
                 <p>Changes</p>
                 <ul>
-                    <li>Added tips to index page</li>
-                </ul>
-
-                <p>Changes</p>
-                <ul>
-                    <li>Search for all audio recordings from playlists is disabled</li>
-                    <li>UI: Microwindow style has been updated: a shadow has been added to the cover, and the labels now have an outline instead of shadows</li>
-                    <li>UI: Some changes in color themes and components</li>
+                    <li>Improved detection of the music download folder. Now, if the specified folder for downloading music does not exist, the application will ask you to set another folder in the settings</li>
                 </ul>
 
                 <p>Fixes</p>
                 <ul>
-                    <li>Now when you exit the app from index page, the latest playing track will not be reset</li>
-                    <li>Music download buttons will now be hidden if FFmpeg is not installed</li>
-                    <li>Fixed error display when trying to download music without FFmpeg</li>
-                    <li>Fixed a bug that made it impossible to delete a restricted audio</li>
-                    <li>UI: Some visual fixes</li>
+                    <li>Hotfix: fixed downloading audios</li>
                 </ul>
             </description>
         </release>
