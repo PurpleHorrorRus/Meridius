@@ -398,7 +398,10 @@
             "VK": "Страница VK",
             "VK_GROUP": "Группа VK",
             "GITHUB": "Страница на GitHub",
-            "TWITCH": "Twitch",
+            "TWITCH": {
+                "LABEL": "Twitch",
+                "TIP": "Подписывайтесь на прямые трансляции"
+            },
             "TROVO": {
                 "LABEL": "Trovo",
                 "TIP": "Подписывайтесь на прямые трансляции"

@@ -398,7 +398,10 @@
             "VK": "VK Page",
             "VK_GROUP": "VK Group",
             "GITHUB": "GitHub Page",
-            "TWITCH": "Twitch",
+            "TWITCH": {
+                "LABEL": "Twitch",
+                "TIP": "Follow to livestreams"
+            },
             "TROVO": {
                 "LABEL": "Trovo",
                 "TIP": "Follow to livestreams"
