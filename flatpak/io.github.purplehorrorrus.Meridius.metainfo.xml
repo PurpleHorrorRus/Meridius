@@ -46,17 +46,14 @@
     <url type="contact">https://vk.com/id529592613</url>
 
     <releases>
-        <release version="2.4.23" urgency="medium" date="2022-05-27">
-            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.23</url>
+        <release version="2.4.24" urgency="medium" date="2022-06-08">
+            <url>https://github.com/PurpleHorrorRus/Meridius/releases/tag/v2.4.24</url>
             <description>
-                <p>Changes</p>
-                <ul>
-                    <li>Improved detection of the music download folder. Now, if the specified folder for downloading music does not exist, the application will ask you to set another folder in the settings</li>
-                </ul>
-
                 <p>Fixes</p>
                 <ul>
-                    <li>Hotfix: fixed downloading audios</li>
+                    <li>Fixed a bug that made it impossible to navigate the page of some performers</li>
+                    <li>Some visual fixes and improvements</li>
+                    <li>Dependencies have been updated</li>
                 </ul>
             </description>
         </release>
