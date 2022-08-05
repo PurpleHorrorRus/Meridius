@@ -100,7 +100,7 @@
             "EQUALIZER": "Equalizer",
             "HOTKEYS": "Hotkeys",
             "SERVER": "Server",
-            "LOGOUT": "Logout"
+            "ACCOUNTS": "Accounts"
         },
         "GENERAL": {
             "TITLE": "General settings",
@@ -216,6 +216,10 @@
             "PORT": "Port",
             "START": "Start server",
             "STOP": "Stop server"
+        },
+        "ACCOUNTS": {
+            "TITLE": "Accounts manager",
+            "ADD": "Add account"
         }
     },
     "SEARCH": {
@@ -231,6 +235,9 @@
         "SIMILAR_ARTISTS": "Similar artists"
     },
     "MODAL": {
+        "CONFIRMATION": {
+            "DELETE_PLAYLIST": "Do you want to delete playlist \"{{ title }}\"?"
+        },
         "ADD_PLAYLIST": {
             "NAME": "Create playlist",
             "TITLE": "Title",
@@ -286,6 +293,9 @@
                 "FAILURE": "Failure",
                 "SKIPPED": "Skipped"
             }
+        },
+        "UPDATE": {
+            "BUTTON": "Update"
         }
     },
     "LOGIN": {
@@ -300,7 +310,8 @@
             "TFA_REQUIRED": "You must to enter two-factor authentication code. If you don't receive code from VK administration, then use Code Generator (E.g. Google Authenticator)",
             "TFA_HTTP_REQUIRED": "Now you must to enter two-factor code for HTTP Client",
             "CAPTCHA_REQUIRED": "You must to solve the captcha",
-            "CAPTCHA_INVALID": "Invalid captcha solution"
+            "CAPTCHA_INVALID": "Invalid captcha solution",
+            "ACCOUNT_EXIST": "This account already exists"
         },
         "EULA": {
             "ACCEPT": "I accept",
@@ -341,7 +352,8 @@
         "DOWNLOAD_NOT_SPECIFIED": "Set the path to save audio in settings",
         "NO_CONNECTION": "No connection to VK. Attempting to reconnect...",
         "NO_UNIQUE_HEADERS": "No unique headers found, template not saved",
-        "STREAMER": "Streamer mode: failed to save files. Reason:"
+        "STREAMER": "Streamer mode: failed to save files. Reason:",
+        "OFTEN_EDIT": "You're trying to edit a songs too often, try again later"
     },
     "QUEUE": {
         "NOW_PLAYING": "Now playing",
@@ -357,7 +369,6 @@
     },
     "TOOLTIP": {
         "CONTROLS": {
-            "BROADCAST": "Broadcast in status",
             "DOWNLOAD": "Download",
             "SHARE": "Share"
         },
@@ -492,7 +503,6 @@
     "NOT_SPECIFIED": "Not specified",
     "NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
     "NO_SIMILAR": "Unfortunately, we didn't find anything...",
-    "DISCORD": "Listening music",
     "DEVTOOLS": "Open developer tools",
     "LOGOFF": "Logout"
 }
