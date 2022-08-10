@@ -75,7 +75,8 @@
                 }
             },
             "PLACEHOLDERS": {
-                "TITLE": "Title"
+                "TITLE": "Title",
+                "ALBUM": "Album"
             }
         },
         "FILTER": {
