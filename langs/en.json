@@ -305,6 +305,11 @@
         "PASSWORD_FIELD": "Password",
         "CONFIRMATION_CODE": "Confirmation code",
         "ENTER": "ENTER",
+        "NOTICE": {
+            "VKID": "Important! Before using Meridius, make sure that you have disabled protection against suspicious applications. Meridius partially uses requests to the official undocumented VK music API, which requires disabling protection against suspicious applications in the VK ID settings.",
+            "VKID_OPEN": "Go to VK ID security settings",
+            "TROUBLESHOOTING_OPEN": "Go to troubleshooting"
+        },
         "ERRORS": {
             "CYRILLIC": "Cyrillic is not allowed in the password",
             "EMPTY_FIELD": "You must enter your username and password",
