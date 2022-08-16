@@ -178,6 +178,16 @@
             "LOADING_RESTRICTION": {
                 "TITLE": "Restriction on loading audios",
                 "TIP": "Here you can set the desired maximum number of tracks that will be loaded when playing playlists. By default, the number of downloaded tracks is 1000, the minimum is 100, the maximum is 10000. It is not recommended to set a value higher than 2000, this cause long downloads, freezes, crashes and high consumption of system resources with a large amount of audio"
+            },
+            "DOWNLOAD": {
+                "AUTO": {
+                    "TITLE": "Automatically detect the number of simultaneous downloads",
+                    "TIP": "Recommended for use. The number of downloads is determined depending on the performance of your processor in order to avoid application or system freezes"
+                },
+                "FIXED": {
+                    "TITLE": "Fixed number of simultaneous downloads",
+                    "TIP": "You can set a fixed value for simultaneous downloads. The value cannot be greater than 10. Increase the value at your own risk if you have a low performance CPU"
+                }
             }
         },
         "DOWNLOADS": {
