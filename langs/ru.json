@@ -321,6 +321,7 @@
         "PASSWORD_FIELD": "Пароль",
         "CONFIRMATION_CODE": "Код подтверждения",
         "ENTER": "ВОЙТИ",
+        "RECEIVE_SMS": "Получить код по СМС",
         "ERRORS": {
             "CYRILLIC": "Кириллица в пароле недопустима",
             "EMPTY_FIELD": "Вы должны ввести логин и пароль",

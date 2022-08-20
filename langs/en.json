@@ -321,6 +321,7 @@
         "PASSWORD_FIELD": "Password",
         "CONFIRMATION_CODE": "Confirmation code",
         "ENTER": "ENTER",
+        "RECEIVE_SMS": "Receive code via SMS",
         "ERRORS": {
             "CYRILLIC": "Cyrillic is not allowed in the password",
             "EMPTY_FIELD": "You must enter your username and password",
