@@ -325,7 +325,7 @@
         "ERRORS": {
             "CYRILLIC": "Cyrillic is not allowed in the password",
             "EMPTY_FIELD": "You must enter your username and password",
-            "TFA_REQUIRED": "You must to enter two-factor authentication code. If you don't receive code from VK administration, then use Code Generator (E.g. Google Authenticator)",
+            "TFA_REQUIRED": "You must to enter two-factor authentication code. If you don't receive code from VK administration and SMS, then use Code Generator (E.g. Google Authenticator)",
             "TFA_HTTP_REQUIRED": "Now you must to enter two-factor code for HTTP Client",
             "CAPTCHA_REQUIRED": "You must to solve the captcha",
             "CAPTCHA_INVALID": "Invalid captcha solution"
