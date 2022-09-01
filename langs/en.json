@@ -403,6 +403,8 @@
         "PLAYLIST": {
             "FOLLOW": "Follow",
             "UNFOLLOW": "Unfollow",
+            "SUBSCRIBE": "Subscribe to updates",
+            "UNSUBSCRIBE": "Unsubscribe from updates",
             "SHARE": "Share",
             "EDIT": "Edit",
             "DELETE": "Delete playlist",
