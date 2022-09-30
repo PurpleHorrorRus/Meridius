@@ -90,6 +90,24 @@
             "SUCCESS": "Playlist \"{{ title }}\" has been downloaded successfully"
         }
     },
+    "CONTEXT_MENU": {
+        "SONG": {
+            "ADD": "Add to My Audios",
+            "ADD_TO_PLAYLIST": "Add to playlist",
+            "DELETE": "Remove audio",
+            "SHARE": "Share audio",
+            "EDIT": "Edit audio",
+            "DOWNLOAD": "Download audio"
+        },
+        "PLAYLIST": {
+            "FOLLOW": "Follow playlist",
+            "EDIT": "Edit playlist",
+            "SHARE": "Share playlist",
+            "DOWNLOAD": "Download playlist",
+            "UNFOLLOW": "Unfollow playlist",
+            "DELETE": "Delete playlist"
+        }
+    },
     "SETTINGS": {
         "NAVIGATION": {
             "TITLE": "Settings",
@@ -410,7 +428,8 @@
             "DELETE": "Delete playlist",
             "DOWNLOAD": "Download playlist",
             "CREATE": "Create playlist",
-            "CHOOSE_COVER": "Choose cover image"
+            "CHOOSE_COVER": "Choose cover image",
+            "OPEN_ON_SITE": "Open on website"
         }
     },
     "TITLEBAR": {
