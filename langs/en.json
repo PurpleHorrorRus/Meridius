@@ -82,7 +82,8 @@
         "FILTER": {
             "RESULTS": "Search",
             "RESULTS_COUNT": "Search ({{ count }})",
-            "FILTER": "Filter"
+            "FILTER": "Filter",
+            "TIP": "Tip: Press Enter to search audio"
         },
         "DOWNLOAD": {
             "PREPARING": "Preparing...",
@@ -533,7 +534,7 @@
     "PLAYLISTS": "Playlists",
     "FRIENDS": "Friends",
     "ENABLE": "Enable",
-    "FILTER": "Filter",
+    "FILTER": "Music search",
     "POSTS_SEARCHING": "Posts searching",
     "LOAD_MORE": "Load more",
     "LOADING": "Loading...",
