@@ -125,6 +125,10 @@
         "GENERAL": {
             "TITLE": "General settings",
             "LANGUAGE": "Language selection",
+            "LANGUAGE_NEW": {
+                "TITLE": "Language selection",
+                "TIP": "Requires application restart"
+            },
             "STARTUP": "Open on startup",
             "HIDEONCLOSE": "Minimize to tray",
             "HARDWARE_ACCELERATION": {
@@ -148,7 +152,8 @@
                 "INSTALLED": "FFmpeg installed",
                 "REINSTALL": "Reinstall",
                 "LINUX": "Install FFmpeg with following command and restart the application"
-            }
+            },
+            "CONFIG": "Open configuration folder"
         },
         "APPEARANCE": {
             "TITLE": "Appearance settings",
@@ -332,6 +337,25 @@
         },
         "UPDATE": {
             "BUTTON": "Update"
+        },
+        "LOGIN_ERROR": {
+            "TITLE": "An error has occurred",
+            "DESCRIPTION": {
+                "CORRUPTED": "Meridius detected a problem when refreshing the session. Cookie may be corrupted. Take steps to avoid critical errors.",
+                "REASONS_TITLE": "Reasons why cookie file may be corrupted:",
+                "REASONS": [{
+                    "TITLE": "Invalid session",
+                    "DESCRIPTION": "Sessions become inactive on all devices when you change your password or deauthorize all devices on your account. You need to reauthorize your account."
+                }, {
+                    "TITLE": "Error connecting to VK when trying to automatically refresh the session",
+                    "DESCRIPTION": "Meridius refresh the session every few minutes and during this period the connection may be lost. In this case, you just need to wait until the connection is restored and relaunch Meridius."
+                }]
+            },
+
+            "ACTIONS": {
+                "REAUTH": "Go to reauth",
+                "IGNORE": "Ignore"
+            }
         }
     },
     "LOGIN": {
