@@ -159,6 +159,14 @@
             "TITLE": "Appearance settings",
             "ROUND_TOP": "Top border rounding",
             "ROUND_BOTTOM": "Bottom border rounding",
+            "WINDOW_CONTROL_BUTTONS": {
+                "TITLE": "Hide window control buttons",
+                "TIP": "It will be useful if you use a tiling window manager"
+            },
+            "FULL_FRAME": {
+                "TITLE": "Use the entire application window space",
+                "TIP": "Enable it if you have problems render the window. The outer shadows at the window borders will disappear"
+            },
             "ACRYLIC": {
                 "TITLE": "Enable Windows 11 Acrylic",
                 "OPACITY": "Acrylic opacity",
@@ -199,6 +207,10 @@
         },
         "OPTIMIZATION": {
             "TITLE": "Optimization settings",
+            "STASH_SIZE": {
+                "TITLE": "The number of fetched audios in the playlist",
+                "TIP": "To optimize work with system resources, Meridius uses its own music storage system when downloading. This setting determines how many audios will be displayed when redirecting to the playlist. You can set number in the range from 20 to 100"
+            },
             "LOADING_RESTRICTION": {
                 "TITLE": "Restriction on loading audios",
                 "TIP": "Here you can set the desired maximum number of tracks that will be loaded when playing playlists. By default, the number of downloaded tracks is 1000, the minimum is 100, the maximum is 10000. It is not recommended to set a value higher than 2000, this cause long downloads, freezes, crashes and high consumption of system resources with a large amount of audio"
