@@ -151,7 +151,7 @@
                 },
                 "INSTALLED": "FFmpeg installed",
                 "REINSTALL": "Reinstall",
-                "LINUX": "Install FFmpeg with following command and restart the application"
+                "LINUX": "Install FFmpeg using the command listed below and restart the application. If no command is suitable for your system or FFmpeg cannot be installed correctly on your system, then look for a solution on the Internet. It is recommended to reinstall the application from the FlatHub with built-in FFmpeg"
             },
             "CONFIG": "Open configuration folder"
         },
