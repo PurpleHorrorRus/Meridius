@@ -124,8 +124,7 @@
         },
         "GENERAL": {
             "TITLE": "General settings",
-            "LANGUAGE": "Language selection",
-            "LANGUAGE_NEW": {
+            "LANGUAGE": {
                 "TITLE": "Language selection",
                 "TIP": "Requires application restart"
             },
@@ -260,9 +259,16 @@
         },
         "SERVER": {
             "TITLE": "Server settings",
-            "PORT": "Port",
+            "INTERFACE": "Network interface",
+            "PASSWORD": {
+                "PLACEHOLDER": "Server password",
+                "TIP": "Your password is encrypted once and is not stored anywhere, so it should be written down. The server verifies the authenticity of the password upon request. Open the manual for more detailed information about server and connection",
+                "CHANGE": "Change password",
+                "CONFIRM": "Confirm"
+            },
             "START": "Start server",
-            "STOP": "Stop server"
+            "STOP": "Stop server",
+            "MANUAL": "Open manual"
         },
         "ACCOUNTS": {
             "TITLE": "Accounts manager",
