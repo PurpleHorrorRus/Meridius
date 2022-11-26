@@ -276,7 +276,7 @@
             "SETTINGS": {
                 "API": {
                     "TITLE": "Enable requests to official API",
-                    "TIP": "This option is necessary to expand the functionality and increase performance with music. Before using it, you must disable protection against suspicious applications in the VK ID security settings. Disable this option if you have problems with loading music",
+                    "TIP": "This option is necessary to expand the functionality and increase requests performance. In order to use the official API, you need to disable protection from suspicious apps in the VK ID security settings. When using the official API, you get the following features: increasing speed of music preloading, albums displaying, download music with a high-quality cover",
                     "USAGE": "Official API enabled:",
                     "UPDATE": "Update",
                     "VK_ID_REDIRECT": "Open VK ID security settings"
