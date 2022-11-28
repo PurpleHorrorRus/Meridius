@@ -71,6 +71,7 @@ Meridius собирает статистику только о количест�
 
 [Группа VK](https://vk.com/meridius_player)  
 [Страница VK](https://vk.com/id529592613)  
+[Discord](https://discord.gg/R6gKtbnEVj)  
 [Twitch](https://twitch.tv/infinitehorror)
 
 ## 🖤 Огромное спасибо
