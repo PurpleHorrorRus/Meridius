@@ -9,10 +9,13 @@
         "QUEUE": "Playlist"
     },
     "GENERAL": {
-        "ARTISTS": "Artists for You",
-        "COLLECTIONS": "Music collections",
         "YOUR": "Your playlists",
-        "PLAYLISTS": "Recommended playlists",
+        "RECOMMENDATIONS": {
+            "TOOLTIP": "Configure recommendations",
+            "TIP": "Pick five or more of your favorite artists",
+            "SEARCH": "Search artists",
+            "SAVE": "Save"
+        },
         "FAVS": {
             "USERS": "Favorites users",
             "GROUPS": "Favorites groups",
