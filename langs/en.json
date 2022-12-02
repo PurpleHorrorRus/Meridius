@@ -128,10 +128,7 @@
         },
         "GENERAL": {
             "TITLE": "General settings",
-            "LANGUAGE": {
-                "TITLE": "Language selection",
-                "TIP": "Requires application restart"
-            },
+            "LANGUAGE": "Language selection",
             "STARTUP": "Open on startup",
             "HIDEONCLOSE": "Minimize to tray",
             "HARDWARE_ACCELERATION": {
@@ -168,7 +165,7 @@
             },
             "FULL_FRAME": {
                 "TITLE": "Use the entire application window space",
-                "TIP": "Enable it if you have problems render the window. The outer shadows at the window borders will disappear"
+                "TIP": "Using the entire space disables the transparent window, which will make outer shadows at the window borders and rounding at the edges inaccessible, but guarantees full functionality of the native window. Requires application restart"
             },
             "ACRYLIC": {
                 "TITLE": "Enable Windows 11 Acrylic",
@@ -381,7 +378,8 @@
                 "REAUTH": "Go to reauth",
                 "IGNORE": "Ignore"
             }
-        }
+        },
+        "APPLYING_CHANGES": "Applying changes. Please wait..."
     },
     "LOGIN": {
         "DESCRIPTION": "Listen to music in VK absolutely for free and without restrictions.",
