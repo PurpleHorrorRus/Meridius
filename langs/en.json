@@ -14,7 +14,8 @@
             "TOOLTIP": "Configure recommendations",
             "TIP": "Pick five or more of your favorite artists",
             "SEARCH": "Search artists",
-            "SAVE": "Save"
+            "SAVE": "Save",
+            "SUCCESS": "Recommendation preferences have been updated successfully"
         },
         "FAVS": {
             "USERS": "Favorites users",
