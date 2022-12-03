@@ -317,6 +317,8 @@
             "NAME": "Edit audio",
             "PERFORMER": "Performer",
             "TITLE": "Title",
+            "LYRICS": "Lyrics",
+            "HIDE": "Hide track from search",
             "GENRE": "Genre:",
             "EDIT": "Edit"
         },
