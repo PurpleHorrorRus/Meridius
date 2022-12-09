@@ -2,6 +2,14 @@
     "notifications": [],
 
     "config": {
-        "rewind": 5
+        "rewind": 5,
+
+        "hls": {
+            "maxBufferSize": 1024000000,
+            "maxBufferLength": 60,
+            "maxMaxBufferLength": 1e500,
+            "enableWorker": false,
+            "defaultAudioCodec": "mp4a.40.5"
+        }
     }
 }
