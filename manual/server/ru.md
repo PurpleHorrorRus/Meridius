@@ -60,12 +60,12 @@ const password = "root"; // Пароль сервера
 const WebSocket = require("ws");
 
 const createSocket = endpoint => {
-    return new WebSocket(`http://${host}:${port}/${endpoint}?password=${password}`);
+    return new WebSocket(`ws://${host}:${port}/${endpoint}?password=${password}`);
 };
 
 const socket = createSocket("socket/player/getSong");
 socket.onmessage = message => {
-    const data = JSON.pars(message.data);
+    const data = JSON.parse(message.data);
     console.log(data);
 };
 ```
