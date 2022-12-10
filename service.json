@@ -1,5 +1,9 @@
 {
-    "notifications": [],
+    "notifications": [{
+        "status": 0,
+        "title": "Сообщество в VK",
+        "text": "У нас появилось новое сообщество в VK, но оно будет не более, чем местом информирования об обновлениях. Вся поддержка и связь будет в Discord. Подписывайтесь: vk.com/infinitesoftware"
+    }],
 
     "config": {
         "rewind": 5,
