@@ -437,7 +437,6 @@
         "DOWNLOAD_NOT_SPECIFIED": "Set the path to save audio in settings",
         "NO_CONNECTION": "No connection to VK. Attempting to reconnect...",
         "NO_UNIQUE_HEADERS": "No unique headers found, template not saved",
-        "STREAMER": "Streamer mode: failed to save files. Reason:",
         "OFTEN_EDIT": "You're trying to edit a songs too often, try again later"
     },
     "QUEUE": {
