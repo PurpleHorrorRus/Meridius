@@ -18,14 +18,20 @@
             "SUCCESS": "Recommendation preferences have been updated successfully"
         },
         "FAVS": {
-            "USERS": "Favorites users",
-            "GROUPS": "Favorites groups",
-            "ARTISTS": "Favorites artists"
+            "USERS": "Favorite users",
+            "GROUPS": "Favorite groups",
+            "ARTISTS": "Favorite artists"
         },
         "RELEASES": {
             "NEW": "New releases",
             "NEW_ARTISTS": "New artists",
             "CHARTS": "Charts"
+        },
+        "RADIO": {
+            "CATEGORIES": [
+                "All stations",
+                "Favorite stations"
+            ]
         }
     },
     "DISCOVER": {
@@ -49,7 +55,6 @@
                 "ZERO_M": "{{ seconds }} sec",
                 "DEFAULT": "{{ mins }} min {{ seconds }} sec"
             },
-
             "LESS_H": "{{ hours }} hr {{ mins }} min",
             "ABOUT_H": "about {{ hours }} hr",
             "DEFAULT": "over 24 hr"
@@ -72,6 +77,11 @@
             "AUDIO": "Music",
             "PLAYLISTS": "Playlists",
             "WALL": "Wall",
+            "PLAYLISTS_OPTIONS": {
+                "ALL": "All playlists",
+                "CREATED": "Created playlists",
+                "FOLLOWED": "Followed playlists"
+            },
             "PROPS": {
                 "WALL": {
                     "PINNED": "Pinned post",
@@ -136,6 +146,10 @@
                 "TIP": "Requires application restart"
             },
             "DISCORD": "Discord integration",
+            "BETA": {
+                "TITLE": "Get Beta updates",
+                "TIP": "Test builds may be unstable, but you get the opportunity to test new features before others. Requires application restart"
+            },
             "STREAMER": {
                 "TITLE": "Streamer mode",
                 "TIP": "Writes information about the current track to files located in the specified folder for display via OBS and other applications for live broadcasts",
@@ -172,7 +186,122 @@
                 "OPACITY": "Acrylic opacity",
                 "TIP": "You need to enable transparency effects in Windows settings"
             },
-            "THEMES": "Themes"
+            "THEMES": {
+                "TITLE": "Themes",
+                "DOWNLOAD": {
+                    "TITLE": "Download theme from repository",
+                    "FIELDS": {
+                        "USERNAME": "Username",
+                        "REPOSITORY": "Repository",
+                        "LOAD": "Fetch"
+                    },
+                    "TIP": "Fill in all the fields. Only data from GitHub is accepted",
+                    "BRANCH": {
+                        "AUTHOR": "Author:",
+                        "DOWNLOAD": "Download",
+                        "UPDATE": {
+                            "SUPPORT": "Autoupdates supported",
+                            "NOT_SUPPORT": "Autoupdates not supported"
+                        }
+                    }
+                },
+                "CUSTOM": {
+                    "USE": "Use own color scheme",
+                    "OPEN_EDITOR": "Color scheme editor",
+                    "OPEN_THEME_EDITOR": "Theme editor",
+                    "EDITOR": {
+                        "SECTIONS": {
+                            "MAIN": "Main variables",
+                            "THEME": "Variables of \"{{ theme }}\""
+                        },
+                        "RESET": {
+                            "THEME": "Reset theme",
+                            "VARIABLE": "Reset variable",
+                            "THEME_SUCCESS": "Theme \"{{ theme }}\" has been successfully resetted"
+                        },
+                        "VARIABLES": {
+                            "primary": "Primary color",
+                            "secondary": "Secondary color",
+                            "secondary-hover": "Secondary color on hover",
+                            "secondary-opacity-half": "Secondary color on hover (half opacity)",
+                            "secondary-hover-opacity": "Secondary color on hover (quarter opacity)",
+                            "secondary-disabled": "Secondary color on hover (inactive element)",
+                            "titlebar": "Titlebar",
+                            "backdrop": "Backdrop of some elements",
+                            "scroll": "Scrollbar",
+                            "logo": "Logo",
+                            "left": "Left container",
+                            "left-queue": "Playing queue",
+                            "left-icons": "Icons of left container",
+                            "navigation": "Navigation",
+                            "navigation-text": "Navigation text",
+                            "navigation-select": "Current and on hover navigation",
+                            "border": "Borders",
+                            "player": "Player container",
+                            "player-darker": "Player container (darker)",
+                            "player-slider": "Slider",
+                            "player-slider-progress": "Slider (прогресс)",
+                            "text": "Text",
+                            "small-text": "Small text",
+                            "song-performer": "Song artist",
+                            "song-title": "Song title",
+                            "song-subtitle": "Song subtitle",
+                            "song-playing": "Playing song",
+                            "song-hover": "Song on hover",
+                            "item": "Element",
+                            "item-hover": "Element on hover",
+                            "item-disabled": "Inactive element",
+                            "field": "Input field",
+                            "icons": "Icons",
+                            "icons-hover": "Icons on hover",
+                            "icons-disabled": "Inactive icons",
+                            "no-cover": "\"No cover\" icon",
+                            "no-cover-background": "Background of \"no cover\" icon",
+                            "links": "Link",
+                            "links-active": "Active link",
+                            "links-hover": "Link on hover",
+                            "buttons-text": "Buttons text",
+                            "tooltip": "Tooltip",
+                            "tooltip-text": "Tooltip text",
+                            "settings-view": "Settings view background",
+                            "switch-unchecked": "Switch unchecked state",
+                            "skeleton-background": "Skeleton",
+                            "skeleton-highlight": "Skeleton highlight"
+                        }
+                    }
+                },
+                "BUTTONS": {
+                    "SCAN": "Scan themes",
+                    "RESTART_PATCHES": "Restart patches",
+                    "THEMES": "Open themes folder",
+                    "PATCHES": "Open patches folder",
+                    "REPO": "Creating theme manual"
+                },
+                "CATEGORIES": {
+                    "NATIVE": "Native",
+                    "USERS": "Community"
+                },
+                "THEME": {
+                    "AUTHOR": "Author: {{ author }}",
+                    "OUTDATED": "Theme version is incompatible with the app version.<br/>Contact the author of the theme",
+                    "OUTDATED_CONFIRMATION": "Theme version is incompatible with the app version. Continue?",
+                    "DETAILS": {
+                        "AUTHOR": "Author {{ author }}",
+                        "VERSION": "Version {{ version }}",
+                        "COMPATIBILITY": "Compatible with {{ compatibility }}",
+                        "DELETE": "Delete from disk",
+                        "APPLY": "Apply"
+                    }
+                },
+                "ERRORS": {
+                    "LOAD_REPOSITORY_FAILED": "Failed to load repository",
+                    "DOWNLOAD_THEME_FAILED": "Failed to download theme",
+                    "PATCH_EXIST": "This patch is already exist"
+                }
+            },
+            "PATCHES": {
+                "TITLE": "Style patches"
+            }
         },
         "PLAYER": {
             "TITLE": "Player settings",
@@ -199,8 +328,20 @@
                     "TIP": "The volume of music is a subjective concept. Choose for yourself the maximum percentage of music volume increase"
                 }
             },
+            "CROSSFADE": {
+                "TITLE": "Crossfade",
+                "ENABLE": "Enable crossfade",
+                "DURATION": "Crossfade duration",
+                "FADE": "Fade effect"
+            },
             "STEPS": {
                 "TITLE": "Volume changing step",
+                "HOTKEY": "By hotkey",
+                "WHEEL": "By mouse wheel"
+            },
+            "PLAYBACK_RATE_STEPS": {
+                "TITLE": "Playback rate chaning step",
+                "CLICK": "By click",
                 "HOTKEY": "By hotkey",
                 "WHEEL": "By mouse wheel"
             }
@@ -254,6 +395,8 @@
             "VOLUP": "Volume up",
             "VOLDOWN": "Volume down",
             "VOLMUTE": "Mute / unmute",
+            "RATEUP": "Increase playback rate",
+            "RATEDOWN": "Decrease playback rate",
             "NEXTPLAYLIST": "Next playlist",
             "PREVPLAYLIST": "Previous playlist",
             "MINIWINDOW_POSITION": "Change miniwindow position"
@@ -299,7 +442,9 @@
     },
     "MODAL": {
         "CONFIRMATION": {
-            "DELETE_PLAYLIST": "Do you want to delete playlist \"{{ title }}\"?"
+            "DELETE_PLAYLIST": "Do you want to delete playlist \"{{ title }}\"?",
+            "DELETE_THEME": "Do you want to delete this theme?",
+            "GITHUB_CONNECTION": "No connection to GitHub, Meridius will continue to work, but with errors and without support. Use at your own risk"
         },
         "ADD_PLAYLIST": {
             "NAME": "Create playlist",
@@ -367,15 +512,17 @@
             "DESCRIPTION": {
                 "CORRUPTED": "Meridius detected a problem when refreshing the session. Cookie may be corrupted. Take steps to avoid critical errors.",
                 "REASONS_TITLE": "Reasons why cookie file may be corrupted:",
-                "REASONS": [{
-                    "TITLE": "Invalid session",
-                    "DESCRIPTION": "Sessions become inactive on all devices when you change your password or deauthorize all devices on your account. You need to reauthorize your account."
-                }, {
-                    "TITLE": "Error connecting to VK when trying to automatically refresh the session",
-                    "DESCRIPTION": "Meridius refresh the session every few minutes and during this period the connection may be lost. In this case, you just need to wait until the connection is restored and relaunch Meridius."
-                }]
+                "REASONS": [
+                    {
+                        "TITLE": "Invalid session",
+                        "DESCRIPTION": "Sessions become inactive on all devices when you change your password or deauthorize all devices on your account. You need to reauthorize your account."
+                    },
+                    {
+                        "TITLE": "Error connecting to VK when trying to automatically refresh the session",
+                        "DESCRIPTION": "Meridius refresh the session every few minutes and during this period the connection may be lost. In this case, you just need to wait until the connection is restored and relaunch Meridius."
+                    }
+                ]
             },
-
             "ACTIONS": {
                 "REAUTH": "Go to reauth",
                 "IGNORE": "Ignore"
@@ -388,7 +535,7 @@
         "LOGIN_FIELD": "Login",
         "PASSWORD_FIELD": "Password",
         "CONFIRMATION_CODE": "Confirmation code",
-        "ENTER": "ENTER",
+        "ENTER": "Login",
         "RECEIVE_SMS": "Receive code via SMS",
         "ERRORS": {
             "CYRILLIC": "Cyrillic is not allowed in the password",
@@ -430,7 +577,10 @@
     "SUCCESS": {
         "PLAYLIST_CREATED": "Playlist \"{{ title }}\" created",
         "SONG_ADDED": "Track \"{{ performer }} - {{ title }}\" has been successfully added to the playlist \"{{ playlist }}\"",
-        "SONG_SHARED": "Track \"{{ performer }} - {{ title }}\" has been sent successfully"
+        "SONG_SHARED": "Track \"{{ performer }} - {{ title }}\" has been sent successfully",
+        "THEMES_SCANED": "Themes folder has been scanned. Founded themes: {{ count }}",
+        "PATCHES_RESTARTED": "Style patches has been successfully restarted",
+        "THEME_DOWNLOADED": "Theme {{ name }} has been successfully downloaded"
     },
     "ERRORS": {
         "NO_FFMPEG": "You must to install FFmpeg in settings before audio downloading",
@@ -486,7 +636,8 @@
             "SETTINGS": "Settings",
             "HELP": "Help",
             "ABOUT": "About",
-            "LOGGER": "Logger"
+            "LOGGER": "Logger",
+            "UPDATE": "Update available"
         }
     },
     "HELP": {
@@ -564,18 +715,27 @@
         },
         "EXIT": "Exit"
     },
+    "STATE": {
+        "INIT": "Initialization of components...",
+        "CONFIG": "Fetching configuration...",
+        "AUTH": "Authorization...",
+        "LATEST_RESTORING": "Restoring the latest state..."
+    },
     "TIPS": [
         "Tip: Right-click on the playlist in the drop-down menu for quick playback",
         "Tip: Right-click on \"Music\" or on your avatar to quickly play your music",
         "Tip: Before asking for a feature from a developer, be ready to cooperate and help",
         "Tip: Join our VK Group and Discord Server to keep up to date with news about player development and updates",
         "Tip: Before asking a question, read the FAQ",
+        "Tip: Changing volume by mouse wheel with Shift key doubles volume changing step",
+        "Tip: Perhaps your issue has already been resolved. Update the application in a timely manner. Older versions are not supported",
         "You can support the development of the project. The link is in the help window"
     ],
     "QUICKACTIONS": "Actions",
     "QUICKUPLOAD": "Upload",
     "QUICKPLAY": "Play",
     "LISTEN": "Play",
+    "PAUSE": "Pause",
     "DOWNLOAD_SINGLE": "Download",
     "DOWNLOAD": "Download all",
     "PREPARINGS": "Preparings...",
