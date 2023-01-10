@@ -28,7 +28,7 @@ const password = "root"; // Пароль сервера
 
 ```javascript
 (async () => {
-    const response = await fetch(`http://${host}:${port}/player/getSong`, {
+    const response = await fetch(`http://${host}:${port}/player/song`, {
         headers: {
             Authorization: password
         }
