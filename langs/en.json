@@ -213,6 +213,10 @@
                             "MAIN": "Main variables",
                             "THEME": "Variables of \"{{ theme }}\""
                         },
+                        "ACTIONS": {
+                            "IMPORT": "Load",
+                            "EXPORT": "Save"
+                        },
                         "RESET": {
                             "THEME": "Reset theme",
                             "VARIABLE": "Reset variable",
@@ -564,8 +568,13 @@
         "EQUALIZER": {
             "INVALID_JSON": "Can't read file",
             "INVALID_FORMAT": "Invalid preset format",
-            "IMPORT_SUCCESS": "Preset imported successfully",
-            "EXPORT_SUCCESS": "Preset exported sucessfully"
+            "IMPORT_SUCCESS": "Preset has been successfully imported",
+            "EXPORT_SUCCESS": "Preset has been successfully exported"
+        },
+        "THEME": {
+            "INVALID_JSON": "Can't read file",
+            "IMPORT_SUCCESS": "Color scheme has been successfully imported",
+            "EXPORT_SUCCESS": "Color scheme has been successfully exported"
         }
     },
     "ERROR": {
