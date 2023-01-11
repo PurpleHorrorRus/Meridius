@@ -602,6 +602,9 @@
         }
     },
     "TOOLTIP": {
+        "QUEUE": {
+            "HELP": "Click to redirect to playlist<br/>Drag to resize"
+        },
         "CONTROLS": {
             "DOWNLOAD": "Download",
             "SHARE": "Share"
