@@ -207,15 +207,14 @@
                 "CUSTOM": {
                     "USE": "Use own color scheme",
                     "OPEN_EDITOR": "Color scheme editor",
-                    "OPEN_THEME_EDITOR": "Theme editor",
                     "EDITOR": {
                         "SECTIONS": {
                             "MAIN": "Main variables",
                             "THEME": "Variables of \"{{ theme }}\""
                         },
                         "ACTIONS": {
-                            "IMPORT": "Load",
-                            "EXPORT": "Save"
+                            "IMPORT": "Import",
+                            "EXPORT": "Export"
                         },
                         "RESET": {
                             "THEME": "Reset theme",
@@ -419,16 +418,7 @@
         },
         "ACCOUNTS": {
             "TITLE": "Accounts manager",
-            "ADD": "Add account",
-            "SETTINGS": {
-                "API": {
-                    "TITLE": "Enable requests to official API",
-                    "TIP": "This option is necessary to expand the functionality and increase requests performance. In order to use the official API, you need to disable protection from suspicious apps in the VK ID security settings. When using the official API, you get the following features: increasing speed of music preloading, albums displaying, download music with a high-quality cover",
-                    "USAGE": "Official API enabled:",
-                    "UPDATE": "Update",
-                    "VK_ID_REDIRECT": "Open VK ID security settings"
-                }
-            }
+            "ADD": "Add account"
         }
     },
     "SEARCH": {
@@ -759,7 +749,6 @@
     "LOAD_MORE": "Load more",
     "LOADING": "Loading...",
     "NO_DESCRIPTION": "No description available",
-    "NOT_SPECIFIED": "Not specified",
     "NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
     "NO_SIMILAR": "Unfortunately, we didn't find anything...",
     "DEVTOOLS": "Open developer tools",
