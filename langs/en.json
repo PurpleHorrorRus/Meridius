@@ -623,7 +623,8 @@
             "QUEUE": "Add to queue",
             "PLAY_NEXT": "Play next",
             "DELETE": "Delete",
-            "DOWNLOAD": "Download"
+            "DOWNLOAD": "Download",
+            "REMOVE_QUEUE": "Remove from queue"
         },
         "PLAYLIST": {
             "FOLLOW": "Follow",
