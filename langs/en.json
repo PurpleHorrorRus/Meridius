@@ -111,7 +111,8 @@
             "DELETE": "Remove audio",
             "SHARE": "Share audio",
             "EDIT": "Edit audio",
-            "DOWNLOAD": "Download audio"
+            "DOWNLOAD": "Download audio",
+            "REMOVE_QUEUE": "Remove from queue"
         },
         "PLAYLIST": {
             "FOLLOW": "Follow playlist",
@@ -623,8 +624,7 @@
             "QUEUE": "Add to queue",
             "PLAY_NEXT": "Play next",
             "DELETE": "Delete",
-            "DOWNLOAD": "Download",
-            "REMOVE_QUEUE": "Remove from queue"
+            "DOWNLOAD": "Download"
         },
         "PLAYLIST": {
             "FOLLOW": "Follow",
