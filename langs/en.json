@@ -609,7 +609,8 @@
     },
     "TOOLTIP": {
         "QUEUE": {
-            "HELP": "Click to redirect to playlist<br/>Drag to resize"
+            "HELP": "Click to redirect to playlist<br/>Drag to resize",
+            "FILTER": "Ctrl + F: quick filter"
         },
         "CONTROLS": {
             "DOWNLOAD": "Download",
