@@ -610,7 +610,7 @@
     "TOOLTIP": {
         "QUEUE": {
             "HELP": "Click to redirect to playlist<br/>Drag to resize",
-            "FILTER": "Ctrl + F: quick filter"
+            "FILTER": "Ctrl + Shift + F: quick filter"
         },
         "CONTROLS": {
             "DOWNLOAD": "Download",
@@ -679,7 +679,11 @@
             },
             {
                 "question": "I found a bug / I have an offer to improve Meridius",
-                "answer": "Contact me with any way."
+                "answer": "You can report this on our Discord server."
+            },
+            {
+                "question": "How to download music?",
+                "answer": "Open download settings, then install FFmpeg and turn on music downloading. On Linux (not FlatHub) you must to have install FFmpeg yourself."
             },
             {
                 "question": "How to add song to playlist?",
@@ -696,6 +700,14 @@
             {
                 "question": "Stucks on the logo. Can't load!",
                 "answer": "This happens if the signal does not reach VK. In this case, check which country you live in, and make sure that you have a VPN enabled in the system (that is, not an extension in the browser). Next, if you do not have VK blocked in your country, make sure that you have the original Windows installed, and not the Windows build, where everything unnecessary is supposedly disabled."
+            },
+            {
+                "question": "Does not run on my Linux distribution",
+                "answer": "Before the release, the application is tested on Fedora and Ubuntu, and if the application runs stably on these systems, then look for a problem in your system - the low-level problems of each OS are not supported."  
+            },
+            {
+                "question": "Can't download music on Linux / freezes on processing",
+                "answer": "App has no grant permissions on writing to file in folder that you specified."
             },
             {
                 "question": "MacOS build?",
