@@ -110,6 +110,7 @@
             "ADD_TO_PLAYLIST": "Add to playlist",
             "DELETE": "Remove audio",
             "SHARE": "Share audio",
+            "LYRICS": "Open lyrics",
             "EDIT": "Edit audio",
             "DOWNLOAD": "Download audio",
             "REMOVE_QUEUE": "Remove from queue"
@@ -480,6 +481,9 @@
             "MESSAGE": "Enter your message...",
             "BUTTON": "Share"
         },
+        "LYRICS": {
+            "REMAIN": "Before playing: {{ time }}"
+        },
         "UPLOAD": {
             "NAVIGATION": {
                 "PC": "From PC",
@@ -614,7 +618,8 @@
         },
         "CONTROLS": {
             "DOWNLOAD": "Download",
-            "SHARE": "Share"
+            "SHARE": "Share",
+            "LYRICS": "Lyrics"
         },
         "SONG": {
             "ADD": "Add",
@@ -671,7 +676,7 @@
         "FAQ": [
             {
                 "question": "Why?",
-                "answer": "The first reason - consuming of PC resources. Meridius consumes PC resources less than any desktop browser"
+                "answer": "The first reason - consuming of PC resources. Meridius consumes PC resources less than any desktop browser."
             },
             {
                 "question": "Why VK if Spotify / Apple Music more easy and has more music?",
@@ -691,7 +696,7 @@
             },
             {
                 "question": "Can you upload source code?",
-                "answer": "I promise that source code will be upload if I tired of developing. In the meantime, I have the right not to do it."
+                "answer": "Source code will be upload if I tired of developing. In the meantime, I have the right not to do it."
             },
             {
                 "question": "Very low FPS",
