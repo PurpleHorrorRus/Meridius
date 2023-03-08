@@ -122,6 +122,11 @@
             "DOWNLOAD": "Download playlist",
             "UNFOLLOW": "Unfollow playlist",
             "DELETE": "Delete playlist"
+        },
+        "TAB": {
+            "CLOSE": "Close tab",
+            "CLOSE_LEFT": "Close tabs to the left",
+            "CLOSE_RIGHT": "Close tabs to the right"
         }
     },
     "SETTINGS": {
@@ -644,6 +649,12 @@
             "CREATE": "Create playlist",
             "CHOOSE_COVER": "Choose cover image",
             "OPEN_ON_SITE": "Open on website"
+        },
+        "TITLEBAR": {
+            "TABS": {
+                "SHOW": "Show tabs",
+                "HIDE": "Hide tabs"
+            }
         }
     },
     "TITLEBAR": {
@@ -758,6 +769,20 @@
         "Tip: Perhaps your issue has already been resolved. Update the application in a timely manner. Older versions are not supported",
         "You can support the development of the project. The link is in the help window"
     ],
+    "PAGES": {
+        "GENERAL": "General",
+        "FEED": "Feed",
+        "UPDATES": "Updates",
+        "FRIENDS": "Friends",
+        "COMMUNITIES": "Communities",
+        "AUDIO": "Audio • {{ name }}",
+        "PLAYLISTS": "Playlists • {{ name }}",
+        "WALL": "Wall • {{ name }}",
+        "SEARCH": "Search • {{ query }}",
+        "ARTIST": "Artist • {{ artist }}",
+        "ARTIST_POPULAR": "Popular • {{ artist }}",
+        "COLLECTION": "Collection"
+    },
     "QUICKACTIONS": "Actions",
     "QUICKUPLOAD": "Upload",
     "QUICKPLAY": "Play",
