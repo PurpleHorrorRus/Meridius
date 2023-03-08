@@ -1,6 +1,10 @@
 {
     "notifications": [],
 
+    "ffmpeg": {
+        "win32_x64": "https://raw.githubusercontent.com/PurpleHorrorRus/Meridius/master/ffmpeg_win32_x64.zip"
+    },
+
     "config": {
         "updateInterval": 600000,
         "rewind": 5,
