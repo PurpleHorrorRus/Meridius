@@ -192,6 +192,15 @@
                 "OPACITY": "Acrylic opacity",
                 "TIP": "You need to enable transparency effects in Windows settings"
             },
+            "ZOOM": {
+                "TITLE": "Scaling the interface",
+                "TIP": [
+                    "Use keyboard shortcuts to change the scale of the interface:",
+                    "Ctrl + to zoom in",
+                    "Ctrl - to zoom out",
+                    "Ctrl 0 to reset"
+                ]
+            },
             "THEMES": {
                 "TITLE": "Themes",
                 "DOWNLOAD": {
