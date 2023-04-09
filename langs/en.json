@@ -106,7 +106,7 @@
     },
     "CONTEXT_MENU": {
         "SONG": {
-            "ADD": "Add to My Audios",
+            "ADD": "Add to My Music",
             "ADD_TO_PLAYLIST": "Add to playlist",
             "DELETE": "Remove audio",
             "SHARE": "Share audio",
