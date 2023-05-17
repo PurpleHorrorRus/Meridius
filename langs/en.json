@@ -550,11 +550,12 @@
         "APPLYING_CHANGES": "Applying changes. Please wait..."
     },
     "LOGIN": {
-        "DESCRIPTION": "Listen to music in VK absolutely for free and without restrictions.",
+        "DESCRIPTION": "Music Player for VK",
         "LOGIN_FIELD": "Login",
         "PASSWORD_FIELD": "Password",
         "CONFIRMATION_CODE": "Confirmation code",
-        "ENTER": "Login",
+        "ENTER": "LOGIN",
+        "REGISTRATION": "REGISTRATION",
         "RECEIVE_SMS": "Receive code via SMS",
         "ERRORS": {
             "CYRILLIC": "Cyrillic is not allowed in the password",
@@ -567,7 +568,7 @@
         "EULA": {
             "ACCEPT": "I accept",
             "TITLE": "the user agreement",
-            "TEXT": "Before using Meridius, read the user agreement.\n\nMeridius is proprietary software that does not pursue commercial purposes and is distributed free of charge. Meridius is an unofficial desktop music player for the VKontakte website, the application and its developer have nothing to do with the administration and other employees of VK.\n\nSending and storage data\nMeridius collects statistics only on the number of users. Your credentials are not sent anywhere, only stored on your device in encrypted form.\n\nDisclaimer\nDeveloper are not responsible for the loss of your personal data in case of leaks or hacking."
+            "TEXT": "Before using Meridius, read the user agreement.\n\nMeridius is proprietary software that does not pursue commercial purposes and is distributed free of charge. Meridius is an unofficial desktop music player for the VKontakte website, the application and its developer have nothing to do with the administration and other employees of VK.\n\nSending and storage data\nYour credentials are not sent anywhere, only stored on your device in encrypted form.\n\nDisclaimer\nDeveloper are not responsible for the loss of your personal data in case of leaks or hacking."
         }
     },
     "NOTIFICATIONS": {
