@@ -623,7 +623,7 @@
             "ARTIST_AUDIOS": "{{ name }}: collection",
             "COLLECTION": "Collection",
             "FEED": "Feed",
-            "FRIENDS_UPDATES": "Friends updates"
+            "FRIENDS_UPDATES": "Updates"
         }
     },
     "TOOLTIP": {
