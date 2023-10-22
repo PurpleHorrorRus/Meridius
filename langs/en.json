@@ -188,10 +188,11 @@
                 "TIP": "Using the entire space disables the transparent window, which will make outer shadows at the window borders and rounding at the edges inaccessible, but guarantees full functionality of the native window. Requires application restart"
             },
             "ACRYLIC": {
-                "TITLE": "Enable Windows 11 Acrylic",
-                "OPACITY": "Acrylic opacity",
-                "TIP": "You need to enable transparency effects in Windows settings"
-            },
+                "TITLE": "Enable Windows 11 transparency effect (unstable)",
+                "OPACITY": "Opacity",
+				"MATERIAL": "Material",
+                "TIP": "Not recommended. You need to enable transparency effects in Windows settings. Requires application restart"
+			},
             "ZOOM": {
                 "TITLE": "Scaling the interface",
                 "TIP": [
