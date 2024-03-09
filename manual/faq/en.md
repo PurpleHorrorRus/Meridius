@@ -17,6 +17,12 @@
 </details>
 
 <details>
+    <summary>How to login?</summary>
+
+    The application does not provide the possibility of authorization using password-free methods. To log in, you need to set a password for your account. This can be done by installing two-factor authentication and the VK will ask you to set a password.
+</details>
+
+<details>
     <summary>How to download music?</summary>
 
     Open download settings, then install FFmpeg and turn on music downloading. On Linux (not FlatHub) you must to have install FFmpeg yourself.
