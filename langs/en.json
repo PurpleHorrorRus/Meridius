@@ -1,818 +1,819 @@
 {
-    "NAVIGATION": {
-        "MAIN": "Home",
-        "MY": "Music",
-        "PLAYLISTS": "Playlists",
-        "FEED": "Discover",
-        "FRIENDS": "Friends",
-        "COMMUNITIES": "Communities"
-    },
-    "GENERAL": {
-        "YOUR": "Your playlists",
-        "RECOMMENDATIONS": {
-            "TOOLTIP": "Configure recommendations",
-            "TIP": "Pick five or more of your favorite artists",
-            "SEARCH": "Search artists",
-            "SAVE": "Save",
-            "SUCCESS": "Recommendation preferences have been updated successfully"
-        },
-        "FAVS": {
-            "USERS": "Favorite users",
-            "GROUPS": "Favorite groups",
-            "ARTISTS": "Favorite artists"
-        },
-        "RELEASES": {
-            "NEW": "New releases",
-            "NEW_ARTISTS": "New artists",
-            "CHARTS": "Charts"
-        },
-        "RADIO": {
-            "CATEGORIES": [
-                "All stations",
-                "Favorite stations"
-            ]
-        }
-    },
-    "DISCOVER": {
-        "SEARCH": "Search",
-        "NAVIGATION": {
-            "FEED": "Feed",
-            "UPDATES": "Updates",
-            "FRIENDS": "Friends",
-            "COMMUNITIES": "Communities"
-        },
-        "FEED": {
-            "ADD": "added {{ number }} audio"
-        }
-    },
-    "PLAYLIST": {
-        "LISTENS": "{{ listens }} listens",
-        "SONGS": "{{ songs }} songs",
-        "UPDATED": "Updated {{ date }}",
-        "DURATION": {
-            "ZERO_H": {
-                "ZERO_M": "{{ seconds }} sec",
-                "DEFAULT": "{{ mins }} min {{ seconds }} sec"
-            },
-            "LESS_H": "{{ hours }} hr {{ mins }} min",
-            "ABOUT_H": "about {{ hours }} hr",
-            "DEFAULT": "over 24 hr"
-        },
-        "MONTHS": [
-            "Jan",
-            "Feb",
-            "Mar",
-            "Apr",
-            "May",
-            "Jun",
-            "Jul",
-            "Aug",
-            "Sep",
-            "Oct",
-            "Nov",
-            "Dec"
-        ],
-        "TABS": {
-            "AUDIO": "Music",
-            "PLAYLISTS": "Playlists",
-            "WALL": "Wall",
-            "PLAYLISTS_OPTIONS": {
-                "ALL": "All playlists",
-                "CREATED": "Created playlists",
-                "FOLLOWED": "Followed playlists"
-            },
-            "PROPS": {
-                "WALL": {
-                    "PINNED": "Pinned post",
-                    "REMAINS": "... and {{ count }} more audio"
-                }
-            },
-            "PLACEHOLDERS": {
-                "TITLE": "Title",
-                "ALBUM": "Album"
-            }
-        },
-        "FILTER": {
-            "RESULTS": "Search",
-            "RESULTS_COUNT": "Search ({{ count }})",
-            "FILTER": "Filter",
-            "TIP": "Tip: Press Enter to search audio"
-        },
-        "DOWNLOAD": {
-            "PREPARING": "Preparing...",
-            "QUEUE": "In queue",
-            "SUCCESS": "Playlist \"{{ title }}\" has been downloaded successfully"
-        }
-    },
-    "CONTEXT_MENU": {
-        "SONG": {
-            "ADD": "Add to My Music",
-            "ADD_TO_PLAYLIST": "Add to playlist",
-            "DELETE": "Remove audio",
-            "SHARE": "Share audio",
-            "LYRICS": "Open lyrics",
-            "EDIT": "Edit audio",
-            "DOWNLOAD": "Download audio",
-            "REMOVE_QUEUE": "Remove from queue"
-        },
-        "PLAYLIST": {
-            "FOLLOW": "Follow playlist",
-            "EDIT": "Edit playlist",
-            "SHARE": "Share playlist",
-            "DOWNLOAD": "Download playlist",
-            "UNFOLLOW": "Unfollow playlist",
-            "DELETE": "Delete playlist"
-        },
-        "TAB": {
-            "CLOSE": "Close tab",
-            "CLOSE_LEFT": "Close tabs to the left",
-            "CLOSE_RIGHT": "Close tabs to the right"
-        }
-    },
-    "SETTINGS": {
-        "NAVIGATION": {
-            "TITLE": "Settings",
-            "GENERAL": "General",
-            "APPEARANCE": "Appearance",
-            "PLAYER": "Player",
-            "OPTIMIZATION": "Optimization",
-            "DOWNLOADS": "Downloads",
-            "EQUALIZER": "Equalizer",
-            "HOTKEYS": "Hotkeys",
-            "SERVER": "Server",
-            "ACCOUNTS": "Accounts"
-        },
-        "GENERAL": {
-            "TITLE": "General settings",
-            "LANGUAGE": "Language selection",
-            "STARTUP": "Open on startup",
-            "HIDEONCLOSE": "Minimize to tray",
-            "HARDWARE_ACCELERATION": {
-                "TITLE": "Hardware acceleration",
-                "TIP": "Requires application restart"
-            },
-            "DISCORD": "Discord integration",
-            "BETA": {
-                "TITLE": "Get Beta updates",
-                "TIP": "Test builds may be unstable, but you get the opportunity to test new features before others. Requires application restart"
-            },
-            "STREAMER": {
-                "TITLE": "Streamer mode",
-                "TIP": "Writes information about the current track to files located in the specified folder for display via OBS and other applications for live broadcasts",
-                "PATH": "Path for files"
-            },
-            "DEVTOOLS": "Developer tools",
-            "FFMPEG": {
-                "TITLE": "Audio converting",
-                "TIP": "FFmpeg - it's free open-source tool to processing media files. Requires for combining streaming files into one",
-                "NOT_INSTALLED": {
-                    "TITLE": "FFmpeg not installed",
-                    "INSTALL": "Install FFmpeg"
-                },
-                "INSTALLED": "FFmpeg installed",
-                "REINSTALL": "Reinstall",
-                "LINUX": "Install FFmpeg using the command listed below and restart the application. If no command is suitable for your system or FFmpeg cannot be installed correctly on your system, then look for a solution on the Internet. It is recommended to reinstall the application from the FlatHub with built-in FFmpeg"
-            },
-            "CONFIG": "Open configuration folder"
-        },
-        "APPEARANCE": {
-            "TITLE": "Appearance settings",
-            "ROUND_TOP": "Top border rounding",
-            "ROUND_BOTTOM": "Bottom border rounding",
-            "WINDOW_CONTROL_BUTTONS": {
-                "TITLE": "Hide window control buttons",
-                "TIP": "It will be useful if you use a tiling window manager"
-            },
-            "FULL_FRAME": {
-                "TITLE": "Use the entire application window space",
-                "TIP": "Using the entire space disables the transparent window, which will make outer shadows at the window borders and rounding at the edges inaccessible, but guarantees full functionality of the native window. Requires application restart"
-            },
-            "ACRYLIC": {
-                "TITLE": "Enable Windows 11 transparency effect (unstable)",
-                "OPACITY": "Opacity",
-				"MATERIAL": "Material",
-                "TIP": "Not recommended. You need to enable transparency effects in Windows settings. Requires application restart"
+	"NAVIGATION": {
+		"MAIN": "Home",
+		"MY": "Music",
+		"PLAYLISTS": "Playlists",
+		"FEED": "Discover",
+		"FRIENDS": "Friends",
+		"COMMUNITIES": "Communities"
+	},
+	"GENERAL": {
+		"YOUR": "Your playlists",
+		"RECOMMENDATIONS": {
+			"TOOLTIP": "Configure recommendations",
+			"TIP": "Pick five or more of your favorite artists",
+			"SEARCH": "Search artists",
+			"SAVE": "Save",
+			"SUCCESS": "Recommendation preferences have been updated successfully"
+		},
+		"FAVS": {
+			"USERS": "Favorite users",
+			"GROUPS": "Favorite groups",
+			"ARTISTS": "Favorite artists"
+		},
+		"RELEASES": {
+			"NEW": "New releases",
+			"NEW_ARTISTS": "New artists",
+			"CHARTS": "Charts"
+		},
+		"RADIO": {
+			"CATEGORIES": [
+				"All stations",
+				"Favorite stations"
+			]
+		}
+	},
+	"DISCOVER": {
+		"SEARCH": "Search",
+		"NAVIGATION": {
+			"FEED": "Feed",
+			"UPDATES": "Updates",
+			"FRIENDS": "Friends",
+			"COMMUNITIES": "Communities"
+		},
+		"FEED": {
+			"ADD": "added {{ number }} audio"
+		}
+	},
+	"PLAYLIST": {
+		"LISTENS": "{{ listens }} listens",
+		"SONGS": "{{ songs }} songs",
+		"UPDATED": "Updated {{ date }}",
+		"DURATION": {
+			"ZERO_H": {
+				"ZERO_M": "{{ seconds }} sec",
+				"DEFAULT": "{{ mins }} min {{ seconds }} sec"
 			},
-            "ZOOM": {
-                "TITLE": "Scaling the interface",
-                "TIP": [
-                    "Use keyboard shortcuts to change the scale of the interface:",
-                    "Ctrl + to zoom in",
-                    "Ctrl - to zoom out",
-                    "Ctrl 0 to reset"
-                ]
-            },
-            "THEMES": {
-                "TITLE": "Themes",
-                "DOWNLOAD": {
-                    "TITLE": "Download theme from repository",
-                    "FIELDS": {
-                        "USERNAME": "Username",
-                        "REPOSITORY": "Repository",
-                        "LOAD": "Fetch"
-                    },
-                    "TIP": "Fill in all the fields. Only data from GitHub is accepted",
-                    "BRANCH": {
-                        "AUTHOR": "Author:",
-                        "DOWNLOAD": "Download",
-                        "UPDATE": {
-                            "SUPPORT": "Autoupdates supported",
-                            "NOT_SUPPORT": "Autoupdates not supported"
-                        }
-                    }
-                },
-                "CUSTOM": {
-                    "USE": "Use own color scheme",
-                    "OPEN_EDITOR": "Color scheme editor",
-                    "EDITOR": {
-                        "SECTIONS": {
-                            "MAIN": "Main variables",
-                            "THEME": "Variables of \"{{ theme }}\""
-                        },
-                        "ACTIONS": {
-                            "IMPORT": "Import",
-                            "EXPORT": "Export"
-                        },
-                        "RESET": {
-                            "THEME": "Reset theme",
-                            "VARIABLE": "Reset variable",
-                            "THEME_SUCCESS": "Theme \"{{ theme }}\" has been successfully resetted"
-                        },
-                        "VARIABLES": {
-                            "primary": "Primary color",
-                            "secondary": "Secondary color",
-                            "secondary-hover": "Secondary color on hover",
-                            "secondary-opacity-half": "Secondary color on hover (half opacity)",
-                            "secondary-hover-opacity": "Secondary color on hover (quarter opacity)",
-                            "secondary-disabled": "Secondary color on hover (inactive element)",
-                            "titlebar": "Titlebar",
-                            "backdrop": "Backdrop of some elements",
-                            "scroll": "Scrollbar",
-                            "logo": "Logo",
-                            "left": "Left container",
-                            "left-queue": "Playing queue",
-                            "left-icons": "Icons of left container",
-                            "navigation": "Navigation",
-                            "navigation-text": "Navigation text",
-                            "navigation-select": "Current and on hover navigation",
-                            "border": "Borders",
-                            "player": "Player container",
-                            "player-darker": "Player container (darker)",
-                            "player-slider": "Slider",
-                            "player-slider-progress": "Slider (прогресс)",
-                            "text": "Text",
-                            "small-text": "Small text",
-                            "song-performer": "Song artist",
-                            "song-title": "Song title",
-                            "song-subtitle": "Song subtitle",
-                            "song-playing": "Playing song",
-                            "song-hover": "Song on hover",
-                            "item": "Element",
-                            "item-hover": "Element on hover",
-                            "item-disabled": "Inactive element",
-                            "field": "Input field",
-                            "icons": "Icons",
-                            "icons-hover": "Icons on hover",
-                            "icons-disabled": "Inactive icons",
-                            "no-cover": "\"No cover\" icon",
-                            "no-cover-background": "Background of \"no cover\" icon",
-                            "links": "Link",
-                            "links-active": "Active link",
-                            "links-hover": "Link on hover",
-                            "buttons-text": "Buttons text",
-                            "tooltip": "Tooltip",
-                            "tooltip-text": "Tooltip text",
-                            "settings-view": "Settings view background",
-                            "switch-unchecked": "Switch unchecked state",
-                            "skeleton-background": "Skeleton",
-                            "skeleton-highlight": "Skeleton highlight"
-                        }
-                    }
-                },
-                "BUTTONS": {
-                    "SCAN": "Scan themes",
-                    "RESTART_PATCHES": "Restart patches",
-                    "THEMES": "Open themes folder",
-                    "PATCHES": "Open patches folder",
-                    "REPO": "Creating theme manual"
-                },
-                "CATEGORIES": {
-                    "NATIVE": "Native",
-                    "USERS": "Community"
-                },
-                "THEME": {
-                    "AUTHOR": "Author: {{ author }}",
-                    "OUTDATED": "Theme version is incompatible with the app version.<br/>Contact the author of the theme",
-                    "OUTDATED_CONFIRMATION": "Theme version is incompatible with the app version. Continue?",
-                    "DETAILS": {
-                        "AUTHOR": "Author {{ author }}",
-                        "VERSION": "Version {{ version }}",
-                        "COMPATIBILITY": "Compatible with {{ compatibility }}",
-                        "DELETE": "Delete from disk",
-                        "APPLY": "Apply"
-                    }
-                },
-                "ERRORS": {
-                    "LOAD_REPOSITORY_FAILED": "Failed to load repository",
-                    "DOWNLOAD_THEME_FAILED": "Failed to download theme",
-                    "PATCH_EXIST": "This patch is already exist"
-                }
-            },
-            "PATCHES": {
-                "TITLE": "Style patches"
-            }
-        },
-        "PLAYER": {
-            "TITLE": "Player settings",
-            "AUDIO_OUTPUT": "Output device",
-            "VOLUME_DIVIDER": {
-                "TITLE": "Volume divider",
-                "TIP": "If it seems to you that the volume of the tracks does not correspond to the specified percentage of the volume in the player, then change the volume divider"
-            },
-            "MINIWINDOW": {
-                "TITLE": "Mini window",
-                "ENABLE": "Enable",
-                "MINIMODE": {
-                    "TITLE": "Mini mode",
-                    "TIP": "Disables mini window controls and styles keeping only current track information"
-                }
-            },
-            "LATEST": {
-                "SAVE": "Save current track on exit",
-                "PLAY": "Play on launch"
-            },
-            "REWIND": {
-                "TITLE": "Rewind to the start",
-                "TIP": "By enabling this option, when you press the \"previous track\" button, the player will start playing the track again instead of playing the previous track if the listening progress has reached {{ rewind }} seconds or more "
-            },
-            "NORMALIZER": {
-                "TITLE": "Audio volume normalizer",
-                "ENABLE": "Enable",
-                "TIP": "Averages the volume level of the music. Do not enable this option if you are listening to music at a medium or high volume level (from 20% and above)",
-                "MAX": {
-                    "TITLE": "Maximum volume increase (dB)",
-                    "TIP": "The volume of music is a subjective concept. Choose for yourself the maximum percentage of music volume increase"
-                }
-            },
-            "CROSSFADE": {
-                "TITLE": "Crossfade",
-                "ENABLE": "Enable",
-                "DURATION": "Crossfade duration",
-                "FADE": "Fade effect"
-            },
-            "STEPS": {
-                "TITLE": "Volume changing step",
-                "HOTKEY": "By hotkey",
-                "WHEEL": "By mouse wheel"
-            },
-            "PLAYBACK_RATE_STEPS": {
-                "TITLE": "Playback rate chaning step",
-                "CLICK": "By click",
-                "HOTKEY": "By hotkey",
-                "WHEEL": "By mouse wheel"
-            }
-        },
-        "OPTIMIZATION": {
-            "TITLE": "Optimization settings",
-            "STASH_SIZE": {
-                "TITLE": "The number of fetched audios in the playlist",
-                "TIP": "To optimize work with system resources, Meridius uses its own music storage system when downloading. This setting determines how many audios will be displayed when redirecting to the playlist. You can set number in the range from 20 to 100"
-            },
-            "LOADING_RESTRICTION": {
-                "TITLE": "Restriction on loading audios",
-                "TIP": "Here you can set the desired maximum number of tracks that will be loaded when playing playlists. By default, the number of downloaded tracks is 1000, the minimum is 100, the maximum is 10000. It is not recommended to set a value higher than 2000, this cause long downloads, freezes, crashes and high consumption of system resources with a large amount of audio"
-            },
-            "DOWNLOAD": {
-                "AUTO": {
-                    "TITLE": "Automatically detect the number of simultaneous downloads",
-                    "TIP": "Recommended for use. The number of downloads is determined depending on the performance of your processor in order to avoid application or system freezes"
-                },
-                "FIXED": {
-                    "TITLE": "Fixed number of simultaneous downloads",
-                    "TIP": "You can set a fixed value for simultaneous downloads. The value cannot be greater than 10. Increase the value at your own risk if you have a low performance CPU"
-                }
-            }
-        },
-        "DOWNLOADS": {
-            "TITLE": "Downloads settings",
-            "ENABLE": "Music downloading",
-            "FOLDER": "Folder for downloading",
-            "TEMPLATE": {
-                "TITLE": "File name template",
-                "TIP": "Set a template for the file name when downloading using headers",
-                "HEADERS": "Available headers",
-                "FILENAME": "File name"
-            }
-        },
-        "EQUALIZER": {
-            "TITLE": "Equalizer settings",
-            "ACTIONS": {
-                "IMPORT": "Import preset",
-                "EXPORT": "Export preset"
-            },
-            "ENABLE": "Enable equalizer",
-            "PRESETS": "Presets"
-        },
-        "HOTKEYS": {
-            "TITLE": "Hotkeys settings",
-            "PLAYPAUSE": "Play / pause",
-            "PLAYNEXT": "Next track",
-            "PLAYPREV": "Previous track",
-            "VOLUP": "Volume up",
-            "VOLDOWN": "Volume down",
-            "VOLMUTE": "Mute / unmute",
-            "RATEUP": "Increase playback rate",
-            "RATEDOWN": "Decrease playback rate",
-            "NEXTPLAYLIST": "Next playlist",
-            "PREVPLAYLIST": "Previous playlist",
-            "MINIWINDOW_POSITION": "Change miniwindow position"
-        },
-        "SERVER": {
-            "TITLE": "Server settings",
-            "INTERFACE": "Network interface",
-            "PASSWORD": {
-                "PLACEHOLDER": "Server password",
-                "TIP": "Your password is encrypted once and is not stored anywhere, so it should be written down. The server verifies the authenticity of the password upon request. Open the manual for more detailed information about server and connection",
-                "CHANGE": "Change password",
-                "CONFIRM": "Confirm"
-            },
-            "START": "Start server",
-            "STOP": "Stop server",
-            "MANUAL": "Open manual"
-        },
-        "ACCOUNTS": {
-            "TITLE": "Accounts manager",
-            "ADD": "Add account"
-        }
-    },
-    "SEARCH": {
-        "TITLE": "Search",
-        "ARTISTS": "Artists",
-        "USERS": "Users",
-        "GROUPS": "Communities",
-        "PLAYLISTS": "Playlists"
-    },
-    "ARTIST_PAGE": {
-        "POPULAR": "Popular",
-        "PLAYLISTS": "Playlists",
-        "SIMILAR_ARTISTS": "Similar artists"
-    },
-    "MODAL": {
-        "CONFIRMATION": {
-            "DELETE_PLAYLIST": "Do you want to delete playlist \"{{ title }}\"?",
-            "DELETE_THEME": "Do you want to delete this theme?",
-            "GITHUB_CONNECTION": "No connection to GitHub, Meridius will continue to work, but with errors and without support. Use at your own risk"
-        },
-        "ADD_PLAYLIST": {
-            "NAME": "Create playlist",
-            "TITLE": "Title",
-            "DESCRIPTION": "Description",
-            "CREATE": "Create"
-        },
-        "EDIT_PLAYLIST": {
-            "NAME": "Edit playlist",
-            "TITLE": "Title",
-            "DESCRIPTION": "Description",
-            "SAVE": "Save"
-        },
-        "EDIT_TRACK": {
-            "NAME": "Edit audio",
-            "PERFORMER": "Performer",
-            "TITLE": "Title",
-            "LYRICS": "Lyrics",
-            "HIDE": "Hide track from search",
-            "GENRE": "Genre:",
-            "EDIT": "Edit"
-        },
-        "SHARE": {
-            "TITLE": "Share audio",
-            "WALL": "Post to wall",
-            "MESSAGE": "Enter your message...",
-            "BUTTON": "Share"
-        },
-        "SHARE_PLAYLIST": {
-            "TITLE": "Share playlist",
-            "WALL": "Post to wall",
-            "MESSAGE": "Enter your message...",
-            "BUTTON": "Share"
-        },
-        "LYRICS": {
-            "REMAIN": "Before playing: {{ time }}"
-        },
-        "UPLOAD": {
-            "NAVIGATION": {
-                "PC": "From PC",
-                "YOUTUBE": "From YouTube"
-            },
-            "PC": {
-                "CHOOSE": "Click to select files to upload",
-                "SKIP": "Skip"
-            },
-            "YOUTUBE": {
-                "LINK": "Video or playlist link",
-                "REMOVE": "Remove",
-                "UPLOAD": "Upload",
-                "NOFFMPEG": "You need to have FFmpeg installed to use this feature"
-            },
-            "STATUS": {
-                "PREPARE": "Preparings...",
-                "READY": "Ready to download",
-                "DOWNLOAD": "Downloading...",
-                "UPLOADING": "Uploading...",
-                "SUCCESS": "Success",
-                "FAILURE": "Failure",
-                "SKIPPED": "Skipped"
-            }
-        },
-        "UPDATE": {
-            "BUTTON": "Update"
-        },
-        "LOGIN_ERROR": {
-            "TITLE": "An error has occurred",
-            "DESCRIPTION": {
-                "CORRUPTED": "Meridius detected a problem when refreshing the session. Cookie may be corrupted. Take steps to avoid critical errors.",
-                "REASONS_TITLE": "Reasons why cookie file may be corrupted:",
-                "REASONS": [
-                    {
-                        "TITLE": "Invalid session",
-                        "DESCRIPTION": "Sessions become inactive on all devices when you change your password or deauthorize all devices on your account. You need to reauthorize your account."
-                    },
-                    {
-                        "TITLE": "Error connecting to VK when trying to automatically refresh the session",
-                        "DESCRIPTION": "Meridius refresh the session every few minutes and during this period the connection may be lost. In this case, you just need to wait until the connection is restored and relaunch Meridius."
-                    }
-                ]
-            },
-            "ACTIONS": {
-                "REAUTH": "Go to reauth",
-                "IGNORE": "Ignore"
-            }
-        },
-        "APPLYING_CHANGES": "Applying changes. Please wait..."
-    },
-    "LOGIN": {
-        "DESCRIPTION": "Music Player for VK",
-        "LOGIN_FIELD": "Login",
-        "PASSWORD_FIELD": "Password",
-        "CONFIRMATION_CODE": "Confirmation code",
-        "ENTER": "LOGIN",
-        "REGISTRATION": "REGISTRATION",
-        "RECEIVE_SMS": "Receive code via SMS",
-        "ERRORS": {
-            "CYRILLIC": "Cyrillic is not allowed in the password",
-            "EMPTY_FIELD": "You must enter your username and password",
-            "TFA_REQUIRED": "You must to enter two-factor authentication code. If you don't receive code from VK administration and SMS, then use Code Generator (E.g. Google Authenticator)",
-            "TFA_HTTP_REQUIRED": "Now you must to enter two-factor code for HTTP Client",
-            "CAPTCHA_REQUIRED": "You must to solve the captcha",
-            "CAPTCHA_INVALID": "Invalid captcha solution"
-        },
-        "EULA": {
-            "ACCEPT": "I accept",
-            "TITLE": "the user agreement",
-            "TEXT": "Before using Meridius, read the user agreement.\n\nMeridius is proprietary software that does not pursue commercial purposes and is distributed free of charge. Meridius is an unofficial desktop music player for the VKontakte website, the application and its developer have nothing to do with the administration and other employees of VK.\n\nSending and storage data\nYour credentials are not sent anywhere, only stored on your device in encrypted form.\n\nDisclaimer\nDeveloper are not responsible for the loss of your personal data in case of leaks or hacking."
-        }
-    },
-    "NOTIFICATIONS": {
-        "SHARE_PLAYLIST": {
-            "WALL": "Playlist \"{{ title }}\" was successfully published on the wall",
-            "FRIEND": "Playlist \"{{ title }}\" was sent successfully",
-            "NO_SELECT_FRIEND": "You must select a friend"
-        },
-        "HIDDEN_AUDIOS": {
-            "USER": "User",
-            "COMMUNITY": "Community",
-            "LABEL": "{{ string }} has hidden the audio"
-        },
-        "EQUALIZER": {
-            "INVALID_JSON": "Can't read file",
-            "INVALID_FORMAT": "Invalid preset format",
-            "IMPORT_SUCCESS": "Preset has been successfully imported",
-            "EXPORT_SUCCESS": "Preset has been successfully exported"
-        },
-        "THEME": {
-            "INVALID_JSON": "Can't read file",
-            "IMPORT_SUCCESS": "Color scheme has been successfully imported",
-            "EXPORT_SUCCESS": "Color scheme has been successfully exported"
-        }
-    },
-    "ERROR": {
-        "APOLOGIZE": "We're a deeply sorry. We sorry.",
-        "CONTACT": "An error occurred. You can also contact the developer to report it!",
-        "LOG": "Error log:"
-    },
-    "SUCCESS": {
-        "PLAYLIST_CREATED": "Playlist \"{{ title }}\" created",
-        "SONG_ADDED": "Track \"{{ performer }} - {{ title }}\" has been successfully added to the playlist \"{{ playlist }}\"",
-        "SONG_SHARED": "Track \"{{ performer }} - {{ title }}\" has been sent successfully",
-        "THEMES_SCANED": "Themes folder has been scanned. Founded themes: {{ count }}",
-        "PATCHES_RESTARTED": "Style patches has been successfully restarted",
-        "THEME_DOWNLOADED": "Theme {{ name }} has been successfully downloaded"
-    },
-    "ERRORS": {
-        "NO_FFMPEG": "You must to install FFmpeg in settings before audio downloading",
-        "DOWNLOAD_NOT_SPECIFIED": "Set the path to save audio in settings",
-        "NO_CONNECTION": "No connection to VK. Attempting to reconnect...",
-        "NO_UNIQUE_HEADERS": "No unique headers found, template not saved",
-        "OFTEN_EDIT": "You're trying to edit a songs too often, try again later"
-    },
-    "QUEUE": {
-        "NOW_PLAYING": "Now playing",
-        "SECTIONS": {
-            "HOME": "Home",
-            "SEARCH": "Search results: {{ query }}",
-            "ARTIST": "{{ name }}: artist",
-            "ARTIST_AUDIOS": "{{ name }}: collection",
-            "COLLECTION": "Collection",
-            "FEED": "Feed",
-            "FRIENDS_UPDATES": "Updates"
-        }
-    },
-    "TOOLTIP": {
-        "QUEUE": {
-            "HELP": "Click to redirect to playlist<br/>Drag to resize",
-            "FILTER": "Ctrl + Shift + F: quick filter"
-        },
-        "CONTROLS": {
-            "DOWNLOAD": "Download",
-            "SHARE": "Share",
-            "LYRICS": "Lyrics"
-        },
-        "SONG": {
-            "ADD": "Add",
-            "ALBUM": "Album",
-            "EDIT": "Edit",
-            "SIMILAR": "Similar",
-            "SHARE": "Share",
-            "QUEUE": "Add to queue",
-            "PLAY_NEXT": "Play next",
-            "DELETE": "Delete",
-            "DOWNLOAD": "Download"
-        },
-        "PLAYLIST": {
-            "FOLLOW": "Follow",
-            "UNFOLLOW": "Unfollow",
-            "SUBSCRIBE": "Subscribe to updates",
-            "UNSUBSCRIBE": "Unsubscribe from updates",
-            "SHARE": "Share",
-            "EDIT": "Edit",
-            "DELETE": "Delete playlist",
-            "DOWNLOAD": "Download playlist",
-            "CREATE": "Create playlist",
-            "CHOOSE_COVER": "Choose cover image",
-            "OPEN_ON_SITE": "Open on website"
-        },
-        "TITLEBAR": {
-            "TABS": {
-                "SHOW": "Show tabs",
-                "HIDE": "Hide tabs"
-            }
-        }
-    },
-    "TITLEBAR": {
-        "MENU": {
-            "SETTINGS": "Settings",
-            "HELP": "Help",
-            "ABOUT": "About",
-            "LOGGER": "Logger",
-            "UPDATE": "Update available"
-        }
-    },
-    "HELP": {
-        "TITLE": "Help",
-        "LABEL": "Let's see the answer for you're questions.",
-        "CONTACT": {
-            "VK": "VK Page",
-            "VK_GROUP": "Infinite Software",
-            "GITHUB": "GitHub Page",
-            "DISCORD": "Discord",
-            "TWITCH": {
-                "LABEL": "Twitch",
-                "TIP": "Follow to livestreams"
-            },
-            "TROVO": {
-                "LABEL": "Trovo",
-                "TIP": "Follow to livestreams"
-            },
-            "DONATE": "Donate"
-        },
-        "FAQ": [
-            {
-                "question": "Why?",
-                "answer": "The first reason - consuming of PC resources. Meridius consumes PC resources less than any desktop browser."
-            },
-            {
-                "question": "Why VK if Spotify / Apple Music more easy and has more music?",
-                "answer": "Yes, it has, many other services has more information about songs, artists and playlists, but from personal experience I could say that this services has no so much music cause VK users can upload any music in any time."
-            },
-            {
-                "question": "I found a bug / I have an offer to improve Meridius",
-                "answer": "You can report this on our Discord server."
-            },
-            {
-                "question": "How to download music?",
-                "answer": "Open download settings, then install FFmpeg and turn on music downloading. On Linux (not FlatHub) you must to have install FFmpeg yourself."
-            },
-            {
-                "question": "How to add song to playlist?",
-                "answer": "Press RMB to the song."
-            },
-            {
-                "question": "Can you upload source code?",
-                "answer": "Source code will be upload if I tired of developing. In the meantime, I have the right not to do it."
-            },
-            {
-                "question": "Very low FPS",
-                "answer": "This problem occurs on monitors with G-Sync support. Disable hardware acceleration in the settings and restart the app."
-            },
-            {
-                "question": "Stucks on the logo. Can't load!",
-                "answer": "This happens if the signal does not reach VK. In this case, check which country you live in, and make sure that you have a VPN enabled in the system (that is, not an extension in the browser). Next, if you do not have VK blocked in your country, make sure that you have the original Windows installed, and not the Windows build, where everything unnecessary is supposedly disabled."
-            },
-            {
-                "question": "Does not run on my Linux distribution",
-                "answer": "Before the release, the application is tested on Fedora and Ubuntu, and if the application runs stably on these systems, then look for a problem in your system - the low-level problems of each OS are not supported."  
-            },
-            {
-                "question": "Can't download music on Linux / freezes on processing",
-                "answer": "App has no grant permissions on writing to file in folder that you specified."
-            },
-            {
-                "question": "MacOS build?",
-                "answer": "No way, sorry."
-            },
-            {
-                "question": "Do you steal passwords?",
-                "answer": "No I don't!"
-            }
-        ]
-    },
-    "ABOUT": {
-        "TITLE": "About",
-        "DESCRIPTION": "Meridius is an absolutely free program for listening to music on the VK social network. Meridius offers a wide range of functionality, similar to the functionality of the social network itself. No dirty tricks - the program is absolutely free and without ads or any commercial purpose! The program was made by a music lover like you."
-    },
-    "LOGGER": {
-        "TITLE": "Logger",
-        "TURN": "Enable logger",
-        "DISABLED": "Logger disabled",
-        "OPEN_FOLDER": "Open log files directory"
-    },
-    "TRAY": {
-        "SHOW": "Show",
-        "PLAYLISTS": {
-            "TITLE": "Playback",
-            "MY_MUSIC": "My music"
-        },
-        "EXIT": "Exit"
-    },
-    "STATE": {
-        "INIT": "Initialization of components...",
-        "CONFIG": "Fetching configuration...",
-        "AUTH": "Authorization...",
-        "LATEST_RESTORING": "Restoring the latest state..."
-    },
-    "TIPS": [
-        "Tip: Right-click on the playlist in the drop-down menu for quick playback",
-        "Tip: Right-click on \"Music\" or on your avatar to quickly play your music",
-        "Tip: Before asking for a feature from a developer, be ready to cooperate and help",
-        "Tip: Join our VK Group and Discord Server to keep up to date with news about player development and updates",
-        "Tip: Before asking a question, read the FAQ",
-        "Tip: Changing volume by mouse wheel with Shift key doubles volume changing step",
-        "Tip: Perhaps your issue has already been resolved. Update the application in a timely manner. Older versions are not supported",
-        "You can support the development of the project. The link is in the help window"
-    ],
-    "PAGES": {
-        "GENERAL": "General",
-        "FEED": "Feed",
-        "UPDATES": "Updates",
-        "FRIENDS": "Friends",
-        "COMMUNITIES": "Communities",
-        "AUDIO": "Audio • {{ name }}",
-        "PLAYLISTS": "Playlists • {{ name }}",
-        "WALL": "Wall • {{ name }}",
-        "SEARCH": "Search • {{ query }}",
-        "ARTIST": "Artist • {{ artist }}",
-        "ARTIST_POPULAR": "Popular • {{ artist }}",
-        "COLLECTION": "Collection"
-    },
-    "QUICKACTIONS": "Actions",
-    "QUICKUPLOAD": "Upload",
-    "QUICKPLAY": "Play",
-    "LISTEN": "Play",
-    "PAUSE": "Pause",
-    "DOWNLOAD_SINGLE": "Download",
-    "DOWNLOAD": "Download all",
-    "PREPARINGS": "Preparings...",
-    "PROCESSING": "Processing...",
-    "PLAYLISTS": "Playlists",
-    "FRIENDS": "Friends",
-    "ENABLE": "Enable",
-    "FILTER": "Music search",
-    "POSTS_SEARCHING": "Posts searching",
-    "LOAD_MORE": "Load more",
-    "LOADING": "Loading...",
-    "NO_DESCRIPTION": "No description available",
-    "NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
-    "NO_SIMILAR": "Unfortunately, we didn't find anything...",
-    "DEVTOOLS": "Open developer tools",
-    "LOGOFF": "Logout"
+			"LESS_H": "{{ hours }} hr {{ mins }} min",
+			"ABOUT_H": "about {{ hours }} hr",
+			"DEFAULT": "over 24 hr"
+		},
+		"MONTHS": [
+			"Jan",
+			"Feb",
+			"Mar",
+			"Apr",
+			"May",
+			"Jun",
+			"Jul",
+			"Aug",
+			"Sep",
+			"Oct",
+			"Nov",
+			"Dec"
+		],
+		"TABS": {
+			"AUDIO": "Music",
+			"PLAYLISTS": "Playlists",
+			"WALL": "Wall",
+			"PLAYLISTS_OPTIONS": {
+				"ALL": "All playlists",
+				"CREATED": "Created playlists",
+				"FOLLOWED": "Followed playlists"
+			},
+			"PROPS": {
+				"WALL": {
+					"PINNED": "Pinned post",
+					"REMAINS": "... and {{ count }} more audio"
+				}
+			},
+			"PLACEHOLDERS": {
+				"TITLE": "Title",
+				"ALBUM": "Album"
+			}
+		},
+		"FILTER": {
+			"RESULTS": "Search",
+			"RESULTS_COUNT": "Search ({{ count }})",
+			"FILTER": "Filter",
+			"TIP": "Tip: Press Enter to search audio"
+		},
+		"DOWNLOAD": {
+			"PREPARING": "Preparing...",
+			"QUEUE": "In queue",
+			"SUCCESS": "Playlist \"{{ title }}\" has been downloaded successfully"
+		}
+	},
+	"CONTEXT_MENU": {
+		"SONG": {
+			"ADD": "Add to My Music",
+			"ADD_TO_PLAYLIST": "Add to playlist",
+			"DELETE": "Remove audio",
+			"SHARE": "Share audio",
+			"LYRICS": "Open lyrics",
+			"EDIT": "Edit audio",
+			"DOWNLOAD": "Download audio",
+			"REMOVE_QUEUE": "Remove from queue"
+		},
+		"PLAYLIST": {
+			"FOLLOW": "Follow playlist",
+			"EDIT": "Edit playlist",
+			"SHARE": "Share playlist",
+			"DOWNLOAD": "Download playlist",
+			"UNFOLLOW": "Unfollow playlist",
+			"DELETE": "Delete playlist"
+		},
+		"TAB": {
+			"CLOSE": "Close tab",
+			"CLOSE_LEFT": "Close tabs to the left",
+			"CLOSE_RIGHT": "Close tabs to the right"
+		}
+	},
+	"SETTINGS": {
+		"NAVIGATION": {
+			"TITLE": "Settings",
+			"GENERAL": "General",
+			"APPEARANCE": "Appearance",
+			"PLAYER": "Player",
+			"OPTIMIZATION": "Optimization",
+			"DOWNLOADS": "Downloads",
+			"EQUALIZER": "Equalizer",
+			"HOTKEYS": "Hotkeys",
+			"SERVER": "Server",
+			"ACCOUNTS": "Accounts"
+		},
+		"GENERAL": {
+			"TITLE": "General settings",
+			"LANGUAGE": "Language selection",
+			"STARTUP": "Open on startup",
+			"HIDEONCLOSE": "Minimize to tray",
+			"HARDWARE_ACCELERATION": {
+				"TITLE": "Hardware acceleration",
+				"TIP": "Requires application restart"
+			},
+			"DISCORD": "Discord integration",
+			"BETA": {
+				"TITLE": "Get Beta updates",
+				"TIP": "Test builds may be unstable, but you get the opportunity to test new features before others. Requires application restart"
+			},
+			"STREAMER": {
+				"TITLE": "Streamer mode",
+				"TIP": "Writes information about the current track to files located in the specified folder for display via OBS and other applications for live broadcasts",
+				"PATH": "Path for files"
+			},
+			"DEVTOOLS": "Developer tools",
+			"FFMPEG": {
+				"TITLE": "Audio converting",
+				"TIP": "FFmpeg - it's free open-source tool to processing media files. Requires for combining streaming files into one",
+				"NOT_INSTALLED": {
+					"TITLE": "FFmpeg not installed",
+					"INSTALL": "Install FFmpeg"
+				},
+				"INSTALLED": "FFmpeg installed",
+				"REINSTALL": "Reinstall",
+				"LINUX": "Install FFmpeg using the command listed below and restart the application. If no command is suitable for your system or FFmpeg cannot be installed correctly on your system, then look for a solution on the Internet. It is recommended to reinstall the application from the FlatHub with built-in FFmpeg"
+			},
+			"CONFIG": "Open configuration folder"
+		},
+		"APPEARANCE": {
+			"TITLE": "Appearance settings",
+			"ROUND_TOP": "Top border rounding",
+			"ROUND_BOTTOM": "Bottom border rounding",
+			"WINDOW_CONTROL_BUTTONS": {
+				"TITLE": "Hide window control buttons",
+				"TIP": "It will be useful if you use a tiling window manager"
+			},
+			"FULL_FRAME": {
+				"TITLE": "Use the entire application window space",
+				"TIP": "Using the entire space disables the transparent window, which will make outer shadows at the window borders and rounding at the edges inaccessible, but guarantees full functionality of the native window. Requires application restart"
+			},
+			"ACRYLIC": {
+				"TITLE": "Enable Windows 11 transparency effect (unstable)",
+				"OPACITY": "Opacity",
+				"MATERIAL": "Material",
+				"TIP": "Not recommended. You need to enable transparency effects in Windows settings. Requires application restart"
+			},
+			"ZOOM": {
+				"TITLE": "Scaling the interface",
+				"TIP": [
+					"Use keyboard shortcuts to change the scale of the interface:",
+					"Ctrl + to zoom in",
+					"Ctrl - to zoom out",
+					"Ctrl 0 to reset"
+				]
+			},
+			"THEMES": {
+				"TITLE": "Themes",
+				"DOWNLOAD": {
+					"TITLE": "Download theme from repository",
+					"FIELDS": {
+						"USERNAME": "Username",
+						"REPOSITORY": "Repository",
+						"LOAD": "Fetch"
+					},
+					"TIP": "Fill in all the fields. Only data from GitHub is accepted",
+					"BRANCH": {
+						"AUTHOR": "Author:",
+						"DOWNLOAD": "Download",
+						"UPDATE": {
+							"SUPPORT": "Autoupdates supported",
+							"NOT_SUPPORT": "Autoupdates not supported"
+						}
+					}
+				},
+				"CUSTOM": {
+					"USE": "Use own color scheme",
+					"OPEN_EDITOR": "Color scheme editor",
+					"EDITOR": {
+						"SECTIONS": {
+							"MAIN": "Main variables",
+							"THEME": "Variables of \"{{ theme }}\""
+						},
+						"ACTIONS": {
+							"IMPORT": "Import",
+							"EXPORT": "Export"
+						},
+						"RESET": {
+							"THEME": "Reset theme",
+							"VARIABLE": "Reset variable",
+							"THEME_SUCCESS": "Theme \"{{ theme }}\" has been successfully resetted"
+						},
+						"VARIABLES": {
+							"primary": "Primary color",
+							"secondary": "Secondary color",
+							"secondary-hover": "Secondary color on hover",
+							"secondary-opacity-half": "Secondary color on hover (half opacity)",
+							"secondary-hover-opacity": "Secondary color on hover (quarter opacity)",
+							"secondary-disabled": "Secondary color on hover (inactive element)",
+							"titlebar": "Titlebar",
+							"backdrop": "Backdrop of some elements",
+							"scroll": "Scrollbar",
+							"logo": "Logo",
+							"left": "Left container",
+							"left-queue": "Playing queue",
+							"left-icons": "Icons of left container",
+							"navigation": "Navigation",
+							"navigation-text": "Navigation text",
+							"navigation-select": "Current and on hover navigation",
+							"border": "Borders",
+							"player": "Player container",
+							"player-darker": "Player container (darker)",
+							"player-slider": "Slider",
+							"player-slider-progress": "Slider (прогресс)",
+							"text": "Text",
+							"small-text": "Small text",
+							"song-performer": "Song artist",
+							"song-title": "Song title",
+							"song-subtitle": "Song subtitle",
+							"song-playing": "Playing song",
+							"song-hover": "Song on hover",
+							"item": "Element",
+							"item-hover": "Element on hover",
+							"item-disabled": "Inactive element",
+							"field": "Input field",
+							"icons": "Icons",
+							"icons-hover": "Icons on hover",
+							"icons-disabled": "Inactive icons",
+							"no-cover": "\"No cover\" icon",
+							"no-cover-background": "Background of \"no cover\" icon",
+							"links": "Link",
+							"links-active": "Active link",
+							"links-hover": "Link on hover",
+							"buttons-text": "Buttons text",
+							"tooltip": "Tooltip",
+							"tooltip-text": "Tooltip text",
+							"settings-view": "Settings view background",
+							"switch-unchecked": "Switch unchecked state",
+							"skeleton-background": "Skeleton",
+							"skeleton-highlight": "Skeleton highlight"
+						}
+					}
+				},
+				"BUTTONS": {
+					"SCAN": "Scan themes",
+					"RESTART_PATCHES": "Restart patches",
+					"THEMES": "Open themes folder",
+					"PATCHES": "Open patches folder",
+					"REPO": "Creating theme manual"
+				},
+				"CATEGORIES": {
+					"NATIVE": "Native",
+					"USERS": "Community"
+				},
+				"THEME": {
+					"AUTHOR": "Author: {{ author }}",
+					"OUTDATED": "Theme version is incompatible with the app version.<br/>Contact the author of the theme",
+					"OUTDATED_CONFIRMATION": "Theme version is incompatible with the app version. Continue?",
+					"DETAILS": {
+						"AUTHOR": "Author {{ author }}",
+						"VERSION": "Version {{ version }}",
+						"COMPATIBILITY": "Compatible with {{ compatibility }}",
+						"DELETE": "Delete from disk",
+						"APPLY": "Apply"
+					}
+				},
+				"ERRORS": {
+					"LOAD_REPOSITORY_FAILED": "Failed to load repository",
+					"DOWNLOAD_THEME_FAILED": "Failed to download theme",
+					"PATCH_EXIST": "This patch is already exist"
+				}
+			},
+			"PATCHES": {
+				"TITLE": "Style patches"
+			}
+		},
+		"PLAYER": {
+			"TITLE": "Player settings",
+			"AUDIO_OUTPUT": "Output device",
+			"VOLUME_DIVIDER": {
+				"TITLE": "Volume divider",
+				"TIP": "If it seems to you that the volume of the tracks does not correspond to the specified percentage of the volume in the player, then change the volume divider"
+			},
+			"MINIWINDOW": {
+				"TITLE": "Mini window",
+				"ENABLE": "Enable",
+				"MINIMODE": {
+					"TITLE": "Mini mode",
+					"TIP": "Disables mini window controls and styles keeping only current track information"
+				}
+			},
+			"LATEST": {
+				"SAVE": "Save current track",
+				"EXIT": "Save on exit",
+				"PLAY": "Play on launch"
+			},
+			"REWIND": {
+				"TITLE": "Rewind to the start",
+				"TIP": "By enabling this option, when you press the \"previous track\" button, the player will start playing the track again instead of playing the previous track if the listening progress has reached {{ rewind }} seconds or more "
+			},
+			"NORMALIZER": {
+				"TITLE": "Audio volume normalizer",
+				"ENABLE": "Enable",
+				"TIP": "Averages the volume level of the music. Do not enable this option if you are listening to music at a medium or high volume level (from 20% and above)",
+				"MAX": {
+					"TITLE": "Maximum volume increase (dB)",
+					"TIP": "The volume of music is a subjective concept. Choose for yourself the maximum percentage of music volume increase"
+				}
+			},
+			"CROSSFADE": {
+				"TITLE": "Crossfade",
+				"ENABLE": "Enable",
+				"DURATION": "Crossfade duration",
+				"FADE": "Fade effect"
+			},
+			"STEPS": {
+				"TITLE": "Volume changing step",
+				"HOTKEY": "By hotkey",
+				"WHEEL": "By mouse wheel"
+			},
+			"PLAYBACK_RATE_STEPS": {
+				"TITLE": "Playback rate chaning step",
+				"CLICK": "By click",
+				"HOTKEY": "By hotkey",
+				"WHEEL": "By mouse wheel"
+			}
+		},
+		"OPTIMIZATION": {
+			"TITLE": "Optimization settings",
+			"STASH_SIZE": {
+				"TITLE": "The number of fetched audios in the playlist",
+				"TIP": "To optimize work with system resources, Meridius uses its own music storage system when downloading. This setting determines how many audios will be displayed when redirecting to the playlist. You can set number in the range from 20 to 100"
+			},
+			"LOADING_RESTRICTION": {
+				"TITLE": "Restriction on loading audios",
+				"TIP": "Here you can set the desired maximum number of tracks that will be loaded when playing playlists. By default, the number of downloaded tracks is 1000, the minimum is 100, the maximum is 10000. It is not recommended to set a value higher than 2000, this cause long downloads, freezes, crashes and high consumption of system resources with a large amount of audio"
+			},
+			"DOWNLOAD": {
+				"AUTO": {
+					"TITLE": "Automatically detect the number of simultaneous downloads",
+					"TIP": "Recommended for use. The number of downloads is determined depending on the performance of your processor in order to avoid application or system freezes"
+				},
+				"FIXED": {
+					"TITLE": "Fixed number of simultaneous downloads",
+					"TIP": "You can set a fixed value for simultaneous downloads. The value cannot be greater than 10. Increase the value at your own risk if you have a low performance CPU"
+				}
+			}
+		},
+		"DOWNLOADS": {
+			"TITLE": "Downloads settings",
+			"ENABLE": "Music downloading",
+			"FOLDER": "Folder for downloading",
+			"TEMPLATE": {
+				"TITLE": "File name template",
+				"TIP": "Set a template for the file name when downloading using headers",
+				"HEADERS": "Available headers",
+				"FILENAME": "File name"
+			}
+		},
+		"EQUALIZER": {
+			"TITLE": "Equalizer settings",
+			"ACTIONS": {
+				"IMPORT": "Import preset",
+				"EXPORT": "Export preset"
+			},
+			"ENABLE": "Enable equalizer",
+			"PRESETS": "Presets"
+		},
+		"HOTKEYS": {
+			"TITLE": "Hotkeys settings",
+			"PLAYPAUSE": "Play / pause",
+			"PLAYNEXT": "Next track",
+			"PLAYPREV": "Previous track",
+			"VOLUP": "Volume up",
+			"VOLDOWN": "Volume down",
+			"VOLMUTE": "Mute / unmute",
+			"RATEUP": "Increase playback rate",
+			"RATEDOWN": "Decrease playback rate",
+			"NEXTPLAYLIST": "Next playlist",
+			"PREVPLAYLIST": "Previous playlist",
+			"MINIWINDOW_POSITION": "Change miniwindow position"
+		},
+		"SERVER": {
+			"TITLE": "Server settings",
+			"INTERFACE": "Network interface",
+			"PASSWORD": {
+				"PLACEHOLDER": "Server password",
+				"TIP": "Your password is encrypted once and is not stored anywhere, so it should be written down. The server verifies the authenticity of the password upon request. Open the manual for more detailed information about server and connection",
+				"CHANGE": "Change password",
+				"CONFIRM": "Confirm"
+			},
+			"START": "Start server",
+			"STOP": "Stop server",
+			"MANUAL": "Open manual"
+		},
+		"ACCOUNTS": {
+			"TITLE": "Accounts manager",
+			"ADD": "Add account"
+		}
+	},
+	"SEARCH": {
+		"TITLE": "Search",
+		"ARTISTS": "Artists",
+		"USERS": "Users",
+		"GROUPS": "Communities",
+		"PLAYLISTS": "Playlists"
+	},
+	"ARTIST_PAGE": {
+		"POPULAR": "Popular",
+		"PLAYLISTS": "Playlists",
+		"SIMILAR_ARTISTS": "Similar artists"
+	},
+	"MODAL": {
+		"CONFIRMATION": {
+			"DELETE_PLAYLIST": "Do you want to delete playlist \"{{ title }}\"?",
+			"DELETE_THEME": "Do you want to delete this theme?",
+			"GITHUB_CONNECTION": "No connection to GitHub, Meridius will continue to work, but with errors and without support. Use at your own risk"
+		},
+		"ADD_PLAYLIST": {
+			"NAME": "Create playlist",
+			"TITLE": "Title",
+			"DESCRIPTION": "Description",
+			"CREATE": "Create"
+		},
+		"EDIT_PLAYLIST": {
+			"NAME": "Edit playlist",
+			"TITLE": "Title",
+			"DESCRIPTION": "Description",
+			"SAVE": "Save"
+		},
+		"EDIT_TRACK": {
+			"NAME": "Edit audio",
+			"PERFORMER": "Performer",
+			"TITLE": "Title",
+			"LYRICS": "Lyrics",
+			"HIDE": "Hide track from search",
+			"GENRE": "Genre:",
+			"EDIT": "Edit"
+		},
+		"SHARE": {
+			"TITLE": "Share audio",
+			"WALL": "Post to wall",
+			"MESSAGE": "Enter your message...",
+			"BUTTON": "Share"
+		},
+		"SHARE_PLAYLIST": {
+			"TITLE": "Share playlist",
+			"WALL": "Post to wall",
+			"MESSAGE": "Enter your message...",
+			"BUTTON": "Share"
+		},
+		"LYRICS": {
+			"REMAIN": "Before playing: {{ time }}"
+		},
+		"UPLOAD": {
+			"NAVIGATION": {
+				"PC": "From PC",
+				"YOUTUBE": "From YouTube"
+			},
+			"PC": {
+				"CHOOSE": "Click to select files to upload",
+				"SKIP": "Skip"
+			},
+			"YOUTUBE": {
+				"LINK": "Video or playlist link",
+				"REMOVE": "Remove",
+				"UPLOAD": "Upload",
+				"NOFFMPEG": "You need to have FFmpeg installed to use this feature"
+			},
+			"STATUS": {
+				"PREPARE": "Preparings...",
+				"READY": "Ready to download",
+				"DOWNLOAD": "Downloading...",
+				"UPLOADING": "Uploading...",
+				"SUCCESS": "Success",
+				"FAILURE": "Failure",
+				"SKIPPED": "Skipped"
+			}
+		},
+		"UPDATE": {
+			"BUTTON": "Update"
+		},
+		"LOGIN_ERROR": {
+			"TITLE": "An error has occurred",
+			"DESCRIPTION": {
+				"CORRUPTED": "Meridius detected a problem when refreshing the session. Cookie may be corrupted. Take steps to avoid critical errors.",
+				"REASONS_TITLE": "Reasons why cookie file may be corrupted:",
+				"REASONS": [
+					{
+						"TITLE": "Invalid session",
+						"DESCRIPTION": "Sessions become inactive on all devices when you change your password or deauthorize all devices on your account. You need to reauthorize your account."
+					},
+					{
+						"TITLE": "Error connecting to VK when trying to automatically refresh the session",
+						"DESCRIPTION": "Meridius refresh the session every few minutes and during this period the connection may be lost. In this case, you just need to wait until the connection is restored and relaunch Meridius."
+					}
+				]
+			},
+			"ACTIONS": {
+				"REAUTH": "Go to reauth",
+				"IGNORE": "Ignore"
+			}
+		},
+		"APPLYING_CHANGES": "Applying changes. Please wait..."
+	},
+	"LOGIN": {
+		"DESCRIPTION": "Music Player for VK",
+		"LOGIN_FIELD": "Login",
+		"PASSWORD_FIELD": "Password",
+		"CONFIRMATION_CODE": "Confirmation code",
+		"ENTER": "LOGIN",
+		"REGISTRATION": "REGISTRATION",
+		"RECEIVE_SMS": "Receive code via SMS",
+		"ERRORS": {
+			"CYRILLIC": "Cyrillic is not allowed in the password",
+			"EMPTY_FIELD": "You must enter your username and password",
+			"TFA_REQUIRED": "You must to enter two-factor authentication code. If you don't receive code from VK administration and SMS, then use Code Generator (E.g. Google Authenticator)",
+			"TFA_HTTP_REQUIRED": "Now you must to enter two-factor code for HTTP Client",
+			"CAPTCHA_REQUIRED": "You must to solve the captcha",
+			"CAPTCHA_INVALID": "Invalid captcha solution"
+		},
+		"EULA": {
+			"ACCEPT": "I accept",
+			"TITLE": "the user agreement",
+			"TEXT": "Before using Meridius, read the user agreement.\n\nMeridius is proprietary software that does not pursue commercial purposes and is distributed free of charge. Meridius is an unofficial desktop music player for the VKontakte website, the application and its developer have nothing to do with the administration and other employees of VK.\n\nSending and storage data\nYour credentials are not sent anywhere, only stored on your device in encrypted form.\n\nDisclaimer\nDeveloper are not responsible for the loss of your personal data in case of leaks or hacking."
+		}
+	},
+	"NOTIFICATIONS": {
+		"SHARE_PLAYLIST": {
+			"WALL": "Playlist \"{{ title }}\" was successfully published on the wall",
+			"FRIEND": "Playlist \"{{ title }}\" was sent successfully",
+			"NO_SELECT_FRIEND": "You must select a friend"
+		},
+		"HIDDEN_AUDIOS": {
+			"USER": "User",
+			"COMMUNITY": "Community",
+			"LABEL": "{{ string }} has hidden the audio"
+		},
+		"EQUALIZER": {
+			"INVALID_JSON": "Can't read file",
+			"INVALID_FORMAT": "Invalid preset format",
+			"IMPORT_SUCCESS": "Preset has been successfully imported",
+			"EXPORT_SUCCESS": "Preset has been successfully exported"
+		},
+		"THEME": {
+			"INVALID_JSON": "Can't read file",
+			"IMPORT_SUCCESS": "Color scheme has been successfully imported",
+			"EXPORT_SUCCESS": "Color scheme has been successfully exported"
+		}
+	},
+	"ERROR": {
+		"APOLOGIZE": "We're a deeply sorry. We sorry.",
+		"CONTACT": "An error occurred. You can also contact the developer to report it!",
+		"LOG": "Error log:"
+	},
+	"SUCCESS": {
+		"PLAYLIST_CREATED": "Playlist \"{{ title }}\" created",
+		"SONG_ADDED": "Track \"{{ performer }} - {{ title }}\" has been successfully added to the playlist \"{{ playlist }}\"",
+		"SONG_SHARED": "Track \"{{ performer }} - {{ title }}\" has been sent successfully",
+		"THEMES_SCANED": "Themes folder has been scanned. Founded themes: {{ count }}",
+		"PATCHES_RESTARTED": "Style patches has been successfully restarted",
+		"THEME_DOWNLOADED": "Theme {{ name }} has been successfully downloaded"
+	},
+	"ERRORS": {
+		"NO_FFMPEG": "You must to install FFmpeg in settings before audio downloading",
+		"DOWNLOAD_NOT_SPECIFIED": "Set the path to save audio in settings",
+		"NO_CONNECTION": "No connection to VK. Attempting to reconnect...",
+		"NO_UNIQUE_HEADERS": "No unique headers found, template not saved",
+		"OFTEN_EDIT": "You're trying to edit a songs too often, try again later"
+	},
+	"QUEUE": {
+		"NOW_PLAYING": "Now playing",
+		"SECTIONS": {
+			"HOME": "Home",
+			"SEARCH": "Search results: {{ query }}",
+			"ARTIST": "{{ name }}: artist",
+			"ARTIST_AUDIOS": "{{ name }}: collection",
+			"COLLECTION": "Collection",
+			"FEED": "Feed",
+			"FRIENDS_UPDATES": "Updates"
+		}
+	},
+	"TOOLTIP": {
+		"QUEUE": {
+			"HELP": "Click to redirect to playlist<br/>Drag to resize",
+			"FILTER": "Ctrl + Shift + F: quick filter"
+		},
+		"CONTROLS": {
+			"DOWNLOAD": "Download",
+			"SHARE": "Share",
+			"LYRICS": "Lyrics"
+		},
+		"SONG": {
+			"ADD": "Add",
+			"ALBUM": "Album",
+			"EDIT": "Edit",
+			"SIMILAR": "Similar",
+			"SHARE": "Share",
+			"QUEUE": "Add to queue",
+			"PLAY_NEXT": "Play next",
+			"DELETE": "Delete",
+			"DOWNLOAD": "Download"
+		},
+		"PLAYLIST": {
+			"FOLLOW": "Follow",
+			"UNFOLLOW": "Unfollow",
+			"SUBSCRIBE": "Subscribe to updates",
+			"UNSUBSCRIBE": "Unsubscribe from updates",
+			"SHARE": "Share",
+			"EDIT": "Edit",
+			"DELETE": "Delete playlist",
+			"DOWNLOAD": "Download playlist",
+			"CREATE": "Create playlist",
+			"CHOOSE_COVER": "Choose cover image",
+			"OPEN_ON_SITE": "Open on website"
+		},
+		"TITLEBAR": {
+			"TABS": {
+				"SHOW": "Show tabs",
+				"HIDE": "Hide tabs"
+			}
+		}
+	},
+	"TITLEBAR": {
+		"MENU": {
+			"SETTINGS": "Settings",
+			"HELP": "Help",
+			"ABOUT": "About",
+			"LOGGER": "Logger",
+			"UPDATE": "Update available"
+		}
+	},
+	"HELP": {
+		"TITLE": "Help",
+		"LABEL": "Let's see the answer for you're questions.",
+		"CONTACT": {
+			"VK": "VK Page",
+			"VK_GROUP": "Infinite Software",
+			"GITHUB": "GitHub Page",
+			"DISCORD": "Discord",
+			"TWITCH": {
+				"LABEL": "Twitch",
+				"TIP": "Follow to livestreams"
+			},
+			"TROVO": {
+				"LABEL": "Trovo",
+				"TIP": "Follow to livestreams"
+			},
+			"DONATE": "Donate"
+		},
+		"FAQ": [
+			{
+				"question": "Why?",
+				"answer": "The first reason - consuming of PC resources. Meridius consumes PC resources less than any desktop browser."
+			},
+			{
+				"question": "Why VK if Spotify / Apple Music more easy and has more music?",
+				"answer": "Yes, it has, many other services has more information about songs, artists and playlists, but from personal experience I could say that this services has no so much music cause VK users can upload any music in any time."
+			},
+			{
+				"question": "I found a bug / I have an offer to improve Meridius",
+				"answer": "You can report this on our Discord server."
+			},
+			{
+				"question": "How to download music?",
+				"answer": "Open download settings, then install FFmpeg and turn on music downloading. On Linux (not FlatHub) you must to have install FFmpeg yourself."
+			},
+			{
+				"question": "How to add song to playlist?",
+				"answer": "Press RMB to the song."
+			},
+			{
+				"question": "Can you upload source code?",
+				"answer": "Source code will be upload if I tired of developing. In the meantime, I have the right not to do it."
+			},
+			{
+				"question": "Very low FPS",
+				"answer": "This problem occurs on monitors with G-Sync support. Disable hardware acceleration in the settings and restart the app."
+			},
+			{
+				"question": "Stucks on the logo. Can't load!",
+				"answer": "This happens if the signal does not reach VK. In this case, check which country you live in, and make sure that you have a VPN enabled in the system (that is, not an extension in the browser). Next, if you do not have VK blocked in your country, make sure that you have the original Windows installed, and not the Windows build, where everything unnecessary is supposedly disabled."
+			},
+			{
+				"question": "Does not run on my Linux distribution",
+				"answer": "Before the release, the application is tested on Fedora and Ubuntu, and if the application runs stably on these systems, then look for a problem in your system - the low-level problems of each OS are not supported."
+			},
+			{
+				"question": "Can't download music on Linux / freezes on processing",
+				"answer": "App has no grant permissions on writing to file in folder that you specified."
+			},
+			{
+				"question": "MacOS build?",
+				"answer": "No way, sorry."
+			},
+			{
+				"question": "Do you steal passwords?",
+				"answer": "No I don't!"
+			}
+		]
+	},
+	"ABOUT": {
+		"TITLE": "About",
+		"DESCRIPTION": "Meridius is an absolutely free program for listening to music on the VK social network. Meridius offers a wide range of functionality, similar to the functionality of the social network itself. No dirty tricks - the program is absolutely free and without ads or any commercial purpose! The program was made by a music lover like you."
+	},
+	"LOGGER": {
+		"TITLE": "Logger",
+		"TURN": "Enable logger",
+		"DISABLED": "Logger disabled",
+		"OPEN_FOLDER": "Open log files directory"
+	},
+	"TRAY": {
+		"SHOW": "Show",
+		"PLAYLISTS": {
+			"TITLE": "Playback",
+			"MY_MUSIC": "My music"
+		},
+		"EXIT": "Exit"
+	},
+	"STATE": {
+		"INIT": "Initialization of components...",
+		"CONFIG": "Fetching configuration...",
+		"AUTH": "Authorization...",
+		"LATEST_RESTORING": "Restoring the latest state..."
+	},
+	"TIPS": [
+		"Tip: Right-click on the playlist in the drop-down menu for quick playback",
+		"Tip: Right-click on \"Music\" or on your avatar to quickly play your music",
+		"Tip: Before asking for a feature from a developer, be ready to cooperate and help",
+		"Tip: Join our VK Group and Discord Server to keep up to date with news about player development and updates",
+		"Tip: Before asking a question, read the FAQ",
+		"Tip: Changing volume by mouse wheel with Shift key doubles volume changing step",
+		"Tip: Perhaps your issue has already been resolved. Update the application in a timely manner. Older versions are not supported",
+		"You can support the development of the project. The link is in the help window"
+	],
+	"PAGES": {
+		"GENERAL": "General",
+		"FEED": "Feed",
+		"UPDATES": "Updates",
+		"FRIENDS": "Friends",
+		"COMMUNITIES": "Communities",
+		"AUDIO": "Audio • {{ name }}",
+		"PLAYLISTS": "Playlists • {{ name }}",
+		"WALL": "Wall • {{ name }}",
+		"SEARCH": "Search • {{ query }}",
+		"ARTIST": "Artist • {{ artist }}",
+		"ARTIST_POPULAR": "Popular • {{ artist }}",
+		"COLLECTION": "Collection"
+	},
+	"QUICKACTIONS": "Actions",
+	"QUICKUPLOAD": "Upload",
+	"QUICKPLAY": "Play",
+	"LISTEN": "Play",
+	"PAUSE": "Pause",
+	"DOWNLOAD_SINGLE": "Download",
+	"DOWNLOAD": "Download all",
+	"PREPARINGS": "Preparings...",
+	"PROCESSING": "Processing...",
+	"PLAYLISTS": "Playlists",
+	"FRIENDS": "Friends",
+	"ENABLE": "Enable",
+	"FILTER": "Music search",
+	"POSTS_SEARCHING": "Posts searching",
+	"LOAD_MORE": "Load more",
+	"LOADING": "Loading...",
+	"NO_DESCRIPTION": "No description available",
+	"NO_LISTENING_FRIENDS": "None of your friends are listening to music right now",
+	"NO_SIMILAR": "Unfortunately, we didn't find anything...",
+	"DEVTOOLS": "Open developer tools",
+	"LOGOFF": "Logout"
 }

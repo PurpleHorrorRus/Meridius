@@ -7,6 +7,7 @@
 
     "config": {
         "updateInterval": 600000,
+        "latestSaveInterval": 10000,
         "rewind": 5,
         "history": 30,
 
