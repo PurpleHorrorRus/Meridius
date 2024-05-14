@@ -1,44 +1,54 @@
 {
-    "notifications": [],
+	"notifications": [],
 
-    "ffmpeg": {
-        "win32_x64": "https://raw.githubusercontent.com/PurpleHorrorRus/Meridius/master/ffmpeg_win32_x64.zip"
-    },
+	"webToken": {
+		"version": 1,
+		"app_id": 6287487
+	},
 
-    "config": {
-        "updateInterval": 600000,
-        "latestSaveInterval": 10000,
-        "rewind": 5,
-        "history": 30,
+	"ffmpeg": {
+		"win32_x64": "https://raw.githubusercontent.com/PurpleHorrorRus/Meridius/master/ffmpeg_win32_x64.zip"
+	},
 
-        "hls": {
-            "maxBufferSize": 1024000000,
-            "maxBufferLength": 60,
-            "maxMaxBufferLength": 1e500,
-            "enableWorker": false,
-            "defaultAudioCodec": "mp4a.40.5"
-        },
+	"config": {
+		"updateInterval": 600000,
+		"latestSaveInterval": 10000,
+		"rewind": 5,
+		"history": 30,
 
-        "leftContainer": {
-            "max": 320,
-            "min": 160
-        },
+		"hls": {
+			"maxBufferSize": 1024000000,
+			"maxBufferLength": 60,
+			"maxMaxBufferLength": 1e500,
+			"enableWorker": false,
+			"defaultAudioCodec": "mp4a.40.5"
+		},
 
-        "zoom": {
-            "min": 50,
-            "max": 200,
-            "step": 25
-        },
+		"leftContainer": {
+			"max": 320,
+			"min": 160
+		},
 
-        "volumeDivider": {
-            "max": 20,
-            "step": 0.25
-        },
+		"rightContainer": {
+			"max": 320,
+			"min": 160
+		},
 
-        "crossfade": {
-            "min": 2,
-            "max": 16,
-            "step": 1
-        }
-    }
+		"zoom": {
+			"min": 50,
+			"max": 200,
+			"step": 25
+		},
+
+		"volumeDivider": {
+			"max": 20,
+			"step": 0.25
+		},
+
+		"crossfade": {
+			"min": 2,
+			"max": 16,
+			"step": 1
+		}
+	}
 }

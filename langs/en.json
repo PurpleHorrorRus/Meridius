@@ -31,6 +31,10 @@
 				"All stations",
 				"Favorite stations"
 			]
+		},
+		"VKMIX": {
+			"TITLE": "Listen to VK Mix",
+			"DESCRIPTION": "A playlist suited to your tastes"
 		}
 	},
 	"DISCOVER": {
@@ -152,6 +156,7 @@
 				"TIP": "Requires application restart"
 			},
 			"DISCORD": "Discord integration",
+			"DISCORD_LINUX_TIP": "It may not work on Linux systems",
 			"BETA": {
 				"TITLE": "Get Beta updates",
 				"TIP": "Test builds may be unstable, but you get the opportunity to test new features before others. Requires application restart"
@@ -187,11 +192,15 @@
 				"TITLE": "Use the entire application window space",
 				"TIP": "Using the entire space disables the transparent window, which will make outer shadows at the window borders and rounding at the edges inaccessible, but guarantees full functionality of the native window. Requires application restart"
 			},
+			"LAYOUT": {
+				"CATEGORY": "Layout"
+			},
 			"ACRYLIC": {
-				"TITLE": "Enable Windows 11 transparency effect (unstable)",
+				"CATEGORY": "Acrylic",
+				"TITLE": "Enable Windows 11 acrylic effect (unstable)",
 				"OPACITY": "Opacity",
 				"MATERIAL": "Material",
-				"TIP": "Not recommended. You need to enable transparency effects in Windows settings. Requires application restart"
+				"TIP": "Not recommended. You need to enable acrylic effects in Windows settings. Requires application restart"
 			},
 			"ZOOM": {
 				"TITLE": "Scaling the interface",
@@ -636,7 +645,8 @@
 		"CONTROLS": {
 			"DOWNLOAD": "Download",
 			"SHARE": "Share",
-			"LYRICS": "Lyrics"
+			"LYRICS": "Lyrics",
+			"DISLIKE": "Dislike"
 		},
 		"SONG": {
 			"ADD": "Add",
