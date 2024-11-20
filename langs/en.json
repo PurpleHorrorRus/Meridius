@@ -157,7 +157,7 @@
 			},
 			"DISCORD": {
 				"TITLE": "Discord integration",
-				"TIMELINE": "Enable timeline"
+				"LINUX_TIP": "It may not work on Linux systems"
 			},
 			"BETA": {
 				"TITLE": "Get Beta updates",
@@ -169,12 +169,16 @@
 				"PATH": "Path for files"
 			},
 			"DEVTOOLS": "Developer tools",
-			"PROXY": {
-				"ENABLE": "Enable proxy",
-				"URL": {
-					"TITLE": "Proxy URL",
-					"TIP": "Requires application restart"
-				}
+			"FFMPEG": {
+				"TITLE": "Audio converting",
+				"TIP": "FFmpeg - it's free open-source tool to processing media files. Requires for combining streaming files into one",
+				"NOT_INSTALLED": {
+					"TITLE": "FFmpeg not installed",
+					"INSTALL": "Install FFmpeg"
+				},
+				"INSTALLED": "FFmpeg installed",
+				"REINSTALL": "Reinstall",
+				"LINUX": "Install FFmpeg using the command listed below and restart the application. If no command is suitable for your system or FFmpeg cannot be installed correctly on your system, then look for a solution on the Internet. It is recommended to reinstall the application from the FlatHub with built-in FFmpeg"
 			},
 			"CONFIG": "Open configuration folder"
 		},
@@ -405,17 +409,6 @@
 			"TITLE": "Downloads settings",
 			"ENABLE": "Music downloading",
 			"FOLDER": "Folder for downloading",
-			"FFMPEG": {
-				"TITLE": "Audio converting",
-				"TIP": "FFmpeg - it's free open-source tool to processing media files. Requires for combining streaming files into one",
-				"NOT_INSTALLED": {
-					"TITLE": "FFmpeg not installed",
-					"INSTALL": "Install FFmpeg"
-				},
-				"INSTALLED": "FFmpeg installed",
-				"REINSTALL": "Reinstall",
-				"LINUX": "Install FFmpeg using the command listed below and restart the application. If no command is suitable for your system or FFmpeg cannot be installed correctly on your system, then look for a solution on the Internet. It is recommended to reinstall the application from the FlatHub with built-in FFmpeg"
-			},
 			"TEMPLATE": {
 				"TITLE": "File name template",
 				"TIP": "Set a template for the file name when downloading using headers",
