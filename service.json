@@ -1,5 +1,9 @@
 {
-	"notifications": [],
+	"notifications": [{
+		"status": 1,
+		"title": "Интеграция с Discord",
+		"text": "На данный момент наблюдаются проблемы интеграции с Discord. Время устранения проблемы неизвестно."
+	}],
 
 	"webToken": {
 		"version": 1,
