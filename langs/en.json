@@ -157,7 +157,8 @@
 			},
 			"DISCORD": {
 				"TITLE": "Discord integration",
-				"TIMELINE": "Enable timeline"
+				"TIMELINE": "Enable timeline",
+				"REVERSE": "Swap artist and song title"
 			},
 			"BETA": {
 				"TITLE": "Get Beta updates",
