@@ -19,10 +19,10 @@
 		"history": 30,
 
 		"hls": {
-			"maxBufferSize": 1024000000,
-			"maxBufferLength": 60,
-			"maxMaxBufferLength": 1e500,
-			"enableWorker": false,
+			"maxBufferSize": 60000000,
+			"maxBufferLength": 30,
+			"maxMaxBufferLength": 600,
+			"enableWorker": true,
 			"defaultAudioCodec": "mp4a.40.5"
 		},
 
