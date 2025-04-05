@@ -151,6 +151,10 @@
 			"LANGUAGE": "Language selection",
 			"STARTUP": "Open on startup",
 			"HIDEONCLOSE": "Minimize to tray",
+			"MULTITHREADING": {
+				"TITLE": "Multithreading support",
+				"TIP": "Requires application restart"
+			},
 			"HARDWARE_ACCELERATION": {
 				"TITLE": "Hardware acceleration",
 				"TIP": "Requires application restart"
