@@ -151,10 +151,6 @@
 			"LANGUAGE": "Language selection",
 			"STARTUP": "Open on startup",
 			"HIDEONCLOSE": "Minimize to tray",
-			"MULTITHREADING": {
-				"TITLE": "Multithreading support",
-				"TIP": "Requires application restart"
-			},
 			"HARDWARE_ACCELERATION": {
 				"TITLE": "Hardware acceleration",
 				"TIP": "Requires application restart"
@@ -387,6 +383,14 @@
 		},
 		"OPTIMIZATION": {
 			"TITLE": "Optimization settings",
+			"MULTITHREADING": {
+				"TITLE": "Multithreading support",
+				"TIP": "Requires application restart"
+			},
+			"HARDWARE_ACCELERATION": {
+				"TITLE": "Hardware acceleration",
+				"TIP": "Requires application restart"
+			},
 			"STASH_SIZE": {
 				"TITLE": "The number of fetched audios in the playlist",
 				"TIP": "To optimize work with system resources, Meridius uses its own music storage system when downloading. This setting determines how many audios will be displayed when redirecting to the playlist. You can set number in the range from 20 to 100"
@@ -564,6 +568,10 @@
 					{
 						"TITLE": "Error connecting to VK when trying to automatically refresh the session",
 						"DESCRIPTION": "Meridius refresh the session every few minutes and during this period the connection may be lost. In this case, you just need to wait until the connection is restored and relaunch Meridius."
+					},
+					{
+						"TITLE": "Cryptography Error (MachineGuid)",
+						"DESCRIPTION": "Your Windows has been modified and the cryptography service is disabled. This is an important service for protecting your account, so its presence is strictly required for the application to work. Restore the service or reinstall the system."
 					}
 				]
 			},
