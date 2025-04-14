@@ -22,7 +22,7 @@
 			"maxBufferSize": 1024000000,
 			"maxBufferLength": 60,
 			"maxMaxBufferLength": 1e500,
-			"enableWorker": false,
+			"enableWorker": "auto",
 			"defaultAudioCodec": "mp4a.40.5"
 		},
 
