@@ -11,7 +11,7 @@
 		"YOUR": "Your playlists",
 		"RECOMMENDATIONS": {
 			"TOOLTIP": "Configure recommendations",
-			"TIP": "Pick five or more of your favorite artists",
+			"TIP": "Pick five or more of your favorite artists",
 			"SEARCH": "Search artists",
 			"SAVE": "Save",
 			"SUCCESS": "Recommendation preferences have been updated successfully"
@@ -588,14 +588,27 @@
 		"PASSWORD_FIELD": "Password",
 		"CONFIRMATION_CODE": "Confirmation code",
 		"ENTER": "LOGIN",
-		"REGISTRATION": "REGISTRATION",
+		"REGISTRATION": "Create VK account",
 		"RECEIVE_SMS": "Receive code via SMS",
+		"QR_LOADING": "Loading QR code...",
+		"QR_TITLE": "Login with QR code",
+		"QR_DESCRIPTION": "Scan the QR code in the VKontakte app",
+		"QR_EXPIRES": "Expires in:",
+		"QR_REFRESH": "Refresh QR code",
+		"QR_ERROR": "Error loading QR code",
+		"QR_RETRY": "Retry",
+		"AUTH_METHODS": {
+			"CREDENTIALS": "Credentials",
+			"QR_CODE": "QR Code"
+		},
 		"ERRORS": {
 			"CYRILLIC": "Cyrillic is not allowed in the password",
 			"EMPTY_FIELD": "You must enter your username and password",
 			"TFA_REQUIRED": "You must to enter two-factor code",
 			"CAPTCHA_REQUIRED": "You must to solve the captcha",
-			"CAPTCHA_INVALID": "Invalid captcha solution"
+			"CAPTCHA_INVALID": "Invalid captcha solution",
+			"QR_INIT": "QR code initialization error",
+			"QR_SUCCESS": "Authorization completion error"
 		},
 		"EULA": {
 			"ACCEPT": "I accept",
