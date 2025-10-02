@@ -171,7 +171,7 @@
 			},
 			"DEVTOOLS": "Developer tools",
 			"PROXY": {
-				"ENABLE": "Enable HTTP proxy",
+				"ENABLE": "Enable HTTPS proxy",
 				"URL": {
 					"TITLE": "HTTPS Proxy. Example: https://192.168.0.1:8888",
 					"TIP": "Requires application restart"
@@ -584,15 +584,9 @@
 	},
 	"LOGIN": {
 		"DESCRIPTION": "Music Player for VK",
-		"LOGIN_FIELD": "Login",
-		"PASSWORD_FIELD": "Password",
-		"CONFIRMATION_CODE": "Confirmation code",
-		"ENTER": "LOGIN",
 		"REGISTRATION": "Create VK account",
-		"RECEIVE_SMS": "Receive code via SMS",
 		"QR_LOADING": "Loading QR code...",
-		"QR_TITLE": "Login with QR code",
-		"QR_DESCRIPTION": "Scan the QR code in the VKontakte app",
+		"QR_DESCRIPTION": "Scan the QR code, using your phone camera",
 		"ERRORS": {
 			"CYRILLIC": "Cyrillic is not allowed in the password",
 			"EMPTY_FIELD": "You must enter your username and password",
