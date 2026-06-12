@@ -587,6 +587,10 @@
 		"REGISTRATION": "Create VK account",
 		"QR_LOADING": "Loading QR code...",
 		"QR_DESCRIPTION": "Scan the QR code, using your phone camera",
+		"AUTH_CODE_TITLE": "Login confirmation",
+		"AUTH_CODE_DESCRIPTION": "Enter the code from the VK app",
+		"AUTH_CODE_PLACEHOLDER": "Code",
+		"AUTH_CODE_SUBMIT": "Confirm",
 		"ERRORS": {
 			"CYRILLIC": "Cyrillic is not allowed in the password",
 			"EMPTY_FIELD": "You must enter your username and password",

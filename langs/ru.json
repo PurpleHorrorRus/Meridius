@@ -587,6 +587,10 @@
 		"REGISTRATION": "Создать аккаунт VK",
 		"QR_LOADING": "Загрузка QR-кода...",
 		"QR_DESCRIPTION": "Отсканируйте QR-код, используя камеру вашего телефона",
+		"AUTH_CODE_TITLE": "Подтверждение входа",
+		"AUTH_CODE_DESCRIPTION": "Введите код из приложения VK",
+		"AUTH_CODE_PLACEHOLDER": "Код",
+		"AUTH_CODE_SUBMIT": "Подтвердить",
 		"ERRORS": {
 			"CYRILLIC": "Кириллица в пароле недопустима",
 			"EMPTY_FIELD": "Вы должны ввести логин и пароль",
