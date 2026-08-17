@@ -34,10 +34,10 @@
 		},
 		"VKMIX": {
 			"TITLE": "VK Mix",
-			"SUBTITLE": "Music for your mood and taste",
-			"DESCRIPTION": "A playlist that adapts to your taste",
+			"SUBTITLE": "Music tailored to your mood and taste",
+			"DESCRIPTION": "A playlist adapted to your music taste",
 			"RESET": "Reset filters",
-			"PLAY": "Play mix",
+			"PLAY": "Listen to mix",
 			"CONFIGURE": "Configure mix",
 			"SETTINGS": "Configure VK Mix",
 			"TIP": "Customize the sound of your mix to your preferences",
@@ -57,7 +57,7 @@
 			"FILTERS": {
 				"known": "Familiar",
 				"unknown": "Unfamiliar",
-				"fresh": "Fresh",
+				"fresh": "New Releases",
 				"ru": "Russian",
 				"international": "International",
 				"instrumental": "Instrumental"
@@ -172,7 +172,8 @@
 			"EQUALIZER": "Equalizer",
 			"HOTKEYS": "Hotkeys",
 			"SERVER": "Server",
-			"ACCOUNTS": "Accounts"
+			"ACCOUNTS": "Accounts",
+			"INTEGRATIONS": "Integrations"
 		},
 		"GENERAL": {
 			"TITLE": "General settings",
@@ -203,6 +204,11 @@
 				"URL": {
 					"TITLE": "HTTPS Proxy. Example: https://192.168.0.1:8888",
 					"TIP": "Requires application restart"
+				},
+				"AUTH": {
+					"ENABLE": "Proxy authentication",
+					"USERNAME": "Username",
+					"PASSWORD": "Password"
 				}
 			},
 			"CONFIG": "Open configuration folder"
@@ -385,10 +391,14 @@
 			"NORMALIZER": {
 				"TITLE": "Audio volume normalizer",
 				"ENABLE": "Enable",
-				"TIP": "Averages the volume level of the music. Do not enable this option if you are listening to music at a medium or high volume level (from 20% and above)",
+				"TIP": "Normalizes volume across tracks using LUFS loudness measurement. Do not enable this option if you are listening to music at a medium or high volume level (from 20% and above)",
+				"TARGET": {
+					"TITLE": "Target loudness (LUFS)",
+					"TIP": "Target integrated loudness level. -14 LUFS is the standard for streaming services. Lower values (e.g., -16) allow more dynamic range; higher values (e.g., -11) produce louder average volume"
+				},
 				"MAX": {
-					"TITLE": "Maximum volume increase (dB)",
-					"TIP": "The volume of music is a subjective concept. Choose for yourself the maximum percentage of music volume increase"
+					"TITLE": "Maximum gain adjustment (dB)",
+					"TIP": "Limits how much the normalizer can boost or reduce volume. Higher values allow more aggressive correction"
 				}
 			},
 			"CROSSFADE": {
@@ -499,6 +509,30 @@
 		"ACCOUNTS": {
 			"TITLE": "Accounts manager",
 			"ADD": "Add account"
+		},
+		"INTEGRATIONS": {
+			"TITLE": "Integration settings",
+			"DISCORD": {
+				"TITLE": "Discord Rich Presence",
+				"TIMELINE": "Show timeline",
+				"REVERSE": "Swap artist and song title"
+			},
+			"LASTFM": {
+				"TITLE": "last.fm Scrobbling",
+				"ENABLE": "Enable scrobbling",
+				"API_KEY": "API Key",
+				"SECRET": "Shared Secret",
+				"STATUS": "Connection status",
+				"CONNECTED": "Connected",
+				"DISCONNECTED": "Disconnected",
+				"DISABLED": "Disabled",
+				"TIP_1_LINK": "Register an application",
+				"TIP_1_SUFFIX": "on Last.fm, copy the API Key and Shared Secret and paste them into the fields above.",
+				"TIP_2_LINK": "Click here to authorize",
+				"TIP_2_SUFFIX": "in your browser.",
+				"RF_VPN_NOTE": "Last.FM blocks the integration for Russian Federation. Use a VPN with split tunneling.",
+				"TIP": "1. Register an app at https://www.last.fm/api/account/create\n2. Copy the API Key and Shared Secret\n3. Paste them above and enable scrobbling\n4. The app will automatically obtain a session key to submit scrobbles"
+			}
 		}
 	},
 	"SEARCH": {
