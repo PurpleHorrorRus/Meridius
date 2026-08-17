@@ -33,8 +33,35 @@
 			]
 		},
 		"VKMIX": {
-			"TITLE": "Listen to VK Mix",
-			"DESCRIPTION": "A playlist suited to your tastes"
+			"TITLE": "VK Mix",
+			"SUBTITLE": "Music for your mood and taste",
+			"DESCRIPTION": "A playlist that adapts to your taste",
+			"RESET": "Reset filters",
+			"PLAY": "Play mix",
+			"CONFIGURE": "Configure mix",
+			"SETTINGS": "Configure VK Mix",
+			"TIP": "Customize the sound of your mix to your preferences",
+			"EXPAND": "Expand settings",
+			"COLLAPSE": "Collapse settings",
+			"VIBES": "Mood",
+			"RECOGNITIONS": "Recognition",
+			"LANGS": "Language",
+			"EMPTY_MIX": "Failed to load mix tracks",
+			"MOODS": {
+				"happy": "Happy",
+				"sad": "Sad",
+				"active": "Active",
+				"calm": "Calm",
+				"love": "Love"
+			},
+			"FILTERS": {
+				"known": "Familiar",
+				"unknown": "Unfamiliar",
+				"fresh": "Fresh",
+				"ru": "Russian",
+				"international": "International",
+				"instrumental": "Instrumental"
+			}
 		}
 	},
 	"DISCOVER": {
@@ -112,6 +139,7 @@
 		"SONG": {
 			"ADD": "Add to My Music",
 			"ADD_TO_PLAYLIST": "Add to playlist",
+			"TRACK_MIX": "Mix by track",
 			"DELETE": "Remove audio",
 			"SHARE": "Share audio",
 			"LYRICS": "Open lyrics",
@@ -667,6 +695,7 @@
 			"FILTER": "Ctrl + Shift + F: quick filter"
 		},
 		"CONTROLS": {
+			"TRACK_MIX": "Mix by track",
 			"DOWNLOAD": "Download",
 			"SHARE": "Share",
 			"LYRICS": "Lyrics",
@@ -674,6 +703,7 @@
 		},
 		"SONG": {
 			"ADD": "Add",
+			"TRACK_MIX": "Mix by track",
 			"ALBUM": "Album",
 			"EDIT": "Edit",
 			"SIMILAR": "Similar",
